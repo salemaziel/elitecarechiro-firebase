@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 import allserviceStyles from './services.module.css'
 
 const AllServices = () => (
@@ -12,13 +16,13 @@ const AllServices = () => (
   }}>
     <h1>Services We Offer</h1>
   </div>
-  <div className="auto-container">
-    <div className="row clearfix">
+  <Container>
+    <Row className="clearfix">
       {/*Services Block Two*/}
-      <div className="services-block-two col-md-4 col-sm-6 col-xs-12">
+      <Col xs={12} sm={6} md={4} /*className="services-block-two"*/>
         <div className="inner-box">
           <div className="image">
-            <img src="images/resource/services-5.jpg" alt />
+            <img src="images/resource/services-5.jpg" alt="" style={{width: '100%'}}  />
 
           </div>
           <div className="lower-box">
@@ -26,12 +30,12 @@ const AllServices = () => (
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
-      </div>
+      </Col>
       {/*Services Block Two*/}
-      <div className="services-block-two col-md-4 col-sm-6 col-xs-12">
+      <Col xs={12} sm={6} md={4} /*className="services-block-two"*/>
         <div className="inner-box">
           <div className="image">
-            <img src="images/resource/services-6.jpg" alt />
+            <img src="images/resource/services-6.jpg" alt="" style={{width: '100%'}} />
 
           </div>
           <div className="lower-box">
@@ -39,12 +43,12 @@ const AllServices = () => (
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
-      </div>
+      </Col>
       {/*Services Block Two*/}
-      <div className="services-block-two col-md-4 col-sm-6 col-xs-12">
+      <Col xs={12} sm={6} md={4} /*className="services-block-two"*/>
         <div className="inner-box">
           <div className="image">
-            <img src="images/resource/services-7.jpg" alt />
+            <img src="images/resource/services-7.jpg" alt="" style={{width: '100%'}} />
 
           </div>
           <div className="lower-box">
@@ -52,12 +56,12 @@ const AllServices = () => (
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
-      </div>
+      </Col>
       {/*Services Block Two*/}
-      <div className="services-block-two col-md-4 col-sm-6 col-xs-12">
+      <Col xs={12} sm={6} md={4} /*className="services-block-two"*/>
         <div className="inner-box">
           <div className="image">
-            <img src="images/resource/services-8.jpg" alt />
+            <img src="images/resource/services-8.jpg" alt="" style={{width: '100%'}} />
 
           </div>
           <div className="lower-box">
@@ -65,12 +69,12 @@ const AllServices = () => (
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
-      </div>
+      </Col>
       {/*Services Block Two*/}
-      <div className="services-block-two col-md-4 col-sm-6 col-xs-12">
+      <Col xs={12} sm={6} md={4} /*className="services-block-two"*/>
         <div className="inner-box">
           <div className="image">
-            <img src="images/resource/services-9.jpg" alt />
+            <img src="images/resource/services-9.jpg" alt="" style={{width: '100%'}} />
 
           </div>
           <div className="lower-box">
@@ -78,10 +82,10 @@ const AllServices = () => (
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
-      </div>
+      </Col>
 
-    </div>
-  </div>
+    </Row>
+  </Container>
 </section>
 
 

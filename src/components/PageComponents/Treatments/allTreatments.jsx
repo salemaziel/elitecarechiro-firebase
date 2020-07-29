@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { NeckPain, MotorVehicle, SportsInjury } from '../../../images/index'
-
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import alltreatmentStyles from './treatment.module.css'
 
 const AllTreatments = () => (
@@ -9,17 +11,17 @@ const AllTreatments = () => (
 <div style={{
     textAlign: 'center',
     margin: 'auto',
-    padding: '1rem 0 2rem'
+    padding: '1rem 1rem 2rem'
   }}>
     <h1>Treatments We Specialize In</h1>
   </div>
-  <div className="auto-container">
-    <div className="row clearfix">
+  <Container>
+    <Row className={alltreatmentStyles.TreatmentRow}>
       {/*Services Block Two*/}
-      <div className="services-block-two col-md-4 col-sm-6 col-xs-12">
+      <Col /*xs={12} sm={6} md={4}*/ /*className="services-block-two"*/>
         <div className="inner-box">
           <div className="image">
-            <img src={MotorVehicle} alt='' />
+            <img src={MotorVehicle} alt='' style={{width: '100%'}} />
 
           </div>
           <div className="lower-box">
@@ -27,12 +29,12 @@ const AllTreatments = () => (
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
-      </div>
+      </Col>
       {/*Services Block Two*/}
-      <div className="services-block-two col-md-4 col-sm-6 col-xs-12">
+      <Col /*xs={12} sm={6} md={4}*/ /*className="services-block-two"*/>
         <div className="inner-box">
           <div className="image">
-            <img src={NeckPain} alt='' />
+            <img src={NeckPain} alt='' style={{width: '100%'}}/>
 
           </div>
           <div className="lower-box">
@@ -40,12 +42,12 @@ const AllTreatments = () => (
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
-      </div>
+      </Col>
       {/*Services Block Two*/}
-      <div className="services-block-two col-md-4 col-sm-6 col-xs-12">
+      <Col /*xs={12} sm={6} md={4}*/ /*className="services-block-two"*/>
         <div className="inner-box">
           <div className="image">
-            <img src={SportsInjury} alt='' />
+            <img src={SportsInjury} alt='' style={{width: '100%'}}/>
 
           </div>
           <div className="lower-box">
@@ -53,10 +55,10 @@ const AllTreatments = () => (
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
-      </div>
+      </Col>
 
-    </div>
-  </div>
+    </Row>
+  </Container>
 </section>
 
 

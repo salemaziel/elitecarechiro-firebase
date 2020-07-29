@@ -162,6 +162,11 @@
     margin: 5% auto;
 }
 
+.TreatmentRow {
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 @media screen and (max-width: 980px) {
@@ -180,6 +185,11 @@
 @media screen and (max-width: 480px) {
     .AsideCategories {
         display: none;
+    }
+
+    .TreatmentRow {
+        display: block;
+        
     }
 }
 

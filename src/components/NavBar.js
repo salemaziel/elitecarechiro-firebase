@@ -200,10 +200,17 @@ class NavBar extends React.Component {
             <Link rel="preload" className={navStyles.SideNavLink} to="/contact">
               Contact
             </Link>,
+                        <Link
+                        rel="preload"
+                        className={navStyles.SideNavLink}
+                        to="/signin"
+                      >
+                        Sign In
+                      </Link>,
             <Link
               rel="preload"
               className={navStyles.SideNavLink}
-              to="/newpatients"
+              to="/patients/new-patients"
             >
               New Patients
             </Link>,
