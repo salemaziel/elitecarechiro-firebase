@@ -1,0 +1,140 @@
+/*.NavBook {
+    background: #0397d7;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border: 2px solid;
+    color: white;
+}*/
+
+.NavBook {
+    background: #0397d7;
+    color: white!important;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    outline: none;
+    width: auto;
+    max-width: 300px;
+    border: 2px solid;
+    padding: 1rem 3rem;
+    border-color: white;
+}
+
+.NavBook:hover {
+    background: #25ACDF;
+    background-color: #25ACDF;
+    border-color: #25ACDF;
+}
+
+.NavBar {
+    flex-basis: 100%;
+    flex-grow: 1;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: flex!important;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: nowrap;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    border-image-repeat: stretch;
+    border-image-width: initial;
+    justify-content: flex-end;
+    line-height: inherit;
+    margin: 0px;
+    padding: 0.5rem 1rem;
+    position: relative;
+    text-align: left;
+}
+
+.daNav {
+    max-width: 1240px;
+    width: 100%;
+}
+
+.Logo {
+    height: 100px;
+    width: auto;
+}
+
+.SideNavLink{
+    color: #fff;
+    font-variant: small-caps;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 0;
+    border: 2px solid rgba(255, 255, 255,0);
+    transition: 0.4s all ease-in-out;
+}
+
+@media screen and (max-width:1680px) {
+    .NavBar{
+       display: flex!important;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .NavBar{
+        display: flex!important;
+     }
+}
+
+
+@media screen and (max-width:980px) {
+    .NavBar {
+        display: none!important;
+    }
+    .daNav {
+    min-width: 100vw;
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width:767px) {
+    .NavBar {
+        display: none!important;
+    }
+    .daNav {
+        min-width: 100vw;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .NavBar {
+        display: none!important;
+    }
+    .daNav {
+        min-width: 100vw;
+        width: 100%;
+    }
+    .Logo {
+        height: 75px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .NavBar {
+        display: none!important;
+    }
+    .daNav {
+        min-width: 100vw;
+        width: 100%;
+    }
+}

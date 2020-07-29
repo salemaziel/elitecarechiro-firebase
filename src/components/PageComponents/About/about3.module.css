@@ -1,0 +1,74 @@
+.Section3 {
+    display: block;
+    margin: 0;
+    padding: 0;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+}
+
+.Titlerow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.Header {
+    padding: 1rem 0;
+}
+
+.Title {
+    padding: 1rem 0;
+}
+
+
+@media screen and (min-width: 2400px) {
+}
+
+
+
+@media screen and (max-width: 1680px) {
+}
+
+
+
+@media screen and (max-width: 1280px) {
+}
+
+
+@media screen and (max-width: 980px) {
+}
+
+
+@media screen and (max-width: 767px) {
+}
+
+
+@media screen and (max-width: 480px) {
+    .Titlerow {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+        padding: 0 5px;
+    }
+
+    .Title {
+        
+    }
+    
+
+
+}
+
+@media screen and (max-width: 360px) {
+}

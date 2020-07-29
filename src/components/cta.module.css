@@ -1,0 +1,147 @@
+.inner {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 2rem auto;
+    width: 70em;
+    padding: 0;
+  }
+
+  .cta {
+    /*background-image:/* -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), * / -moz-linear-gradient(
+        45deg,
+        rgba(39, 161, 227, 0.65),
+        rgba(231, 35, 42, 0.65)
+      ),
+      url("../../../images/cta.jpg");
+    background-image: /*-webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"),* / -webkit-linear-gradient(
+        45deg,
+        rgba(39, 161, 227, 0.65),
+        rgba(231, 35, 42, 0.65)
+      ),
+      url("../../../images/cta.jpg");
+    background-image:/* -ms-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"),* / -ms-linear-gradient(
+        45deg,
+        rgba(39, 161, 227, 0.65),
+        rgba(231, 35, 42, 0.65)
+      ),
+      url("../../../images/cta.jpg");
+    background-image: /* linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"),* / linear-gradient(
+        45deg,
+        rgba(39, 161, 227, 0.65),
+        rgba(231, 35, 42, 0.65)
+      ),
+      url("../../../images/cta.jpg");*/
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%),url('../images/people-running-marathon-longcrop.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   /* background-color: rgba(21, 27, 33, 0.6);*/
+    color: #ffffff;
+    padding: 3rem 0;
+  }
+  
+  .cta input,
+  .cta select,
+  .cta textarea {
+    color: #ffffff;
+  }
+  
+  .cta a {
+    color: #ffffff;
+  }
+  
+  .cta strong,
+  .cta b {
+    color: #ffffff;
+  }
+  
+  .cta h1,
+  .cta h2,
+  .cta h3,
+  .cta h4,
+  .cta h5,
+  .cta h6 {
+    color: #ffffff;
+  }
+  
+  .cta blockquote {
+    border-left-color: #ffffff;
+  }
+  
+
+  .cta hr {
+    border-bottom-color: #ffffff;
+  }
+  
+
+  .cta > .inner {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+  }
+  
+  .cta > .inner > * {
+    padding-left: 1.5em;
+    -ms-flex: auto;
+    width: 50%;
+  }
+  
+  .cta > .inner > :first-child {
+    padding-left: 0;
+    width: 60%;
+  }
+  
+  body.is-mobile .cta {
+    background-attachment: scroll;
+  }
+  
+  @media screen and (min-width: 2400px) {
+    .cta {
+      padding: 6rem 0;
+    }
+    
+    }
+
+  @media screen and (max-width: 1680px){
+
+
+  }
+
+  @media screen and (max-width: 1280px){
+    .inner{
+      width: 100%;
+      padding: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+  .inner {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+
+  .cta > .inner > * {
+    width: 50%;
+    padding-left: 0;
+  }
+  }

@@ -1,0 +1,381 @@
+.AboutBody {
+  /* background-image: url('../../../images/pattern-bg.jpg');*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+
+.Section {
+  display: block;
+  margin: 0;
+  padding: 0;
+      -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+      -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+      -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+}
+
+.SectionParallax {
+  display: block;
+  /*background-image: url('../../../images/progressBg.jpg');*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.Titlerow {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.HistoryRow {
+  display: block;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.Header {
+  padding: 1rem 0;
+}
+
+.Title {
+  padding: 1rem 0;
+  color: #0f4573;
+  text-align: center;
+}
+
+.Subtitles {
+  padding: 1rem 0;
+  color: #0f4573;
+}
+
+.Box {
+  margin-bottom: 30px;
+}
+
+.BoxImg {
+  margin-bottom: 24px;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+}
+
+.Titlerow {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.Nomobile {
+  display: block;
+}
+
+.Nodesktop {
+  display: none;
+}
+
+.MeetDoctorSection {
+  position: relative;
+  padding: 0px 0px 50px 0px;
+}
+.MeetDoctorSection .DoctorImage {
+  position: relative;
+}
+.MeetDoctorSection .DoctorImage img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 50px;
+}
+.MeetDoctorSection .DoctorDetails {
+  position: relative;
+  padding: 20px 5%;
+}
+.MeetDoctorSection h2 {
+  text-align: left;
+  font-weight: 700;
+  color: #0397d7;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raybent Mango";
+  font-size: 40px;
+  font-weight: normal;
+}
+.MeetDoctorSection h3 {
+  text-align: left;
+  font-weight: 400;
+  color: #4f5875;
+  margin: 0px;
+  padding: 0px;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.MeetDoctorSection p {
+  text-align: left;
+  font-weight: 400;
+  color: #2f2f2f;
+  margin: 0px;
+  padding: 20px 0px;
+  font-size: 16px;
+  text-transform: none;
+}
+.MeetDoctorSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff;
+  border-color: #0397d7;
+  margin: 20px 0px;
+  color: #0397d7;
+}
+
+.WhatisArticle {
+  margin: auto;
+}
+
+.WhatisArticle article {
+  padding: 2rem;
+  margin: auto;
+}
+
+
+@media screen and (min-width: 2400px) {
+  .AboutBody {
+    /*background-image: url('../../../images/pattern-bg.jpg');*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
+  .Nomobile {
+    display: block;
+  }
+
+  .Nodesktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .AboutBody {
+    /* background-image: url('../../../images/pattern-bg.jpg');*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
+
+  .Nomobile {
+    display: block;
+  }
+
+  .Nodesktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .AboutBody {
+    /*  background-image: url('../../../images/pattern-bg.jpg');*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
+
+  .MeetDoctorSection {
+    padding: 50px 0px 0px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 30px;
+  }
+  .MeetDoctorSection h3 {
+    font-size: 35px;
+  }
+  .MeetDoctorSection p {
+    font-size: 15px;
+  }
+
+  .Nomobile {
+    display: block;
+  }
+
+  .Nodesktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .AboutBody {
+    /* background-image: url('../../../images/pattern-bg.jpg');*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
+
+  .Titlerow {
+    padding: 0;
+  }
+
+  .Box {
+    height: 100%;
+    margin: auto;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+    vertical-align: middle;
+  }
+
+  .BoxImg {
+    margin: 4rem auto 0;
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+    width: 100%;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+    vertical-align: middle;
+  }
+
+  .MeetDoctorSection {
+    padding: 30px 0px 0px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 35px;
+  }
+  .MeetDoctorSection h3 {
+    font-size: 30px;
+  }
+  .Nomobile {
+    display: block;
+  }
+
+
+  .Nodesktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .AboutBody {
+    /*  background-image: url('../../../images/pattern-bg.jpg'); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
+
+  .MeetDoctorSection .DoctorImage img {
+    display: block;
+    margin: auto;
+  }
+  .MeetDoctorSection .DoctorDetails {
+    padding: 30px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 30px;
+  }
+
+  .MeetDoctorSection h3 {
+    font-size: 25px;
+  }
+
+  .Nomobile {
+    display: none;
+  }
+
+  .Nodesktop {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .AboutBody {
+    /* background-image: url('../../../images/pattern-bg.jpg');*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
+  .Titlerow {
+    display: block;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    padding: 0 5px;
+  }
+
+  .Title {
+  }
+
+  .Nomobile {
+    display: none;
+  }
+
+  .Nodesktop {
+    display: block;
+  }
+
+  .HistoryRow {
+    display: block;
+    margin: 2rem auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .AboutBody {
+    /*background-image: url('../../../images/pattern-bg.jpg');*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
+
+  .Nomobile {
+    display: none;
+  }
+
+  .Nodesktop {
+    display: block;
+  }
+
+  .HistoryRow {
+    display: block;
+    margin: 2rem auto;
+    padding: 0;
+  }
+}

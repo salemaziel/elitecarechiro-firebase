@@ -1,0 +1,139 @@
+.PatientSection {
+	position:relative;
+	padding:90px 0px 60px;
+}
+
+.ContentColumn {
+    position: relative;
+}
+
+.InnerColumn {
+    position: relative;
+}
+
+.Title {
+    position:relative;
+    margin-bottom:15px;
+    color: #0397D7;
+}
+
+.BoldText {
+    position:relative;
+	color:#4f5875;
+	font-size:22px;
+	line-height:1.4em;
+	margin-bottom:8px;
+}
+
+.Text {
+    position:relative;
+	color:#797979;
+	font-size:17px;
+	line-height:1.7em;
+	margin-bottom:15px;
+}
+
+.Text ul li {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.PatientList {
+    position:relative;
+	margin-bottom:40px;
+}
+
+.PatientList li {
+	position:relative;
+	margin-bottom:20px;
+}
+
+.PatientList li a{
+    position:relative;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:600;
+	padding:12px 20px;
+	border-radius:50px;
+	display:inline-block;
+	max-width:360px;
+	width:100%;
+	text-align:center;
+	background-color:#0397d7;
+	font-family: 'Montserrat', sans-serif;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.PatientBox {
+    position:relative;
+	margin-bottom:40px;
+    background-size:cover;
+    background-color:#0397d7;
+}
+
+.InnerBox {
+    position:relative;
+	padding:45px 25px;
+}
+
+.InnerBox h2 {
+    position:relative;
+	color:#ffffff;
+	font-size:32px;
+	font-weight:700;
+	line-height:1.2em;
+	margin-bottom:8px;
+}
+
+.InnerBox h3{
+	position:relative;
+	color:#ffffff;
+	font-size:26px;
+	line-height:1.2em;
+	padding-bottom:20px;
+	margin-bottom:18px;
+}
+
+.InnerBoxText {
+    position:relative;
+	color:#ffffff;
+	line-height:1.7em;
+	margin-bottom:25px;
+}
+
+.ColumnButton {
+    display:inline-block;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+    position:relative;
+	line-height:24px;
+	color:#0397d7;
+	font-size:14px;
+	font-weight:600;
+	background:white;
+	display:inline-block;
+	padding:8px 26px;
+	border-radius:50px;
+	border: 1px solid #0397d7;
+	text-transform:capitalize;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.ColumnButton:hover {
+    color:#ffffff;
+	background-color:#0397d7;
+	border: 1px solid white;
+}
+
+
+.OfferList li a {
+    color: black;
+}

@@ -1,0 +1,131 @@
+/* .box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    background: #e2e1e0;
+    transition: transform 2s ease-in-out;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }*/
+
+
+.containCall{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgb(4, 219, 32);
+    box-shadow: inset 0 0 0px 40px rgb(4, 219, 32),
+      0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
+      0 0 0 0 rgba(33, 150, 243, 0);
+  }
+  .containMessage{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #2196f3;
+    box-shadow: inset 0 0 0px 40px rgba(33, 150, 243, 1),
+      0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
+      0 0 0 0 rgba(33, 150, 243, 0);
+  }
+
+  .containCalendar{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgba(111, 0, 117, 0.5);
+    box-shadow: inset 0 0 0px 40px rgba(109, 0, 115, 0.5),
+      0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
+      0 0 0 0 rgba(33, 150, 243, 0);
+  }
+
+
+.contain:active {
+  animation: callaaya 3s ease-in-out infinite;
+}
+.contain .phonecall:active {
+  animation: phoneaaya 3s ease-in-out infinite;
+}
+.phonecall {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes callaaya {
+  0% {
+    box-shadow: inset 0 0 0px 40px rgba(33, 150, 243, 1),
+      0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
+      0 0 0 0 rgba(33, 150, 243, 0.1);
+    transform: translate(-50%, -50%);
+  }
+  10% {
+    box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.2),
+      0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23),
+      0 0 0 0 rgba(33, 150, 243, 0.1);
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  20% {
+    box-shadow: inset 0 0 0px 40px rgba(33, 150, 243, 1),
+      0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
+      0 0 0 1px rgba(33, 150, 243, 0.1);
+  }
+  25% {
+    transform: translate(-50%, -50%);
+  }
+  69% {
+    box-shadow: inset 0 0 0px 40px rgba(33, 150, 243, 1),
+      0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
+      0 0 0 100px rgba(33, 150, 243, 0.01);
+  }
+}
+
+@keyframes phoneaaya {
+  0% {
+    transform: translate(-52%, -50%);
+  }
+  2% {
+    transform: translate(-48%, -50%);
+  }
+  4% {
+    transform: translate(-52%, -50%);
+  }
+  6% {
+    transform: translate(-48%, -50%);
+  }
+  8% {
+    transform: translate(-52%, -50%);
+  }
+  10% {
+    transform: translate(-48%, -50%);
+  }
+  12% {
+    transform: translate(-52%, -50%);
+  }
+  14% {
+    transform: translate(-48%, -50%);
+  }
+  16% {
+    transform: translate(-52%, -50%);
+  }
+  18% {
+    transform: translate(-48%, -50%);
+  }
+  20% {
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,1162 @@
+
+.HeroSection {
+  position: relative; 
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0px 150px 0px;
+  min-height: 35rem;
+  margin: 10% auto auto auto;
+}
+.HeroSection h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #6d0073;
+}
+.HeroSection h1 span {
+  color: #0397d7;
+}
+.HeroSection p {
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0px;
+  padding: 20px 0px;
+  text-transform: capitalize;
+  text-align: left;
+  color: #6d0073;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  text-shadow: 2px 2px 2px rgb(170, 209, 224);
+}
+.HeroSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #0397d7;
+  color: #ffffff;
+  border-color: #0397d7;
+}
+
+.HeroSection a.blue-btns:hover {
+  background: #25ACDF;
+  background-color: #25ACDF;
+  border-color: #25ACDF;
+  color: white!important;
+  border-radius: 50px;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+
+.HeroSection hr {
+  color: #25ACDF;
+  border-color: rgba(109,0,115,0.37);
+  border-width: 2px;
+}
+
+.BelowHero {
+  background-color: white;
+  margin: 1rem auto;
+  padding: 2rem;
+  height: 20rem;
+}
+
+.BelowHero h3 {
+  text-align: center;
+    font-weight: 400;
+    color: #4f5875;
+    margin: 0px;
+    padding: 0px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.BelowHero p {
+  margin: auto;
+  padding: 3rem;
+  color: #0397d7;
+  font-size: 1.3rem;
+}
+
+.ReversedRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.AddressTitle {
+  text-align: center;
+  color: #0397d7;
+}
+
+.NewPatientSection {
+  position: relative; 
+  background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.75) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(255, 255, 255, 1) 100%), url('../../../images/woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0px 150px 0px;
+  padding: 5% 0px 10% 0px;
+  z-index: 2;
+  min-height: 40rem;
+}
+
+.NewPatientSection h2 {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+}
+/*
+.NewPatientSection:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 132, 196, 0.75),
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  z-index: -1;
+}*/
+.NewPatientSection h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+}
+
+.DeserveText {
+  margin: auto auto 10rem auto;
+  padding: 2rem 0;
+}
+.NewPatientSection p {
+  font-weight: 400;
+  font-size: 20px;
+  margin: auto;
+  padding: 20px 0px;
+  text-transform: none;
+  text-align: left;
+  color: #ffffff;
+}
+.NewPatientSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff;
+  margin: 20px 0px;
+  color: #0397d7;
+  border-color: #ffffff;
+}
+
+.MeetDoctorSection {
+  position: relative; 
+  padding: 75px 0px 0px 0px;
+}
+.MeetDoctorSection .DoctorImage {
+  position: relative; 
+  padding: 5px;
+}
+.MeetDoctorSection .DoctorImage img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 50px;
+}
+.MeetDoctorSection .DoctorDetails {
+  position: relative; 
+  padding: 20px 5%;
+}
+.MeetDoctorSection h2 {
+  text-align: left;
+  font-weight: 700;
+  color: #0397d7;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raybent Mango";
+  font-size: 40px;
+  font-weight: normal;
+}
+.MeetDoctorSection h3 {
+  text-align: left;
+  font-weight: 400;
+  color: #4f5875;
+  margin: 0px;
+  padding: 0px;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.MeetDoctorSection p {
+  text-align: left;
+  font-weight: 400;
+  color: #2f2f2f;
+  margin: 0px;
+  padding: 20px 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.MeetDoctorSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff;
+  border-color: #0397d7;
+  margin: 20px 0px;
+  color: #0397d7;
+}
+
+.SpecializeSection {
+  position: relative; 
+  padding: 50px 0px;
+}
+.SpecializeSection h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #6d0073;
+  margin: 0px 0px 15px 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+.SpecializeSection h3 {
+  text-align: center;
+  font-weight: 400;
+  color: #302e31;
+  margin: 0px;
+  padding: 0px;
+}
+.SpecializeSection h4 {
+  text-align: center;
+  font-weight: 700;
+  color: #0397d7;
+  margin: 0px;
+  padding: 20px 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.SpecializeTopMargin {
+  position: relative; 
+  margin: 50px 2rem 0px;
+  padding: 2rem 5rem;
+
+}
+.SpecializeBox {
+  position: relative; 
+  background: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+  margin: 0 1rem 50px;
+  width: auto;
+  height: auto;
+  transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.SpecializeBox:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.SpecializeBox img {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+
+.SpecializeBox a {
+  text-decoration: none;
+}
+.SpecializeSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #0397d7;
+  border-collapse: #0397d7;
+  color: #ffffff;
+  margin: 20px auto;
+}
+
+.SucessSection {
+	position: relative; 
+}
+.SucessSection h2 {
+	text-align: center;
+	font-weight: 700;
+	color: #6d0073;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.SucessSection h3 {
+	text-align: center;
+	font-weight: 400;
+	color: #302e31;
+	margin: 0px;
+	padding: 0px;
+}
+.SucessSection h4 {
+	color: #0397d7;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+}
+.SucessSection h4 span {
+	font-size: 15px;
+}
+.SucessSection p {
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+	color: #2f2f2f;
+}
+.SucessSection p strong {
+	font-weight: 400;
+}
+.SucessSection a.blue-btns {
+	display: inline-block;
+	vertical-align: top;
+	background: #FFFFFF;
+	border-color: #0397d7;
+	color: #0397d7;
+	margin: 20px auto;
+}
+
+
+.stars {
+	position: relative; 
+  margin: 20px 0px;
+  color: gold;
+  font-size: 2rem;
+}
+.SucessSection .cx_star span {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 5px 0px 0px;
+	font-size: 25px;
+	color: #ebd083;
+}
+.SucessSection .SuccessBox {
+	position: relative; 
+	border-radius: 20px;
+	margin: 50px auto;
+	display: block;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+}
+.LeftImage {
+	position: relative; 
+}
+.LeftImage img {
+	border-radius: 20px 0px 0px 20px;
+	width:100%;
+}
+.TextBox {
+	position: relative; 
+	background: #FFFFFF;
+	padding: 20px 5%;
+	border-radius: 0px 20px 20px 0px;
+}
+
+.CenterDetails {
+  position: relative; 
+  /*background: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%);*/
+  background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../../../images/AdobeStock_226751393_Preview.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0px 19% 0px;
+  z-index: 2;
+  min-height: 5rem;
+}
+
+.CenterDetailsMobile {
+  position: relative; 
+  background: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%);
+ /* background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../../../images/AdobeStock_226751393_Preview.jpeg');*/
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0px 19% 0px;
+  z-index: 2;
+  min-height: 0;
+}
+/*
+background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../images/people-running-marathon.jpeg');
+*/
+/*
+.CenterDetails:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: -webkit-gradient(linear, left top, right top, from(rgba(0,132,196,0.75)), to(rgba(0,132,196,0)));
+	background: linear-gradient(to right, rgba(0,132,196,0.5) 100%, rgba(0,132,196,0) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf0084c4', endColorstr='#000084c4', GradientType=1 );
+	z-index: -1;
+}*/
+.CenterDetails h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.CenterDetails h3 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 400;
+	margin: 0px;
+    padding: 0px;
+}
+
+.CenterDetailsMobile h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.CenterDetailsMobile h3 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 400;
+	margin: 0px;
+    padding: 0px;
+}
+
+.Table {
+  margin: 0 0 2rem;
+}
+
+.TimeTable {
+	position: relative; 
+	border-radius: 30px;
+	background: #FFFFFF;
+	display: block;
+	margin: auto;
+	width: 80%;
+	margin-top: -15%;
+	z-index: 2;
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+}
+.LeftDetails {
+	position: relative; 
+	padding: 15px 50px;
+	border-radius: 30px 0px 0px 30px;
+}
+.LeftDetails table {
+	position: relative; 
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: auto;
+}
+.LeftDetails table tr {
+	position: relative; 
+}
+.LeftDetails table tr td {
+	color: #4b5973;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+  border-bottom: 20px solid transparent;
+  text-align: right;
+}
+.LeftDetails table tr td:nth-child(2) {
+	text-align: center;
+	width: 20px;
+}
+.LeftDetails table tr td:last-child {
+	margin-bottom: 0px;
+}
+.TableDetails {
+	position: relative; 
+	padding: 10px 20px;
+	background: #0397d7;
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 15px;
+	text-align: center;
+}
+.MapResponsive {
+	overflow: hidden;
+	padding-bottom: 100%;
+	position: relative; 
+	height: 0;
+}
+.MapResponsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	border-radius: 0px 30px 30px 0px;
+}
+
+.HeroMobile {
+  display: none;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.HeroMobileCTA {
+  display: none;
+  line-height: 30px;
+  border-bottom: solid 1px rgba(0,0,0,.05);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+  align-items: stretch;
+  align-content: stretch;
+  text-align: center;
+}
+
+
+.CTALink {
+  font-size: 18px;
+  font-style: normal;
+  width: 33.3%;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.CTALink:hover,
+.CTALink:focus,
+.CTALink:active {
+  font-size: 16px;
+  font-style: normal;
+  width: 33.3%;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.CTACall {
+    padding-right: 3px;
+    font-weight: 900;
+    display: inline-block;
+    text-rendering: auto;
+    line-height: inherit;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.CTAMessage {
+  padding-right: 3px;
+  font-weight: 900;
+  display: inline-block;
+  text-rendering: auto;
+  line-height: inherit;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+ 
+}
+
+.CTACalendar {
+  padding-right: 3px;
+  font-weight: 900;
+  display: inline-block;
+  text-rendering: auto;
+  line-height: inherit;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+
+}
+
+.AffilatesSection {
+	position: relative; 
+	padding: 75px 0px;
+}
+.AffiliatesMargin {
+	position: relative; 
+	margin-top: 75px;
+}
+.AffiliatesLeftArrow{
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #000000;
+	font-size: 50px;
+	cursor: pointer;
+}
+.AffiliatesRightArrow {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #000000;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+
+.AffiliatesRow {
+  display: flex;
+  flex-flow: initial wrap;
+}
+
+.AffiliatesSlider {
+	position: relative; 
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 30px;
+}
+.AffiliatesBox {
+	position: relative; 
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	background: #FFFFFF;
+	border-radius: 10px;
+  width: auto;
+  margin: auto;
+}
+.AffilatesSection h2 {
+	text-align: center;
+	font-weight: 700;
+	color: #4d5973;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.AffilatesSection h3 {
+	text-align: center;
+	font-weight: 400;
+	color: #302e31;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+@media screen and (min-width: 2400px) {
+  .HeroSection {
+    background-position: initial;
+    height: 60vh;
+  }
+}
+
+
+@media screen and (max-width:1680px) {
+
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+}
+@media screen and (max-width:1280px) {
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .HeroSection {
+    padding: 50px 0px 100px 0px;
+  }
+
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+  .HeroSection h1 {
+    font-size: 45px;
+  }
+  .HeroSection p {
+    font-size: 18px;
+  }
+  .NewPatientSection {
+    padding: 50px 0px 100px 0px;
+  }
+  .NewPatientSection h1 {
+    font-size: 45px;
+  }
+  .NewPatientSection p {
+    font-size: 18px;
+  }
+
+  .MeetDoctorSection {
+    padding: 50px 0px 0px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 30px;
+  }
+  .MeetDoctorSection h3 {
+    font-size: 35px;
+  }
+  .MeetDoctorSection p {
+    font-size: 15px;
+  }
+
+  .SpecializeSection {
+    padding: 30px 0px;
+  }
+  .SpecializeSection h4 {
+    font-size: 18px;
+  }
+  .SpecializeTopMargin {
+    margin-top: 30px;
+  }
+  .SpecializeBox {
+    margin-bottom: 30px;
+  }
+
+  .SucessSection h4 {
+	font-size: 20px;
+}
+.SucessSection h4 span {
+	font-size: 15px;
+}
+.SucessSection p {
+	font-size: 16px;
+	margin: 0px 0px 20px 0px;
+}
+.SucessSection .cx_star {
+	position: relative; 
+	margin: 20px 0px;
+}
+.SucessSection .SuccessBox {
+	margin: 30px auto;
+}
+
+.LeftDetails table tr td {
+	font-size: 18px;
+	height: 30px;
+	border-bottom: 15px solid transparent;
+}
+.TableDetails {
+	padding: 10px 15px;
+	font-size: 12px;
+}
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+  .HeroSection {
+    padding: 50px 0px 0px 0px;
+    position: relative; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+    background-position: 70% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+    margin: 20% auto auto auto;
+  }
+
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 5%;
+    margin: auto;
+    height: auto;
+  }
+
+
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 60px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+    flex-direction: row;
+    flex-wrap: nowrap;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+
+  .HeroSection h1 {
+    font-size: 35px;
+  }
+  .HeroSection p {
+    font-size: 16px;
+  }
+
+  .TimeTable {
+    margin: -15% 0 7% 0;
+  }
+
+  .ReversedRow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MapResponsive iframe {
+    border-radius: 0px 0px 30px 30px;
+  }
+
+
+  .NewPatientSection {
+    padding: 50px 0px;
+    margin: 3rem auto;
+    
+  }
+  .NewPatientSection h1 {
+    font-size: 35px;
+  }
+  .NewPatientSection p {
+    font-size: 16px;
+  }
+
+  .MeetDoctorSection {
+    padding: 30px 0px 0px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 35px;
+  }
+  .MeetDoctorSection h3 {
+    font-size: 30px;
+  }
+
+  .SpecializeSection {
+    padding: 25px 0px;
+  }
+  .SpecializeSection h4 {
+    font-size: 16px;
+  }
+  .SpecializeTopMargin {
+    margin-top: 25px;
+    display: flex;
+    margin: 25px auto;
+    padding: 0px;
+  }
+  .SpecializeBox {
+    margin-bottom: 25px;
+    width: auto;
+  }
+
+  .SucessSection h4 {
+	font-size: 18px;
+}
+
+.AffiliatesSlider {
+	position: relative; 
+	display: block;
+	justify-content: space-between;
+  padding: 2px 30px 0;
+}
+
+.AffiliatesBox {
+	position: relative; 
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	background: #FFFFFF;
+	border-radius: 10px;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+
+.TimeTable {
+	position: relative; 
+	border-radius: 30px;
+	background: #FFFFFF;
+	display: block;
+	margin: auto;
+	width: 100%;
+	margin-top: -15%;
+	z-index: 2;
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+}
+
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+  .HeroSection {
+    padding: 30px 0px 0px 0px;
+    position: relative; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20rem;
+  }
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 10% 5%;
+    margin: 0;
+  }
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 30px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+  }
+  .HeroSection h1 {
+    font-size: 35px;
+  }
+  .HeroSection p {
+    font-size: 18px;
+  }
+
+  .NewPatientSection {
+    padding: 30% 10%;
+    margin: 2rem auto;
+  }
+  .NewPatientSection h1 {
+    font-size: 26px;
+  }
+  .NewPatientSection p {
+    font-size: 18px;
+  }
+
+  .MeetDoctorSection .DoctorImage img {
+    display: block;
+    margin: auto;
+  }
+  .MeetDoctorSection .DoctorDetails {
+    padding: 30px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 30px;
+  }
+
+  .MeetDoctorSection h3 {
+    font-size: 25px;
+  }
+
+  .LeftImage img {
+	border-radius: 20px 20px 0px 0px;
+}
+.TextBox {
+	padding: 20px 15px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.TimeTable{
+	border-radius:15px;
+}
+.LeftDetails{
+	padding:25px 15px;
+}
+.MapResponsive iframe {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.HeroTitle h1 {
+  margin: -30%;
+}
+
+h1 .HeroTitle {
+  margin: auto;
+}
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+  .HeroSection {
+    padding: 0px 0px 50px 0px;
+    position: relative; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+    background-position:  70% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35rem;
+    margin: 40% auto auto auto;
+  }
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 5%;
+    margin: 0;
+    height: auto;
+  }
+
+  .HeroTitle h1 {
+    margin: -40% 0 0 0;
+  }
+
+  h1 .HeroTitle {
+      margin: -40% 0 0 0;
+  }
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 80px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+    margin: auto 0;
+    height: 150px;
+    }
+
+    .HeroMobileCTA p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 30px;
+      margin: auto;
+      padding: 0.5rem;
+      text-transform: capitalize;
+      text-align: center;
+      color: #0397d7;
+      /*font-family: 'Open Sans', sans-serif;*/
+      font-family: 'Roboto Condensed', sans-serif;
+      letter-spacing: 1.5px;
+      word-spacing: 3px;
+      text-shadow: 2px 2px 2px rgb(170, 209, 224);
+    }
+
+  .CTAIcon {
+    min-width: 30px;
+  }
+
+  .ReversedRow {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+  }
+    .LeftDetails table tr td {
+        font-size: 15px;
+        border-bottom: 10px solid transparent;
+    }
+
+
+
+    .TableDetails {
+      padding: 5px;
+      font-size: 18px;
+    }
+
+    .MapResponsive iframe {
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    .CenterDetailsMobile {
+      min-height: 5rem;
+    }
+
+    .NewPatientSection {
+      margin: auto;
+      padding: 15% 10px;
+    }
+
+    .NewPatientSection p {
+      font-size: 20px;
+    }
+
+    .TimeTable {
+      padding: 0 0 2rem 0;
+      margin-top: -5%;
+    }
+
+    .MeetDoctorSection .DoctorDetails {
+      padding: 30px 5px;
+    }
+
+    .SpecializeTopMargin {
+      margin-top: 25px;
+      display: block;
+      margin: 25px auto;
+      padding: 0px;
+    }
+
+    .AffiliatesRow {
+      display: block;
+    }
+
+
+
+}
+
+@media screen and (max-width:360px) {
+  .HeroSection {
+    padding: 30px 0px 0px 0px;
+    position: relative; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+    background-position:  70% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20rem;
+    margin: 40% auto auto auto;
+  }
+
+  .HeroMobileCTA {
+    display: block;
+    line-height: 30px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+    padding: 0 0 10px 0;
+    padding-bottom: 10px;
+    margin: 0 0 30px 0;
+    margin-bottom: 30px;
+  }
+
+  .MapResponsive iframe {
+    border-radius: 15px 15px 0px 0px;
+  }
+}
+
+

@@ -1,0 +1,73 @@
+.TreatmentBlocks {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgba(0, 132, 196, 1);
+    text-align: center;
+    color: white;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+    display: inline-flex;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0 3rem;
+    margin: 0.5rem auto;
+}
+
+.TreatmentBlocks:active,
+.TreatmentBlocks:hover,
+.TreatmentBlocks:focus,
+.TreatmentBlocks.active,
+.TreatmentBlocks:not(.disabled):not(.disabled).active {
+    background-color: #6d0073;
+}
+
+.MiniBanner {
+    width: 100%;
+    min-width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 33%, rgba(0, 0, 0, .15) 66%, rgba(0, 0, 0, 0.1) 100%), url('../../../images/people-running-marathon.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    margin: 0 0 1rem 0;
+    padding: 5% 0;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.MiniBannerButton {
+    background: #0397d7;
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    outline: none;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid;
+    margin: 2rem auto;
+}
