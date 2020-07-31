@@ -1,5 +1,7 @@
 const path = require('path');
 
+
+
 const firebase = require('firebase');
 const routes = require('./templates.js');
 const config = require('./firebaseConfig');

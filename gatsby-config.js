@@ -37,6 +37,20 @@ module.exports = {
         path: `${__dirname}/src/assets`,
       },
     },
+        {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        credentials: {
+          apiKey: "AIzaSyByN1o4Zl6033C0CllxBMx1ltArBvaU66E",
+          authDomain: "elitecarechiropractic-9b4f3.firebaseapp.com",
+          databaseURL: "https://elitecarechiropractic-9b4f3.firebaseio.com",
+          projectId: "elitecarechiropractic-9b4f3",
+          storageBucket: "elitecarechiropractic-9b4f3.appspot.com",
+          messagingSenderId: "795647646039",
+          appId: "1:795647646039:web:95640bc052d1ffc9e84612"
+        }
+      }
+    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
