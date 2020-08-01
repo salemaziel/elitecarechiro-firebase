@@ -88,6 +88,7 @@ class ScheduleModal extends React.Component {
                   scrolling=""
                   rel="preload"
                   no-referrer="true"
+                  sameSite="Secure"
                 />
               </Col>
             </Row>

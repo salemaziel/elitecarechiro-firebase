@@ -28,7 +28,7 @@ const Testimonial = () => (
             <div className="row d-flex flex-row">
               <div className="col-md-5">
                 <div className={homeStyles.LeftImage}>
-                  <img src={PaulaNewbyFrasier} className="img-fluid" />
+                  {/*<img src={PaulaNewbyFrasier} className="img-fluid" />*/}
                 </div>
               </div>
               <div className="col-md-7 my-auto">
@@ -41,7 +41,7 @@ const Testimonial = () => (
                     </strong>{" "}
                   </p>
                   <h4>
-                    <a href="https://u.ironman.com/expert/paula-newby-fraser">Paula Newby-Fraser <span>8X Ironman Work Champion</span> </a>
+                    Paula Newby-Fraser <a href="https://u.ironman.com/expert/paula-newby-fraser"> <span>8X Ironman Work Champion</span> </a>
                   </h4>
                   <div className={homeStyles.stars}>
                     {" "}

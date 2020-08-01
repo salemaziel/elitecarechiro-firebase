@@ -355,7 +355,7 @@ header {
 /*** ### New Patient ### ***/
 .newpatient-section {
 	position: relative; 
-	background: url(../images/woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg) top center no-repeat;
+	background: url('../images/woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg') top center no-repeat;
 	background-size: cover;
 	padding: 75px 0px 150px 0px;
 	z-index: 2;
