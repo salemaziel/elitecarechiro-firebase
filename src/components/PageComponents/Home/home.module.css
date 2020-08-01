@@ -314,7 +314,7 @@
 	padding: 0px;
 }
 .SucessSection h4 {
-	color: #0397d7;
+	color: #6d0073;
 	font-size: 22px;
 	font-weight: 700;
 	margin: 0px;
@@ -362,16 +362,28 @@
 	margin: 50px auto;
 	display: block;
 	background: #FFFFFF;
-	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
-	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.14);
+	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.14);
 }
 .LeftImage {
-	position: relative; 
+  position: relative;
+  background-image: url('../../../images/Paula_Newby-Fraser_Encinitas_1991_Photo_by_Patty_Mooney2.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
+
 .LeftImage img {
 	border-radius: 20px 0px 0px 20px;
-	width:100%;
+  width:100%;
+  height: stretch;
+  height: -webkit-fill-available;
+  height: -moz-fill-available;
 }
+
+
 .TextBox {
 	position: relative; 
 	background: #FFFFFF;
@@ -511,9 +523,21 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 	overflow: hidden;
 	padding-bottom: 100%;
 	position: relative; 
-	height: 0;
+  height: 0;
+  border-radius: 0px 30px 30px 0px;
+  height: 100%;
+  width: 100%;
 }
 .MapResponsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	border-radius: 0px 30px 30px 0px;
+}
+
+.MapResponsive img {
 	left: 0;
 	top: 0;
 	height: 100%;
@@ -809,8 +833,8 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 
   .HeroMobileCTA {
     display: flex;
-    line-height: 60px;
-    border-bottom: solid 1px rgba(0,0,0,.05);
+    line-height: 80px;
+    border-bottom: solid 1px transparent /*rgba(0,0,0,.05)*/;
     flex-direction: row;
     flex-wrap: nowrap;
         -moz-justify-content: center;
@@ -826,7 +850,9 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
     -ms-align-content: center;
     align-content: center;
     text-align: center;
-    margin: 0;
+    margin: auto 0;
+    padding-bottom: 2rem;
+    height: 100px;
   }
 
 
@@ -846,8 +872,17 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
     flex-direction: column;
   }
 
+  .MapResponsive {
+    border-radius: 0px 0px 30px 30px;
+  }
+
   .MapResponsive iframe {
     border-radius: 0px 0px 30px 30px;
+  }
+
+  .MapResponsive img {
+    border-radius: 0px 0px 30px 30px;
+    padding: 5px 5px 0px 5px;
   }
 
 
@@ -911,7 +946,11 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
   margin: 1rem auto;
 }
 
-
+section.TimeTable {
+  border-radius: 0px 0px 0px 0px;
+  -webkit-box-shadow: none;
+	box-shadow: none;
+}
 .TimeTable {
 	position: relative; 
 	border-radius: 30px;
@@ -994,12 +1033,20 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 }
 
 .TimeTable{
-	border-radius:15px;
+	border-radius:0px;
 }
 .LeftDetails{
 	padding:25px 15px;
 }
+.MapResponsive {
+  border-radius: 15px 15px 0px 0px;
+}
+
 .MapResponsive iframe {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.MapResponsive img {
   border-radius: 15px 15px 0px 0px;
 }
 
