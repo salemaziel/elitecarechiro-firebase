@@ -36,7 +36,8 @@ import Footer2 from './Footer2'
 //  `);
 
 //  return (
-  class Layout extends Component {
+  
+class Layout extends Component {
     state = {
       firebase: null,
     };
