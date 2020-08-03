@@ -8,10 +8,10 @@ import Fade from 'react-reveal/Fade'
 
 import { Link } from "gatsby";
 
-import homeStyles from "./home.module.css";
+import newpatientStyles from "./home.module.css";
 
 const NewPatient = () => (
-  <section className={homeStyles.NewPatientSection}>
+  <section className={newpatientStyles.NewPatientSection}>
     <Container>
       <Fade left cascade>
       <Row>
@@ -21,7 +21,7 @@ const NewPatient = () => (
       </Row>
       <Row>
         <Col>
-          <div className={homeStyles.DeserveText}>
+          <div className={newpatientStyles.DeserveText}>
             <p>
               At Elite Care Chiropractic we offer individual body support and
               maintenance programs to our clients provided by professionals.

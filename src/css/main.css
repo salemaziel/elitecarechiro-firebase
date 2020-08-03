@@ -1,4 +1,4 @@
-* {
+/* * {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
@@ -12,14 +12,14 @@ html {
 body {
   	scroll-padding-top: var(--top-spacing);
   	margin: var(--top-spacing) auto auto auto;
-}*/
+}* /
 .container-fluid {
 	max-width: 1920px;
 	width: 100%;
 }
 .container {
 	/*max-width: 1240px;
-	width: 100%;*/
+	width: 100%;* /
 }
 
 .NoMobile{
@@ -29,13 +29,13 @@ body {
 @media (max-width:1280px) {
 .container {
 	/*max-width: 100%;
-	width: 100%;*/
+	width: 100%;* /
 }
 .NoMobile{
 	display: block;
 }
 }
-/*** ### Fonts ### ***/
+/*** ### Fonts ### *** /
 @font-face {
     font-family: 'Raybent Mango';
     src: url('../fonts/RaybentMango.eot');
@@ -48,7 +48,7 @@ body {
 }
 /*** ### End Fonts ### ***/
 
-
+/*
 
 h2 {
 	font-size: 35px;
@@ -283,6 +283,7 @@ header {
 }
 }
 /*** ### Hero Section ### ***/
+/*
 .hero-section {
 	position: relative; 
 	background: url(../images/elite-care-chiro-hero-bg-young-woman.jpeg) center center no-repeat;
@@ -351,15 +352,16 @@ header {
 }
 
 
-}
+}*/
 /*** ### New Patient ### ***/
-.newpatient-section {
+/*.newpatient-section {
 	position: relative; 
 	background: url('../images/woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg') top center no-repeat;
 	background-size: cover;
 	padding: 75px 0px 150px 0px;
 	z-index: 2;
-}
+}*/
+/*
 .newpatient-section:after {
 	position: absolute;
 	left: 0;
@@ -430,6 +432,7 @@ header {
 }
 }
 /*** ### Meet your Doctor ### ***/
+/*
 .meetdoctor-section {
 	position: relative; 
 	padding: 75px 0px 0px 0px;
@@ -524,6 +527,7 @@ header {
 }
 }
 /*** ### Specialize ### ***/
+/*
 .specialize-section {
 	position: relative; 
 	padding: 50px 0px;
@@ -605,6 +609,7 @@ header {
 }
 }
 /*** ### Success Story ### ***/
+/*
 .success-section {
 	position: relative; 
 }
@@ -718,6 +723,7 @@ header {
 }
 }
 /*** ### Affiliates ### ***/
+/*
 .items-section {
 	position: relative; 
 	padding: 25px 0px 75px 0px;
@@ -816,9 +822,10 @@ header {
 }
 }
 /*** ### Center Details ### ****/
+/*
 .center-details {
 	position: relative; 
-	background: url(../images/people-running-marathon.jpeg) no-repeat center center;
+	background: url('../images/people-running-marathon.jpeg') no-repeat center center;
 	background-size: cover;
 	padding: 10% 0px 19% 0px;
 	z-index: 2;
@@ -851,6 +858,7 @@ header {
 	padding: 0px;
 }
 /*** ### Map Details ### ***/
+/*
 .time-table {
 	position: relative; 
 	border-radius: 30px;
@@ -951,6 +959,7 @@ header {
 }
 }
 /*** ### Affiliates ### ***/
+/*
 .affilates-section {
 	position: relative; 
 	padding: 75px 0px;
@@ -1006,8 +1015,9 @@ header {
 	margin: 0px;
 	padding: 0px;
 }
-
+*/
 /*** ### Footer ### ****/
+/*
 footer{
 	position:relative;
 	background:#FFFFFF;
@@ -1065,3 +1075,4 @@ footer .logo{
 	margin:30px auto;
 }
 }
+*/

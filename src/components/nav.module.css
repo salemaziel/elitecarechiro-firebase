@@ -14,18 +14,18 @@
 
 .NavBook {
     background: #0397d7;
+    background-color: #0397d7!important;
     color: white!important;
     text-decoration: none;
-    padding: 15px 10px;
-    border-radius: 50px;
+    border-radius: 50px!important;
     text-align: center;
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 700!important;
+    font-size: 22px!important;
     outline: none;
     width: auto;
     max-width: 300px;
-    border: 2px solid;
-    padding: 1rem 3rem;
+    border: 2px solid white!important;
+    padding: 1rem 3rem!important;
     border-color: white;
 }
 

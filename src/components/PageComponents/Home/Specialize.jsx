@@ -8,10 +8,10 @@ import { MotorVehicle, SportsInjury, NeckPain } from "../../../images/index";
 import { Link } from "gatsby";
 
 import Fade from 'react-reveal/Fade'
-import homeStyles from "./home.module.css";
+import specializeStyles from "./home.module.css";
 
 const Specialize = () => (
-  <section className={homeStyles.SpecializeSection}>
+  <section className={specializeStyles.SpecializeSection}>
     <div className="NoMobile">
     <Fade bottom>
     <Container>
@@ -21,10 +21,10 @@ const Specialize = () => (
 
         </div>
       </Row>
-      <Row className={homeStyles.SpecializeTopMargin}>
+      <Row className={specializeStyles.SpecializeTopMargin}>
        {/* <div className="col-md-3 col-sm-6"> */}
        <Col>
-          <div className={homeStyles.SpecializeBox}>
+          <div className={specializeStyles.SpecializeBox}>
             <Link to="/treatments/sports-injuries">
             <img src={SportsInjury} className="img-fluid" />
             <h4>
@@ -35,7 +35,7 @@ const Specialize = () => (
           </div>
           </Col>
         <Col>
-          <div className={homeStyles.SpecializeBox}>
+          <div className={specializeStyles.SpecializeBox}>
           <Link to="/treatments/neck-and-back-pain">
 
             <img src={NeckPain} className="img-fluid" />
@@ -48,7 +48,7 @@ const Specialize = () => (
           </div>
         </Col>
         <Col>
-          <div className={homeStyles.SpecializeBox}>
+          <div className={specializeStyles.SpecializeBox}>
           <Link to="/treatments/motor-vehicle-collisons">
 
             <img src={MotorVehicle} className="img-fluid" />
@@ -81,10 +81,10 @@ const Specialize = () => (
 
         </div>
       </Row>
-      <Row className={homeStyles.SpecializeTopMargin}>
+      <Row className={specializeStyles.SpecializeTopMargin}>
        {/* <div className="col-md-3 col-sm-6"> */}
        <Col>
-          <div className={homeStyles.SpecializeBox}>
+          <div className={specializeStyles.SpecializeBox}>
             <Link to="/treatments/sports-injuries">
             <img src={SportsInjury} className="img-fluid" />
             <h4>
@@ -95,7 +95,7 @@ const Specialize = () => (
           </div>
           </Col>
         <Col>
-          <div className={homeStyles.SpecializeBox}>
+          <div className={specializeStyles.SpecializeBox}>
           <Link to="/treatments/neck-and-back-pain">
 
             <img src={NeckPain} className="img-fluid" />
@@ -108,7 +108,7 @@ const Specialize = () => (
           </div>
         </Col>
         <Col>
-          <div className={homeStyles.SpecializeBox}>
+          <div className={specializeStyles.SpecializeBox}>
           <Link to="/treatments/motor-vehicle-collisons">
 
             <img src={MotorVehicle} className="img-fluid" />

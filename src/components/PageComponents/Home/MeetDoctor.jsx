@@ -7,21 +7,21 @@ import { Medical } from '../../../images/index'
 import { Link } from 'gatsby'
 
 import '../../../images/index'
-import homeStyles from "./home.module.css";
+import meetStyles from "./home.module.css";
 
 import Fade from 'react-reveal/Fade'
 
 const MeetDoctor = () => (
-<section className={homeStyles.MeetDoctorSection}>
+<section className={meetStyles.MeetDoctorSection}>
   <Container>
     <Fade left>
     <div className="row d-flex flex-row">
       <div className="col-md-5 my-auto text-center">
-        <div className={homeStyles.DoctorImage}> 
+        <div className={meetStyles.DoctorImage}> 
         <img src={Medical} className="img-fluid" /> </div>
       </div>
       <div className="col-md-7 my-auto">
-        <div className={homeStyles.DoctorDetails}>
+        <div className={meetStyles.DoctorDetails}>
           <h2> Meet Your Doctor </h2>
           <h3>Dr. Linda Janelli, D.C.</h3>
           <br />
@@ -34,12 +34,12 @@ const MeetDoctor = () => (
     <Fade right>
     <div className="row d-flex flex-row flex-row-reverse">
       <div className="col-md-5 my-auto text-center">
-        <div className={homeStyles.DoctorImage}> 
+        <div className={meetStyles.DoctorImage}> 
         <img src={Medical} className="img-fluid" /> 
         </div>
       </div>
       <div className="col-md-7 my-auto">
-        <div className={homeStyles.DoctorDetails}>
+        <div className={meetStyles.DoctorDetails}>
           <h2> Meet Your Doctor </h2>
           <h3>Dr. Rob Rich, D.C.</h3>
           <br />
