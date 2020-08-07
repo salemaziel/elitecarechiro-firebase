@@ -494,13 +494,14 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 }
 .LeftDetails table tr td {
 	color: #4b5973;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 700;
 	margin: 0px;
 	padding: 0px;
 	height: 35px;
   border-bottom: 20px solid transparent;
   text-align: right;
+  color: rgb(8, 103, 136);
 }
 .LeftDetails table tr td:nth-child(2) {
 	text-align: center;
@@ -512,10 +513,12 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 .TableDetails {
 	position: relative; 
 	padding: 10px 20px;
-	background: #0397d7;
-	color: #FFFFFF;
-	font-weight: 500;
-	font-size: 18px;
+  /*background: #0397d7;*/
+  background: white;
+  color: #4b5973;
+	/*color: #FFFFFF;*/
+	font-weight: 600;
+	font-size: 22px;
 	border-radius: 15px;
 	text-align: center;
 }

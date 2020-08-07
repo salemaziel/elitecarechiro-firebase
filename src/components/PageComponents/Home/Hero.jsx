@@ -13,6 +13,7 @@ import Fade from 'react-reveal/Fade'
 import { Link } from 'gatsby'
 
 import heroStyles from "./home.module.css";
+import Clock from 'react-live-clock'
 
 const Hero = () => (
   <>
@@ -30,6 +31,22 @@ const Hero = () => (
           <p>
            Providing Encinitas with the highest quality in Chiropractic care for <strong>over 15 years. </strong>
           </p>
+          {/*<p>
+            Ayy {new Date().toTimeString().split(" ")[7]}+, Built with
+        {` `}test
+          </p>
+          <p>
+            Ayy {new Date().toTimeString().split(" ")[0]}+, Built with
+        {` `}test
+          </p>
+          <p>
+
+        <Clock
+          format={'HH:mm:ss'}
+          ticking={true}
+          timezone={'US/Pacific'} />
+      
+          </p>*/}
           </Fade>
         </div>
       </Row>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 import Button from 'react-bootstrap'
 
 class Booking extends Component {
@@ -34,4 +34,4 @@ class Booking extends Component {
     )
   }
 }
-export default Booking
+export default Booking*/

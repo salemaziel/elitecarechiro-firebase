@@ -17,6 +17,7 @@ export const Multisports = require('./multisports.png')
 export const GreenShirtGuy = require('./AdobeStock_205462952_Preview.jpeg')
 export const GolfOrange = require('./golf-orange.jpeg')
 export const PaulaNewbyFrasier = require('./Paula_Newby-Fraser_Encinitas_1991_Photo_by_Patty_Mooney2.jpg')
+export const BackPain = require('./back-pain_1280.jpg')
 
 
 

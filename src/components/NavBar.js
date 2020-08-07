@@ -223,7 +223,7 @@ class NavBar extends React.Component {
               Services &#38; Treatments
             </Link>,
             <Button as={Link} /*data-appointlet-organization="elite-care-chiropractic" */
-              className={navStyles.NavBook}
+              className="blue-btns"
               type="button"
               to="/book-online"
             >

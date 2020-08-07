@@ -14,7 +14,7 @@ const Specialize = () => (
   <section className={specializeStyles.SpecializeSection}>
     <div className="NoMobile">
     <Fade bottom>
-    <Container>
+    <Container fluid>
       <Row>
         <div className="col-md-12">
           <h2>We Specialize in Treatment for:</h2>

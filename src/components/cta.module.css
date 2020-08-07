@@ -13,30 +13,8 @@
   }
 
   .cta {
-    /*background-image:/* -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), * / -moz-linear-gradient(
-        45deg,
-        rgba(39, 161, 227, 0.65),
-        rgba(231, 35, 42, 0.65)
-      ),
-      url("../../../images/cta.jpg");
-    background-image: /*-webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"),* / -webkit-linear-gradient(
-        45deg,
-        rgba(39, 161, 227, 0.65),
-        rgba(231, 35, 42, 0.65)
-      ),
-      url("../../../images/cta.jpg");
-    background-image:/* -ms-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"),* / -ms-linear-gradient(
-        45deg,
-        rgba(39, 161, 227, 0.65),
-        rgba(231, 35, 42, 0.65)
-      ),
-      url("../../../images/cta.jpg");
-    background-image: /* linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"),* / linear-gradient(
-        45deg,
-        rgba(39, 161, 227, 0.65),
-        rgba(231, 35, 42, 0.65)
-      ),
-      url("../../../images/cta.jpg");*/
+    background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%), url('../images/images/people-running-marathon-longcrop.jpeg');
+    background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%), url('../images/people-running-marathon-longcrop.jpeg');
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 33%, rgba(0, 0, 0, 0.45) 66%, rgba(0, 0, 0, 0.25) 100%),url('../images/people-running-marathon-longcrop.jpeg');
     background-position: center center;
     background-size: cover;
@@ -91,6 +69,7 @@
   .cta > .inner > * {
     padding-left: 1.5em;
     -ms-flex: auto;
+    flex: auto;
     width: 50%;
   }
   

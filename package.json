@@ -36,6 +36,7 @@
     "react-dom": "^16.11.0",
     "react-helmet": "6.1.0",
     "react-icons": "^3.10.0",
+    "react-live-clock": "^4.0.5",
     "react-modal": "^3.11.2",
     "react-reveal": "^1.2.2",
     "react-simple-sidenav": "^2.0.0",

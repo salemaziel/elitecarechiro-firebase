@@ -9,9 +9,8 @@ import Image from '../../atoms/Image';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import DashboardSection from '../../DashboardSection'
 
-class Home extends Component {
+class VideoChat extends Component {
 /*  _initFirebase = false;
 
   state = {
@@ -100,41 +99,21 @@ class Home extends Component {
 //    if (loading) return <Loading />;
 
     return (
-      <section id="background" style={{width: '100%', height: '100%', margin: 'auto', paddingBottom: '5rem', minHeight: '400px'}}>
+      <section id="background" style={{width: '100%', height: '100%', margin: 'auto', paddingBottom: '5rem'}}>
       <Container fluid>
-
-
-
-
-
         <Row>
           <Col>
           <h1 style={{textAlign: 'center'}}>Home</h1>
           </Col>
         </Row>
         <Row>
-
           <Col xs={2} className="NoMobile" />
           <Col>
 
-          {/*<iframe id="ifStreaming" className="video" src="https://meet.jit.si/elite-care-chiro" frameBorder="0" width="100%" height="800px" allow="geolocation; microphone; camera" style={{marginBottom: '3rem', paddingBottom: '5rem' }} sameSite="Secure"/>*/}
-
+          <iframe id="ifStreaming" className="video" src="https://meet.jit.si/elite-care-chiro" frameBorder="0" width="100%" height="800px" allow="geolocation; microphone; camera" style={{marginBottom: '3rem', paddingBottom: '5rem' }} sameSite="Secure"/>
 
           </Col>
         <Col xs={2} className="NoMobile" />
-        </Row>
-        <Row>
-          <Col>
-          <DashboardSection
-      bg="white"
-      textColor="dark"
-      size="md"
-      title="Your Account"
-      subtitle=""
-    ></DashboardSection>
-
-
-          </Col>
         </Row>
         {/*<div className="home__details">
           <h1 className="home__title">Home Page</h1>
@@ -210,4 +189,4 @@ class Home extends Component {
   }
 }
 
-export default withFirebase(Home);
+export default withFirebase(VideoChat);
