@@ -50,3 +50,4 @@ public/
 
 .vscode/
 
+*.code-workspace

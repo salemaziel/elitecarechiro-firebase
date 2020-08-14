@@ -94,7 +94,7 @@ const SectionOne = () => (
         <div className="col-lg-9 col-md-8 col-sm-12 col-xs-12">
           <div className={neckStyles.ServicesSingle}>
             <div className={neckStyles.InnerBox}>
-              <h2>Acute and Chronic Neck and Back Pain</h2>
+              <h2>Relief From Acute and Chronic Neck and Back Pain</h2>
               <div className={neckStyles.InnerText}>
                 <p style={{marginBottom: '0rem'}}>
                   The most common reason people make
@@ -127,40 +127,7 @@ const SectionOne = () => (
                   the injury from returning.
                 </p>
 
-               {/* <p>
-                  Disc injuries can happen anywhere in the spine but
-                  are most commonly found in the neck or lower back.
-                  The intervertebral discs separate and connect the
-                  vertebrae of the spine to form the spinal column.
-                  They act like "shock absorbers" to the spine and are
-                  an important part of spinal movement. While disc
-                  injuries may be caused by acute trauma, they also
-                  may be a result of repetitive overuse or poor
-                  postural mechanics. The intervertabral disc is made
-                  up of a cartilage exterior and a center filled with
-                  "gel-like" material. It has a center, called the
-                  nucleus pulposis, which acts like a ball bearing
-                  that the spinal segments pivot on. Through injury,
-                  this "ball bearing" may slowly or quickly, in the
-                  case of acute trauma, shift out of position pushing
-                  material in front of it forward which can create a
-                  disc "bulge" or herniation. This bulging material
-                  may create compression of nerves producing radiating
-                  pain patterns that emanate from the spine. Having a
-                  bulging disc does not necessarily mean surgery!
-                  Specific treatment, stretching and exercise can
-                  often provide relief for disc related conditions.
-                </p>
-                <p>
-                  Collaboratively administrate empowered markets via
-                  plug-and-play networks. Dynamically procrastinate
-                  B2C users after installed base benefits.
-                  Dramatically visualize customer directed convergence
-                  without revolutionary ROI. Efficiently unleash
-                  cross-media information without cross-media value.
-                  Quickly maximize timely deliverables for real-time
-                  schemas.{' '}
-                </p>
+
                 {/*Two Column*/}
               </div>
               {/*<div className={neckStyles.ServicesTopImage}>
@@ -172,12 +139,10 @@ const SectionOne = () => (
                </div>*/}
               {/*   <h2>Therapy Details</h2> */}
               <div className={neckStyles.InnerText}>
-                {/*  <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
-              {/*Two Column* /} */}
+  
                 <div className={neckStyles.ColumnTwo}>
                   <Col>
-                    <h2>Benefit of Therapy</h2>
+                    <h2>Why Does It Hurt?</h2>
                     <p  style={{marginBottom: '3rem'}}>
                   Disc injuries can happen anywhere in the spine but
                   are most commonly found in the neck or lower back.
@@ -216,67 +181,8 @@ const SectionOne = () => (
                   </Col>
                 </div>
               </div>
-              {/*   <h3>Why Choose Us</h3>
-            <div className="accordian-section">
-              <div className="row clearfix">
-                <div className="column col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                  {/*Accordian Box* /}
-                  <ul className="accordion-box">
-                    {/*Block* /}
-                    <li className="accordion block">
-                      <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Dynamically procrastinate B2C users after installed.</div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <div className="text">Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids.</div>
-                        </div>
-                      </div>
-                    </li>
-                    {/*Block* /}
-                    <li className="accordion block">
-                      <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Nanotechnology immersion along the information.</div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <div className="text">Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids.</div>
-                        </div>
-                      </div>
-                    </li>
-                    {/*Block* /}
-                    <li className="accordion block">
-                      <div className="acc-btn active"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Taking seamless key performance indicators offline.</div>
-                      <div className="acc-content current">
-                        <div className="content">
-                          <div className="text">Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids.</div>
-                        </div>
-                      </div>
-                    </li>
-                    {/*Block* /}
-                    <li className="accordion block">
-                      <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Collaboratively administrate empowered markets.</div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <div className="text">Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids.</div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-         </div> */}
-              <div className="column col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div className="visit-box">
-                  <div className={neckStyles.InnerBox}>
-                    <h2>Visit Today</h2>
-                    <div className={neckStyles.InnerText}>
-                      You'll know the minute you arrive this is the
-                      place. We are here to surpass your desires.
-                    </div>
-                    <a
-                      href="contact.html"
-                      className="theme-btn btn-style-six"
-                    >
-                      Make Appointment
-                    </a>
-                  </div>
-                </div>
-              </div>
+
+
             </div>
           </div>
           {/*   </div> */}

@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import aboutStyle from "./about.module.css";
+import Fade from 'react-reveal/Fade'
+
 
 
 const Whatis = () => (
@@ -11,6 +13,7 @@ const Whatis = () => (
     <Container>
       <Row>
         <Col>
+        <Fade cascade left>
         <div className={aboutStyle.WhatisArticle}>
           <article>
               <h2>What is Chiropractic?</h2>
@@ -51,6 +54,7 @@ const Whatis = () => (
             </p>
           </article>
           </div>
+          </Fade>
         </Col>
       </Row>
     </Container>

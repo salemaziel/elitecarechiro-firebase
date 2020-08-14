@@ -3,7 +3,7 @@
 }
 
 .ContactInfo {
-
+    text-align: center;
 }
 
 .ContactInfo h4 {
@@ -28,4 +28,10 @@
 	-webkit-transition:all 0.3s ease;
 	-ms-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
+}
+
+.Title {
+    padding: 1rem 0;
+    color: #0f4573;
+    text-align: center;
 }

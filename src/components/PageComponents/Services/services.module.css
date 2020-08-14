@@ -191,6 +191,10 @@
     .AsideCategories {
         display: none;
     }
+    .sidebarPageContainer {
+        position: relative;
+        padding: 70px 0px 60px;
+    }
 }
 
 

@@ -88,7 +88,7 @@ const SectionOne = () => (
         <div className="col-lg-9 col-md-8 col-sm-12 col-xs-12">
           <div className={myofascialStyles.ServicesSingle}>
             <div className={myofascialStyles.InnerBox}>
-              <h2>Myofascial Release:</h2>
+              <h2>Myofascial Release</h2>
               <div className={myofascialStyles.InnerText}>
                 <p>
                   Myofascial release is a manipulative treatment that attempts
@@ -128,24 +128,9 @@ const SectionOne = () => (
               </div>
               {/*   <h2>Therapy Details</h2> */}
               <div className={myofascialStyles.InnerText}>
-                {/*  <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
               {/*Two Column* /} */}
-                <div className={myofascialStyles.ColumnTwo}>
-                  <Col>
-                    <h2>Benefit of Therapy</h2>
-                    <p>
-                      Bring to the table win-win survival strategies to ensure
-                      proactive domination. At the end of the day, going
-                      forward, a new normal that has evolved.
-                    </p>
-                    <ul className={myofascialStyles.ServicesTherapyList}>
-                      <li>Those who do not know how to pursue</li>
-                      <li>Pleasure rationally encounter</li>
-                      <li>Consequences that are extremely painful.</li>
-                      <li>Nor again is there anyone who loves or pursues</li>
-                    </ul>
-                  </Col>
+                {/*<div className={myofascialStyles.ColumnTwo}>
+                  
                   <Col>
                     <div className="img-fluid">
                       <img
@@ -155,66 +140,9 @@ const SectionOne = () => (
                       ></img>
                     </div>
                   </Col>
-                </div>
+                </div>*/}
               </div>
-              {/*   <h3>Why Choose Us</h3>
-            <div className="accordian-section">
-              <div className="row clearfix">
-                <div className="column col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                  {/*Accordian Box* /}
-                  <ul className="accordion-box">
-                    {/*Block* /}
-                    <li className="accordion block">
-                      <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Dynamically procrastinate B2C users after installed.</div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <div className="text">Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids.</div>
-                        </div>
-                      </div>
-                    </li>
-                    {/*Block* /}
-                    <li className="accordion block">
-                      <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Nanotechnology immersion along the information.</div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <div className="text">Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids.</div>
-                        </div>
-                      </div>
-                    </li>
-                    {/*Block* /}
-                    <li className="accordion block">
-                      <div className="acc-btn active"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Taking seamless key performance indicators offline.</div>
-                      <div className="acc-content current">
-                        <div className="content">
-                          <div className="text">Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids.</div>
-                        </div>
-                      </div>
-                    </li>
-                    {/*Block* /}
-                    <li className="accordion block">
-                      <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Collaboratively administrate empowered markets.</div>
-                      <div className="acc-content">
-                        <div className="content">
-                          <div className="text">Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids.</div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-         </div> */}
-              <div className="column col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div className="visit-box">
-                  <div className={myofascialStyles.InnerBox}>
-                    <h2>Visit Today</h2>
-                    <div className={myofascialStyles.InnerText}>
-                      You'll know the minute you arrive this is the place. We
-                      are here to surpass your desires.
-                    </div>
-                    <a href="contact.html" className="theme-btn btn-style-six">
-                      Make Appointment
-                    </a>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
           {/*   </div> */}

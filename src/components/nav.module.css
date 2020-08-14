@@ -37,7 +37,13 @@
 	border-radius: 50px;
 	-webkit-transition: 0.4s all ease-in-out;
 	-o-transition: 0.4s all ease-in-out;
-	transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
+    background: #25ACDF;
+    background-color: #25ACDF;
+    border-color: #25ACDF;
+    color: white!important;
+    border-radius: 50px;
+    transition: 0.4s all ease-in-out;
 }
 
 

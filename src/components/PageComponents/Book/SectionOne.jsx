@@ -9,11 +9,12 @@ const SectionOne = () => (
     <Container className={bookStyles.C1Booking}>
       <Row>
         <Col>
+        <div style={{margin: 'auto', padding: '1rem'}}>
           <iframe
             title="Book Appointment"
             src="https://booking.appointy.com/salemaziel"
             width="100%"
-            height={1000}
+            height={700}
             frameBorder={0}
             style={{
               border: "0",
@@ -23,6 +24,7 @@ const SectionOne = () => (
             scrolling="auto"
             sameSite="Secure"
           />
+          </div>
         </Col>
       </Row>
     </Container>

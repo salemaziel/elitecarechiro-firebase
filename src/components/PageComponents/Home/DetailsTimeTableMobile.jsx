@@ -15,8 +15,15 @@ const DetailsTimeTableMobile = () => (
     <Container>
       <Row>
         <div className="col-md-12">
-          <h2>Elite care chiropractic center</h2>
-          <h3>is owned and managed by Linda Jannelli, D.C and Rob Rich. D.C</h3>
+          <h2>Elite care chiropractic center </h2>
+
+          <br />
+          <h3>Serving Encinitas, Leucadia, Carlsbad, Rancho Penasquitos, La Jolla, and the Greater San Diego County area</h3>
+          <br />
+          <hr />
+          <br />
+          <h2>Need Help Finding Us?</h2>
+          <h2>Tap the map for directions or give us a call!</h2>
         </div>
       </Row>
     </Container>

@@ -65,11 +65,34 @@ class NavBar extends React.Component {
                 defaultActiveKey="/"
                 onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
               >
-                <NavItem href="/about">
+                {/*<NavItem href="/about">
                   <Nav.Link as={Link} activeClassName="active" to="/about">
-                    About
+                    About Us
                   </Nav.Link>
-                </NavItem>
+                </NavItem>*/}
+
+                <NavDropdown
+                  as={Link}
+                  href="/about"
+                  to="/about"
+                  eventKey="about"
+                  title="About Us"
+                  id="nav-dropdown-about"
+                >
+                  <NavDropdown.Item eventKey="/about#whatschiropractic">
+                    {" "}
+                    What Is Chiropractic{" "}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item eventKey="/about#meetdoctors">
+                    Meet Your Doctors
+                  </NavDropdown.Item>
+                  <NavDropdown.Item eventKey="/testimonials">
+                    Testimonials
+                  </NavDropdown.Item>
+                  <NavDropdown.Item eventKey="/about">
+                    Our Hall of Fame
+                  </NavDropdown.Item>
+                </NavDropdown>
 
                 <NavDropdown
                   as={Link}
@@ -132,6 +155,7 @@ class NavBar extends React.Component {
                   <NavDropdown.Item eventKey="/patients/signin">
                     Sign In
                   </NavDropdown.Item>
+
                   {/*<NavDropdown.Item eventKey="/treatments/sports-injuries">
                     Sports Injuries
         </NavDropdown.Item>*/}

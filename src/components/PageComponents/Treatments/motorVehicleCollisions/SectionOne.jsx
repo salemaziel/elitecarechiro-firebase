@@ -1,11 +1,14 @@
-import React from "react";
-import { Link } from "gatsby";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import React from 'react';
+import { Link } from 'gatsby';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-import { WomanOnTrack, GreenShirtGuy } from "../../../../images/index";
+import {
+  WomanOnTrack,
+  GreenShirtGuy,
+} from '../../../../images/index';
 
-import motorStyles from "../treatment.module.css";
+import motorStyles from '../treatment.module.css';
 
 const SectionOne = () => (
   <div className={motorStyles.sidebarPageContainer}>
@@ -23,7 +26,9 @@ const SectionOne = () => (
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services/gait-evaluation">Gait Evaluation</Link>
+                  <Link to="/services/gait-evaluation">
+                    Gait Evaluation
+                  </Link>
                 </li>
                 <li>
                   <Link to="/services/myofascial-release">
@@ -49,7 +54,9 @@ const SectionOne = () => (
                   </Link>
                 </li>
                 <li>
-                  <Link to="/treatments/sports-injuries">Sport Injuries</Link>
+                  <Link to="/treatments/sports-injuries">
+                    Sport Injuries
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -69,15 +76,15 @@ const SectionOne = () => (
                 <li>
                   <span
                     className="icon fa fa-phone"
-                    style={{ fontSize: "16px" }}
-                  />{" "}
+                    style={{ fontSize: '16px' }}
+                  />{' '}
                   1-760-710-1901
                 </li>
                 <li>
                   <span
                     className="icon fa fa-send"
-                    style={{ fontSize: "16px" }}
-                  />{" "}
+                    style={{ fontSize: '16px' }}
+                  />{' '}
                   info@elitecarechiropractic.com
                 </li>
               </ul>
@@ -88,48 +95,52 @@ const SectionOne = () => (
         <div className="col-lg-9 col-md-8 col-sm-12 col-xs-12">
           <div className={motorStyles.ServicesSingle}>
             <div className={motorStyles.InnerBox}>
-              <h2>Therapy Details</h2>
+              <h2>Motor Vehicle Collision Injury Relief</h2>
               <div className={motorStyles.InnerText}>
                 <p>
-                  Podcasting operational change management inside of workflows
-                  to establish a framework. Taking seamless key performance
-                  indicators offline to maximise the long tail. Keeping your eye
-                  on the ball while performing a deep dive on the start-up
-                  mentality to derive convergence on cross-platform integration.
+                  It is estimated that as many as 3 million whiplash
+                  injuries occur in the U.S. each year. It is also
+                  estimated that 45% of people with chronic neck pain
+                  can attribute their pain to a past motor vehicle
+                  collision.
                 </p>
                 <p>
-                  Collaboratively administrate empowered markets via
-                  plug-and-play networks. Dynamically procrastinate B2C users
-                  after installed base benefits. Dramatically visualize customer
-                  directed convergence without revolutionary ROI. Efficiently
-                  unleash cross-media information without cross-media value.
-                  Quickly maximize timely deliverables for real-time schemas.{" "}
+                  Whiplash injuries occur as a result of rapid
+                  acceleration and deceleration of the neck
+                  potentially causing damage to soft tissues and
+                  bones. The effects of a motor vehicle collision can
+                  take days or longer to set in and may produce neck
+                  pain ,headaches, lower back pain, shoulder pain and
+                  jaw pain (TMJ) to name a few.
                 </p>
+
                 {/*Two Column*/}
               </div>
               <div className={motorStyles.ServicesTopImage}>
-                <img src={GreenShirtGuy} alt="" className="img-fluid" />
+                <img
+                  src={GreenShirtGuy}
+                  alt=""
+                  className="img-fluid"
+                />
               </div>
               {/*   <h2>Therapy Details</h2> */}
               <div className={motorStyles.InnerText}>
+              <p>
+                  Effective treatment requires detailed and
+                  comprehensive initial management which includes
+                  specific chiropractic adjustments, physiotherapy,
+                  management of inflammation, recommendations about
+                  activities of daily living and work and home
+                  ergonomics, exercise and home care. It is an
+                  unfortunate truth that many whiplash patients are
+                  not offered much in the way of treatment and are
+                  advised to simply live with the pain.{' '}
+                </p>
                 {/*  <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
               <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
               {/*Two Column* /} */}
                 <div className={motorStyles.ColumnTwo}>
-                  <Col>
-                    <h2>Benefit of Therapy</h2>
-                    <p>
-                      Bring to the table win-win survival strategies to ensure
-                      proactive domination. At the end of the day, going
-                      forward, a new normal that has evolved.
-                    </p>
-                    <ul className={motorStyles.ServicesTherapyList}>
-                      <li>Those who do not know how to pursue</li>
-                      <li>Pleasure rationally encounter</li>
-                      <li>Consequences that are extremely painful.</li>
-                      <li>Nor again is there anyone who loves or pursues</li>
-                    </ul>
-                  </Col>
+
                   <Col>
                     <div className="img-fluid">
                       <img

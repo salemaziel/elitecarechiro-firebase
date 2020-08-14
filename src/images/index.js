@@ -18,6 +18,12 @@ export const GreenShirtGuy = require('./AdobeStock_205462952_Preview.jpeg')
 export const GolfOrange = require('./golf-orange.jpeg')
 export const PaulaNewbyFrasier = require('./Paula_Newby-Fraser_Encinitas_1991_Photo_by_Patty_Mooney2.jpg')
 export const BackPain = require('./back-pain_1280.jpg')
+export const Golfing = require('./pxfuel.com-golfing.jpg')
+export const GregWelch = require('./greg-welch.jpg')
+export const HeatherFuhr = require('./Heather_Fuhr_on_the_run_at_2006_Superfrog_Triathlon.jpg')
+export const MichelieJones = require('./michelie-jones-training-kelly.jpg')
+export const RobynBenincasa = require('./robyn-benincasa.jpg')
+
 
 
 

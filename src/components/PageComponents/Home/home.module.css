@@ -1099,7 +1099,7 @@ h1 .HeroTitle {
   .HeroMobileCTA {
     display: flex;
     line-height: 80px;
-    border-bottom: solid 1px rgba(0,0,0,.05);
+    border-bottom: none;
     margin: auto 0;
     height: 150px;
     }
@@ -1161,6 +1161,8 @@ h1 .HeroTitle {
     .TimeTable {
       padding: 0 0 2rem 0;
       margin-top: -5%;
+      background: transparent;
+      border-radius: 15px;
     }
 
     .MeetDoctorSection .DoctorDetails {
@@ -1178,6 +1180,19 @@ h1 .HeroTitle {
       display: block;
     }
 
+    .LeftImage {
+      min-height: 300px;
+      margin: auto;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    .SucessSection {
+      margin: 5rem auto 2rem;
+      padding: 20px 0; 
+    }
 
 
 }
