@@ -123,7 +123,7 @@ const SectionOne = () => (
               <div className={orthoticStyles.InnerText}>
  
                 <div className={orthoticStyles.ColumnTwo}>
-                  <Col>
+                  {/*<Col>
                     <div className="img-fluid">
                       <img
                         src={WomanOnTrack}
@@ -131,7 +131,7 @@ const SectionOne = () => (
                         className="img-fluid"
                       ></img>
                     </div>
-                  </Col>
+                  </Col>*/}
                 </div>
               </div>
             </div>

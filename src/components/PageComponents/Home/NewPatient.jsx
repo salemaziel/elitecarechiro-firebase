@@ -13,7 +13,7 @@ import newpatientStyles from "./home.module.css";
 const NewPatient = () => (
   <section className={newpatientStyles.NewPatientSection}>
     <Container>
-      <Fade left cascade>
+      <Fade left cascade ssrReveal>
       <Row>
         <Col>
           <h2>Because You Deserve The Best.</h2>

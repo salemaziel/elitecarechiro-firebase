@@ -15,8 +15,11 @@ const DetailsTimeTable = () => (
     <Container>
       <Row>
         <div className="col-md-12">
-          <h2>Elite care chiropractic center</h2>
-          <h3>is owned and managed by Linda jannelli, D.C and Rob Rich. D.C</h3>
+          <h2> Get Back To Doing What You Love, Pain Free </h2>
+          <br />
+          
+         
+          
         </div>
       </Row>
     </Container>

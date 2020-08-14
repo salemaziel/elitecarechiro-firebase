@@ -89,7 +89,7 @@ class NavBar extends React.Component {
                   <NavDropdown.Item eventKey="/testimonials">
                     Testimonials
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="/about">
+                  <NavDropdown.Item eventKey="/about#halloffame">
                     Our Hall of Fame
                   </NavDropdown.Item>
                 </NavDropdown>

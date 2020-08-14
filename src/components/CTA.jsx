@@ -15,7 +15,7 @@ const CTA = () => (
       <header>
         <h2>Schedule Your Appointment Today</h2>
       </header>
-      <div style={{margin: '10%'}}>
+      <div style={{margin: '5% 10% '}}>
 
           <Button as={Link} to="/book-online" /*data-appointlet-organization="elite-care-chiropractic"*/
           className="blue-btns btn btn-primary"

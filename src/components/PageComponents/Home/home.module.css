@@ -394,8 +394,8 @@
 .CenterDetails {
   position: relative; 
   /*background: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%);*/
-  background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../../../images/AdobeStock_226751393_Preview.jpeg');
-  background-position: center center;
+  background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.45) 33%, rgba(0, 132, 196, 0.25) 66%, rgba(0, 132, 196, 0.25) 100%), url('../../../images/pxfuel.com-biking.jpg');
+  background-position: center 90%;
   background-repeat: no-repeat;
 	background-size: cover;
 	padding: 10% 0px 19% 0px;

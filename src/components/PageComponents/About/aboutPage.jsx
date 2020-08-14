@@ -10,6 +10,7 @@ import AboutMid from './aboutmid'
 
 import AboutDoctors from './AboutDoctors'
 import Whatis from './whatis'
+import HallFame from '../HallOfFame/hallFame'
 
 class AboutPage extends Component {
     render() {
@@ -28,6 +29,9 @@ class AboutPage extends Component {
         <br />
        
         <AboutDoctors />
+        <br />
+        <hr />
+        <HallFame />
        
         
       

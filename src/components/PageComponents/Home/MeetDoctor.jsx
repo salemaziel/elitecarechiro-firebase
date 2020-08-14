@@ -14,7 +14,7 @@ import Fade from 'react-reveal/Fade'
 const MeetDoctor = () => (
 <section className={meetStyles.MeetDoctorSection}>
   <Container>
-    <Fade left>
+    <Fade cascade left ssrReveal>
     <div className="row d-flex flex-row">
       <div className="col-md-5 my-auto text-center">
         <div className={meetStyles.DoctorImage}> 
@@ -31,7 +31,7 @@ const MeetDoctor = () => (
       </div>
     </div>
     </Fade>
-    <Fade right>
+    <Fade cascade right ssrReveal>
     <div className="row d-flex flex-row flex-row-reverse">
       <div className="col-md-5 my-auto text-center">
         <div className={meetStyles.DoctorImage}> 

@@ -10,6 +10,16 @@ import hallfameStyles from '../About/about.module.css';
 
 const HallFame = () => (
   <>
+  <section className="pm-5 py-5" style={{backgroundColor: '#0397d7', marginBottom: '25px'}} id="halloffame"
+  >
+    <Container>
+      <Row>
+        <Col>
+        <h2 style={{color: 'white'}}>Our Pro Athlete Patient Hall of Fame!</h2>
+        </Col>
+      </Row>
+    </Container>
+  </section>
     <section className={hallfameStyles.MeetDoctorSection}>
       <Container>
         <div className="row d-flex flex-row" id="janelli">

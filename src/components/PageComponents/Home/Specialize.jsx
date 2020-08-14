@@ -13,7 +13,7 @@ import specializeStyles from "./home.module.css";
 const Specialize = () => (
   <section className={specializeStyles.SpecializeSection}>
     <div className="NoMobile">
-    <Fade bottom>
+    <Fade bottom ssrReveal>
     <Container fluid>
       <Row>
         <div className="col-md-12">
@@ -73,7 +73,7 @@ const Specialize = () => (
     </Fade>
     </div>
     <div className="NoDesktop">
-    <Fade left>
+    <Fade left ssrReveal>
     <Container>
       <Row>
         <div className="col-md-12">

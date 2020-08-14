@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { WomanOnTrack, GolfOrange, GreenShirtGuy, Golfing } from "../../../images/index";
+import { WomanOnTrack, GolfOrange, GreenShirtGuy, Golfing, PatientCentered } from "../../../images/index";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -63,7 +63,7 @@ class AboutSection3 extends Component {
                 <div className={aboutStyle.Box}>
                   <div className={aboutStyle.BoxImg}>
                     <img
-                      src={GreenShirtGuy}
+                      src={PatientCentered}
                       alt="why choose"
                       className="img-fluid"
                     />

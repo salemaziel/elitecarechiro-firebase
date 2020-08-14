@@ -7,7 +7,8 @@ import { FaPhoneAlt } from 'react-icons/fa'
 import {
   WomanOnTrack,
   GreenShirtGuy,
-  BackPain
+  BackPain,
+  BackPic1
 } from '../../../../images/index';
 
 import neckStyles from '../treatment.module.css';
@@ -142,6 +143,13 @@ const SectionOne = () => (
   
                 <div className={neckStyles.ColumnTwo}>
                   <Col>
+                  <div className="img-fluid">
+                      <img
+                        src={BackPic1}
+                        alt=""
+                        className="img-fluid"
+                      ></img>
+                    </div>
                     <h2>Why Does It Hurt?</h2>
                     <p  style={{marginBottom: '3rem'}}>
                   Disc injuries can happen anywhere in the spine but
@@ -170,15 +178,15 @@ const SectionOne = () => (
 
 
                   </Col>
-                  <Col>
+                  {/*<Col>
                     <div className="img-fluid">
                       <img
-                        src={WomanOnTrack}
+                        src={BackPic1}
                         alt=""
                         className="img-fluid"
                       ></img>
                     </div>
-                  </Col>
+                  </Col>*/}
                 </div>
               </div>
 

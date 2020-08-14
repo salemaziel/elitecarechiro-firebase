@@ -23,7 +23,12 @@ export const GregWelch = require('./greg-welch.jpg')
 export const HeatherFuhr = require('./Heather_Fuhr_on_the_run_at_2006_Superfrog_Triathlon.jpg')
 export const MichelieJones = require('./michelie-jones-training-kelly.jpg')
 export const RobynBenincasa = require('./robyn-benincasa.jpg')
-
+export const PatientCentered = require('./annie-spratt-train.jpg')
+export const BackPic1 = require('./fromold/back_pic_1.jpg')
+export const GaitMan1 = require('./fromold/gait_man_1a.jpg')
+export const GaitGirl1 = require('./fromold/gait_girl_1b.jpg')
+export const GirlWalking = require('./fromold/girl_walking.jpg')
+export const PurpleExercise = require('./fromold/purple_exercise_1.jpg')
 
 
 
