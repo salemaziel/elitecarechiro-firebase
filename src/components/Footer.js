@@ -7,6 +7,8 @@ import footerStyle from './footer.module.css'
 
 import { LogoLG } from '../images/index'
 
+import CalendlyButton from './CalendlyButton'
+
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 /*import {
   faFacebook,
@@ -137,13 +139,14 @@ const Footer = () => (
                   </li>*/}
 
                     <li style={{ padding: "1rem" }}>
-                      <a
+                      {/*<a
                         rel="preload"
                         style={{ color: "white" }}
                         data-appointlet-organization="elite-care-chiropractic"
                       >
                         Book Online
-                      </a>
+                      </a>*/}
+                      <CalendlyButton />
                     </li>
                   </ul>
                 </Col>

@@ -1,19 +1,15 @@
 import React from "react"
 import Container from "react-bootstrap/Container"
-import Col from "react-bootstrap/Col"
 
 import Row from "react-bootstrap/Row"
-import Button from "react-bootstrap/Button"
 
 import HeroMobile from './HeroMobile'
 
-import ScheduleModal from '../../ScheduleModal'
 import Fade from 'react-reveal/Fade'
 
 import { Link } from 'gatsby'
 
 import heroStyles from "./home.module.css";
-import Clock from 'react-live-clock'
 
 const Hero = () => (
   <>

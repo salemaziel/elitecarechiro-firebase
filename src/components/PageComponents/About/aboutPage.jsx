@@ -23,14 +23,14 @@ class AboutPage extends Component {
         <AboutSection3 />
         <br />
         <br />
-        <hr />
         <span id="meetdoctors" />
         <br />
         <br />
        
         <AboutDoctors />
         <br />
-        <hr />
+        <br />
+
         <HallFame />
        
         

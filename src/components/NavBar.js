@@ -14,7 +14,9 @@ import NavItem from "react-bootstrap/NavItem";
 
 import NavDropdown from "react-bootstrap/NavDropdown";
 
+import CalendlyButton from './CalendlyButton'
 
+import Coronadiv from './Coronadiv'
 
 //const NavBar = () => (
 class NavBar extends React.Component {
@@ -31,7 +33,14 @@ class NavBar extends React.Component {
   render() {
     return (
       <>
+        <div className="coronadiv NoMobile" >
+          <span style={{
+            fontWeight: '700',
+            fontSize: '16px'
+          }}>
+            WE ARE OPEN </span> - Learn more about Elite Care Chiropractic's response to COVID-19 by contacting us <Link to="/contact" style={{textDecoration: 'underline', cursor: 'pointer', color:'white', fontWeight: '700'  }}> HERE</Link>
 
+        </div>
         <Navbar
           bg="white"
           variant="light"
@@ -183,15 +192,17 @@ class NavBar extends React.Component {
 
               </Nav>
               <Nav className="ml-auto">
+                {/*
                 <Button
                   as={Link}
                   to="/book-online"
                   className={navStyles.NavBook}
-                  /*data-appointlet-organization="elite-care-chiropractic"*/
+                  /*data-appointlet-organization="elite-care-chiropractic"* /
                 >
                   Book Online
                 </Button>
-                
+                */}
+                <CalendlyButton />
                 {/*<ScheduleModal />*/}
               </Nav>
             </div>
@@ -246,13 +257,7 @@ class NavBar extends React.Component {
             >
               Services &#38; Treatments
             </Link>,
-            <Button as={Link} /*data-appointlet-organization="elite-care-chiropractic" */
-              className="blue-btns"
-              type="button"
-              to="/book-online"
-            >
-              Book Online
-            </Button>,
+            <CalendlyButton />,
           ]}
           itemStyle={{
             background: "transparent!important",

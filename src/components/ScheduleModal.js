@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 import Container from "react-bootstrap/Container";
@@ -13,7 +14,7 @@ import buttonStyles from './PageComponents/Home/home.module.css'
   faPhoneAlt,
   faComment,
   faCalendar,
-} from "@fortawesome/free-solid-svg-icons";*/
+} from "@fortawesome/free-solid-svg-icons";* /
 
 import { FaCalendar } from 'react-icons/fa'
 
@@ -51,7 +52,7 @@ class ScheduleModal extends React.Component {
           className={modalStyles.NavBook}
           type="button"
           onClick={this.handleModalOpen}
-          /* onClick={() => navigateTo("/schedule")}*/
+          /* onClick={() => navigateTo("/schedule")}* /
         >
           Book Online
         </Button>
@@ -102,3 +103,4 @@ class ScheduleModal extends React.Component {
 ScheduleModal.displayName = "ScheduleModal";
 
 export default ScheduleModal;
+*/

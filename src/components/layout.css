@@ -9,6 +9,28 @@
   font-style: normal;
 }
 
+/* Coronadiv */
+
+.coronadiv {
+  height: 30px;
+    width: 100%;
+    background-color: rgba(3, 151, 215,0.7);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    line-height: 2rem;
+    z-index: 99999999;
+    text-align: center;
+    position: relative;
+}
+
+
+/* end coronadiv */
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -191,6 +213,39 @@ a.blue-btns:active {
 	transition: 0.4s all ease-in-out;
 }
 
+.blue-btns {
+	background: #0397d7;
+	background-color: #0397d7;
+	color: white;
+	text-decoration: none;
+	padding: 15px 10px;
+	border-radius: 50px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 22px;
+	outline: none;
+	border: none;
+	width: 100%;
+	max-width: 250px;
+	border: 2px solid;
+	-webkit-transition: 0.4s all ease-in-out;
+	-o-transition: 0.4s all ease-in-out;
+	transition: 0.4s all ease-in-out;
+}
+
+.blue-btns:hover,
+.blue-btns:focus,
+.blue-btns:active {
+	background: #25ACDF;
+	background-color: #25ACDF;
+	border-color: #25ACDF;
+	color: white!important;
+	border-radius: 50px;
+	-webkit-transition: 0.4s all ease-in-out;
+	-o-transition: 0.4s all ease-in-out;
+	transition: 0.4s all ease-in-out;
+}
+
 @media (max-width:1024px){
   h2 {
     font-size: 35px;
@@ -218,6 +273,10 @@ a.blue-btns:active {
     font-size: 18px;
     max-width: 250px;
   }
+  .blue-btns {
+    font-size: 18px;
+    max-width: 250px;
+  }
   .NoMobile{
     display: none;
   }
@@ -231,6 +290,11 @@ a.blue-btns:active {
     font-size: 15px;
   }
   a.blue-btns {
+    font-size: 15px;
+    max-width: 200px;
+    padding:10px;
+  }
+  .blue-btns {
     font-size: 15px;
     max-width: 200px;
     padding:10px;

@@ -21,9 +21,14 @@ import { Link } from 'gatsby';
 
 import heromobileCTAStyles from './home.module.css';
 import mobileCTAStyles from './ctabutton.module.css';
-import CTAScheduleModal from '../../CTAScheduleModal';
+//import CTAScheduleModal from '../../CTAScheduleModal';
+import { openPopupWidget } from 'react-calendly';
 
-const HeroMobileCTA = () => (
+
+const HeroMobileCTA = ({ url }) => {
+  const onClick = () => openPopupWidget({ url:"https://calendly.com/elite-care-chiropractic/30min-appointment" });
+
+return(
   <section>
     <Row className={heromobileCTAStyles.HeroMobileCTA}>
       <Col>
@@ -76,11 +81,13 @@ const HeroMobileCTA = () => (
           buttonColor="success"
           size="lg"
           className={mobileCTAStyles.containCalendar}
+          buttonOnClick={onClick}
           buttonText={[
             <FaCalendarAlt
               className={heromobileCTAStyles.CTACalendar}
             />,
           ]}
+          
         ></CTAButtons>
       </Col>
     </Row>
@@ -95,5 +102,5 @@ const HeroMobileCTA = () => (
     </Row>
   </section>
 );
-
+        }
 export default HeroMobileCTA;

@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { Link } from 'gatsby'
 
 import ctaStyles from "./cta.module.css";
+import CalendlyButton from './CalendlyButton'
 
 
 const CTA = () => (
@@ -17,13 +18,14 @@ const CTA = () => (
       </header>
       <div style={{margin: '5% 10% '}}>
 
-          <Button as={Link} to="/book-online" /*data-appointlet-organization="elite-care-chiropractic"*/
+          {/*<Button as={Link} to="/book-online" /*data-appointlet-organization="elite-care-chiropractic"* /
           className="blue-btns btn btn-primary"
           type="button"
 
         >
           Book Online
-        </Button>
+        </Button>*/}
+        <CalendlyButton />
       </div>
     </div>
   </section>

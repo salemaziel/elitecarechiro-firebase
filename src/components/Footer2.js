@@ -60,7 +60,7 @@ const Footer2 = () => (
           </div>
         </div>
         <p className={footerStyles.copyright}>
-          Created by Salem © All Rights Reserved
+          Created by SalemAziel © All Rights Reserved
           </p>
 
       </footer>

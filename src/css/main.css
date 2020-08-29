@@ -207,7 +207,10 @@ header {
 	font-size: 25px;
 	display: none;
 }
-
+nav ul li {
+	background: inherit;
+	background-color: inherit;
+}
 nav ul li:hover,
 nav ul li:focus,
 nav ul li:focus-within {

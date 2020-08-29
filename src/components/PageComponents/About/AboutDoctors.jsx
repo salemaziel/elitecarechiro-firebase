@@ -1,21 +1,25 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+//import Row from "react-bootstrap/Row";
+//import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-import { OldCouple, Janelli, Hiking } from "../../../images/index";
+import { Janelli, Hiking } from "../../../images/index";
 import { Link } from "gatsby";
 
 import "../../../images/index";
 import aboutStyles from "./about.module.css";
 import Fade from 'react-reveal/Fade'
+import { openPopupWidget } from 'react-calendly';
 
 
-const AboutDoctors = () => (
-  <section className={aboutStyles.MeetDoctorSection}>
 
+const AboutDoctors = ({ url }) => {
+  const onClickJanelli = () => openPopupWidget({ url:"https://calendly.com/elitecarechiropractic-janelli" });
+  const onClickRich = () => openPopupWidget({ url:"https://calendly.com/elitecarechiropractic-rich" });
 
+  return(
+  <section className={aboutStyles.MeetDoctorSection}> 
     <Container>
       <div className="row d-flex flex-row" id="janelli">
         <Fade left cascade>
@@ -49,7 +53,7 @@ const AboutDoctors = () => (
               running races she has competed in since 1980.
             </p>
             <div style={{justifyContent: 'center', margin:'auto', display: 'flex'}}>
-            <Button as={Link} to="/book-online" className="blue-btns">
+            <Button /*as={Link} to="/book-online"*/ onClick={onClickJanelli} className="blue-btns">
             Schedule with Dr. Janelli
           </Button>
           </div>
@@ -80,7 +84,7 @@ const AboutDoctors = () => (
               He is a certified practitioner of several adjusting techniques as well as Active Release Technique (ART) and Applied Kinesiology. He brings a strong analytical and compassionate focus to his approach in treating spinal and extremity related injuries. Dr Rich is an avid trail runner who enjoys racing at the marathon and 50k distances. He also is a skilled guitarist.
             </p>
             <div style={{justifyContent: 'center', margin:'auto', display: 'flex'}}>
-            <Button as={Link} to="/book-online" className="blue-btns">
+            <Button /*as={Link} to="/book-online"*/ onClick={onClickRich} className="blue-btns">
             Schedule with Dr. Rich
           </Button>
           </div>
@@ -91,5 +95,5 @@ const AboutDoctors = () => (
     </Container>
   </section>
 );
-
+  }
 export default AboutDoctors;
