@@ -14,7 +14,7 @@
 .Title {
     position:relative;
     margin-bottom:15px;
-    color: #0397D7;
+    color: #007bff;
 }
 
 .BoldText {
@@ -60,7 +60,7 @@
 	max-width:360px;
 	width:100%;
 	text-align:center;
-	background-color:#0397d7;
+	background-color:#007bff;
 	font-family: 'Montserrat', sans-serif;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -73,7 +73,7 @@
     position:relative;
 	margin-bottom:40px;
     background-size:cover;
-    background-color:#0397d7;
+    background-color:#007bff;
 }
 
 .InnerBox {
@@ -115,14 +115,14 @@
 	-o-transition:all 0.3s ease;
     position:relative;
 	line-height:24px;
-	color:#0397d7;
+	color:#007bff;
 	font-size:14px;
 	font-weight:600;
 	background:white;
 	display:inline-block;
 	padding:8px 26px;
 	border-radius:50px;
-	border: 1px solid #0397d7;
+	border: 1px solid #007bff;
 	text-transform:capitalize;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -130,7 +130,7 @@
 
 .ColumnButton:hover {
     color:#ffffff;
-	background-color:#0397d7;
+	background-color:#007bff;
 	border: 1px solid white;
 }
 

@@ -49,7 +49,7 @@
   form input[type="tel"]:active,
   form .file:active,
   form input[type="textarea"]:active {
-    border-color: #0397d7;
+    border-color: #007bff;
   }
   
   form input[type="text"]:focus,
@@ -59,7 +59,7 @@
   form input[type="tel"]:focus,
   form .file:focus,
   form input[type="textarea"]:focus {
-    border-color: #0397d7;
+    border-color: #007bff;
   }
   
   form textarea {

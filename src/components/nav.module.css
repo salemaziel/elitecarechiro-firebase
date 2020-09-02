@@ -1,5 +1,5 @@
 /*.NavBook {
-    background: #0397d7;
+    background: #007bff;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
@@ -13,8 +13,8 @@
 }*/
 
 .NavBook {
-    background: #0397d7;
-    background-color: #0397d7!important;
+    background: #007bff;
+    background-color: #007bff!important;
     color: white!important;
     text-decoration: none;
     border-radius: 50px!important;
@@ -24,9 +24,12 @@
     outline: none;
     width: auto;
     max-width: 300px;
-    border: 2px solid white!important;
+    border: 2px solid white;
     padding: 1rem 3rem!important;
     border-color: white;
+    -webkit-transition: 0.4s all ease-in-out;
+	-o-transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
 }
 
 .NavBook:hover {
@@ -44,6 +47,7 @@
     color: white!important;
     border-radius: 50px;
     transition: 0.4s all ease-in-out;
+
 }
 
 

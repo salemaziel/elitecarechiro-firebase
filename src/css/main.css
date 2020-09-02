@@ -57,8 +57,8 @@ h3 {
 	font-size: 18px;
 }
 a.blue-btns {
-	background: #0397d7;
-	background-color: #0397d7;
+	background: #007bff;
+	background-color: #007bff;
 	color: white;
 	text-decoration: none;
 	padding: 15px 10px;
@@ -303,7 +303,7 @@ header {
 	color: #6d0073;
 }
 .hero-section h1 span {
-	color: #0397d7;
+	color: #007bff;
 }
 .hero-section p {
 	font-weight: 400;
@@ -317,9 +317,9 @@ header {
 .hero-section a.blue-btns {
 	display: inline-block;
 	vertical-align: top;
-	background: #0397d7;
+	background: #007bff;
 	color: #FFFFFF;
-	border-color: #0397d7;
+	border-color: #007bff;
 }
 @media (max-width:1024px){
 .hero-section {
@@ -398,7 +398,7 @@ header {
 	vertical-align: top;
 	background: #FFFFFF;
 	margin: 20px 0px;
-	color: #0397d7;
+	color: #007bff;
 	border-color: #FFFFFF;
 }
 @media (max-width:1024px){
@@ -456,7 +456,7 @@ header {
 .meetdoctor-section h2 {
 	text-align: left;
 	font-weight: 700;
-	color: #0397d7;
+	color: #007bff;
 	margin: 0px;
 	padding: 0px;
     font-family: 'Raybent Mango';
@@ -485,9 +485,9 @@ header {
 	display: inline-block;
 	vertical-align: top;
 	background: #FFFFFF;
-	border-color: #0397d7;
+	border-color: #007bff;
 	margin: 20px 0px;
-	color: #0397d7;
+	color: #007bff;
 }
 @media (max-width:1024px){
 .meetdoctor-section {
@@ -553,7 +553,7 @@ header {
 .specialize-section h4 {
 	text-align: center;
 	font-weight: 700;
-	color: #0397d7;
+	color: #007bff;
 	margin: 0px;
 	padding: 20px 0px;
 	font-size: 20px;
@@ -578,8 +578,8 @@ header {
 .specialize-section a.blue-btns {
 	display: inline-block;
 	vertical-align: top;
-	background: #0397d7;
-	border-collapse: #0397d7;
+	background: #007bff;
+	border-collapse: #007bff;
 	color: #FFFFFF;
 	margin: 20px auto;
 }
@@ -632,7 +632,7 @@ header {
 	padding: 0px;
 }
 .success-section h4 {
-	color: #0397d7;
+	color: #007bff;
 	font-size: 22px;
 	font-weight: 700;
 	margin: 0px;
@@ -655,8 +655,8 @@ header {
 	display: inline-block;
 	vertical-align: top;
 	background: #FFFFFF;
-	border-color: #0397d7;
-	color: #0397d7;
+	border-color: #007bff;
+	color: #007bff;
 	margin: 20px auto;
 }
 .success-section .cx_star {
@@ -908,7 +908,7 @@ header {
 .time-table .left-details table tr td .details {
 	position: relative; 
 	padding: 10px 20px;
-	background: #0397d7;
+	background: #007bff;
 	color: #FFFFFF;
 	font-weight: 300;
 	font-size: 14px;

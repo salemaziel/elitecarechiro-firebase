@@ -64,8 +64,8 @@ module.exports = {
         name: `Elite Care Chiropractic`,
         short_name: `Elite Care Chiro`,
         start_url: `/`,
-        background_color: `#0397D7`,
-        theme_color: `#0397D7`,
+        background_color: `#007bff`,
+        theme_color: `#007bff`,
         display: `minimal-ui`,
         icon: `static/logo/favicon.png`, // This path is relative to the root of the site.
       },

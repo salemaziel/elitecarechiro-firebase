@@ -6,13 +6,14 @@ import Button from '../../atoms/Button';
 import Loading from '../../atoms/Loading';
 import Image from '../../atoms/Image';
 
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import DashboardSection from '../../DashboardSection'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import DashboardSection from '../../DashboardSection';
+import MyServices from './MyServices'
 
 class Home extends Component {
-/*  _initFirebase = false;
+  /*  _initFirebase = false;
 
   state = {
     posts: [],
@@ -95,116 +96,49 @@ class Home extends Component {
   };
 */
   render() {
-//    const { posts, description, title, loading } = this.state;
+    //    const { posts, description, title, loading } = this.state;
 
-//    if (loading) return <Loading />;
+    //    if (loading) return <Loading />;
+
+//const Home = (props) => {
 
     return (
-      <section id="background" style={{width: '100%', height: '100%', margin: 'auto', paddingBottom: '5rem', minHeight: '400px'}}>
-      <Container fluid>
-
-
-
-
-
-        <Row>
-          <Col>
-          <h1 style={{textAlign: 'center'}}>Home</h1>
-          </Col>
-        </Row>
-        <Row>
-
-          <Col xs={2} className="NoMobile" />
-          <Col>
-
-          {/*<iframe id="ifStreaming" className="video" src="https://meet.jit.si/elite-care-chiro" frameBorder="0" width="100%" height="800px" allow="geolocation; microphone; camera" style={{marginBottom: '3rem', paddingBottom: '5rem' }} sameSite="Secure"/>*/}
-
-
-          </Col>
-        <Col xs={2} className="NoMobile" />
-        </Row>
-        <Row>
-          <Col>
-          <DashboardSection
-      bg="white"
-      textColor="dark"
-      size="md"
-      title="Your Account"
-      subtitle=""
-    ></DashboardSection>
-
-
-          </Col>
-        </Row>
-        {/*<div className="home__details">
-          <h1 className="home__title">Home Page</h1>
-          <p className="home__description">
-            The Home Page is accessible by every signed in user.
-          </p>
-        </div>
-
-        <div className="home__posts">
-          <div className="home__posts__form">
-            <div className="home__posts__form__title">Add Posts</div>
-            <form onSubmit={this.handleSubmit}>
-              <Input
-                name="title"
-                type="text"
-                value={title}
-                labelName="Title"
-                onChange={this.handleChange}
-                required
-              />
-              <Input
-                name="description"
-                type="text"
-                value={description}
-                labelName="Description"
-                onChange={this.handleChange}
-                required
-              />
-
-              <Button
-                className="home__posts__form__btn"
-                type="submit"
-              />
-            </form>
-          </div>
-
-          <div className="home__posts__items">
-            {posts &&
-              posts.length > 0 &&
-              posts.map((item, id) => (
-                <div key={id} className="home__post">
-                  <Link
-                    className="home__post__title"
-                    to={'/post/' + item.slug}
-                  >
-                    <Image
-                      className="home__post__image"
-                      filename="gatsby-post-bg.jpg"
-                    />
-                    <div className="home__post__text">
-                      {item.title && item.title < 30
-                        ? item.title
-                        : item.title.slice(0, 30) + '...'}
-                      <div
-                        className="home__post__description"
-                        key={id}
-                      >
-                        {item.description &&
-                        item.description.length > 150
-                          ? item.description.slice(0, 150)
-                          : item.description + '...'}
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-              ))}
-          </div>
-        </div>*/}
-      </Container>
-
+      <section
+        id="background"
+        style={{
+          width: '100%',
+          height: '100%',
+          margin: 'auto',
+          paddingBottom: '5rem',
+          minHeight: '400px',
+          position: 'relative'
+        }}
+      >
+        <Container fluid>
+          <Row>
+            <Col>
+              <h1 style={{ textAlign: 'center' }}>Home</h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={2} className="NoMobile" />
+            <Col>
+              {/*<iframe id="ifStreaming" className="video" src="https://meet.jit.si/elite-care-chiro" frameBorder="0" width="100%" height="800px" allow="geolocation; microphone; camera" style={{marginBottom: '3rem', paddingBottom: '5rem' }} sameSite="Secure"/>*/}
+            </Col>
+            <Col xs={2} className="NoMobile" />
+          </Row>
+          <Row>
+            <Col>
+              <DashboardSection
+                bg=""
+                textColor="dark"
+                size="md"
+                title=""
+                subtitle=""
+              ></DashboardSection>
+            </Col>
+          </Row>
+        </Container>
       </section>
     );
   }

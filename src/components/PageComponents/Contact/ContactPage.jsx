@@ -4,7 +4,7 @@ import ContactForm from './contactform';
 
 import contactStyle from './contact.module.css';
 import Banner from '../../banner';
-import SectionOne from '../Book/SectionOne';
+//import SectionOne from '../Book/SectionOne';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -70,12 +70,12 @@ const ContactPage = () => (
 
       </Container>
     </section>
-    <section id="background">
+    {/*<section id="background">
       <Container>
         <h1>Book Your Appointment Online Now!</h1>
       </Container>
     </section>
-    <SectionOne />
+    <SectionOne />*/}
   </>
 );
 

@@ -5,14 +5,14 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 import React, { Component } from 'react';
-//import Navigation from './molecules/Navigation/Navigation';
+import Navigation1 from './molecules/Navigation1/Navigation1';
 import getFirebase, { FirebaseContext } from '../utils/Firebase';
 import withAuthentication from '../utils/Session/withAuthentication';
 //import SEO from './seoNew';
 import PropTypes from 'prop-types';
 //import { useStaticQuery, graphql } from 'gatsby';
 import Header from './header';
-import NavBar from './NavBar';
+//import NavBar from './NavBar';
 //import Container from 'react-bootstrap/Container'
 import CTA from './CTA';
 import Footer2 from './Footer2';
@@ -68,7 +68,7 @@ const AppWithAuthentication = withAuthentication(
   ({ hideNav, children, hideFooter, hideCTA }) => (
     <>
       <Header /*siteTitle={data.site.siteMetadata.title}*/ />
-      {!hideNav && <NavBar />}
+      {!hideNav && <Navigation1 /*<NavBar*/ />}
       {children}
       {!hideCTA && <CTA />}
       {!hideFooter && <Footer2 />}

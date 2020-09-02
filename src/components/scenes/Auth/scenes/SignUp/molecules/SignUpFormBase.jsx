@@ -119,7 +119,7 @@ class SignUpFormBase extends Component {
           onClick={this.onSubmit}
           text="Sign Up"
           className="button"
-          style={{backgroundColor: '#0397d7!important'}}
+          style={{backgroundColor: '#007bff!important'}}
         />
 
         {error && <p>{error.message}</p>}

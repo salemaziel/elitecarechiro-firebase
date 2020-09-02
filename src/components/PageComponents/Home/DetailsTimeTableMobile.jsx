@@ -20,7 +20,7 @@ const DetailsTimeTableMobile = () => (
           <br />
           <h3>Serving Encinitas, Leucadia, Carlsbad, Rancho Penasquitos, La Jolla, and the Greater San Diego County area</h3>
           <br />
-          <hr />
+          <hr style={{color: 'rgba(255,255,255,0.1)', borderColor:'rgba(255,255,255,0.3)' }}/>
           <br />
           <h2>Need Help Finding Us?</h2>
           <h2>Tap the map for directions or give us a call!</h2>
@@ -39,7 +39,7 @@ const DetailsTimeTableMobile = () => (
                 <div className={homeStyles.LeftDetails}>
                   <div className={homeStyles.AddressTitle}>
                     <h2 style={{textAlign: 'center', color: '#086788'}}>Suite 302</h2>
-                    <h3 style={{textAlign: 'center', color: '#0397d7'}}>317 N El Camino Real, Encinitas, CA 92024</h3>
+                    <h3 style={{textAlign: 'center', color: '#007bff'}}>317 N El Camino Real, Encinitas, CA 92024</h3>
                   </div>
                   <table>
                     <tbody>

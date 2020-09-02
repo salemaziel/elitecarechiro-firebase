@@ -19,7 +19,7 @@
   color: #6d0073;
 }
 .HeroSection h1 span {
-  color: #0397d7;
+  color: #007bff;
 }
 .HeroSection p {
   font-weight: 400;
@@ -38,9 +38,9 @@
 .HeroSection a.blue-btns {
   display: inline-block;
   vertical-align: top;
-  background: #0397d7;
+  background: #007bff;
   color: #ffffff;
-  border-color: #0397d7;
+  border-color: #007bff;
 }
 
 .HeroSection a.blue-btns:hover {
@@ -80,7 +80,7 @@
 .BelowHero p {
   margin: auto;
   padding: 3rem;
-  color: #0397d7;
+  color: #007bff;
   font-size: 1.3rem;
 }
 
@@ -92,7 +92,7 @@
 
 .AddressTitle {
   text-align: center;
-  color: #0397d7;
+  color: #007bff;
 }
 
 .NewPatientSection {
@@ -159,7 +159,7 @@
   vertical-align: top;
   background: #ffffff;
   margin: 20px 0px;
-  color: #0397d7;
+  color: #007bff;
   border-color: #ffffff;
 }
 
@@ -184,7 +184,7 @@
 .MeetDoctorSection h2 {
   text-align: left;
   font-weight: 700;
-  color: #0397d7;
+  color: #007bff;
   margin: 0px;
   padding: 0px;
   font-family: "Raybent Mango";
@@ -213,9 +213,9 @@
   display: inline-block;
   vertical-align: top;
   background: #ffffff;
-  border-color: #0397d7;
+  border-color: #007bff;
   margin: 20px 0px;
-  color: #0397d7;
+  color: #007bff;
 }
 
 .SpecializeSection {
@@ -240,7 +240,7 @@
 .SpecializeSection h4 {
   text-align: center;
   font-weight: 700;
-  color: #0397d7;
+  color: #007bff;
   margin: 0px;
   padding: 20px 0px;
   font-size: 20px;
@@ -289,8 +289,8 @@
 .SpecializeSection a.blue-btns {
   display: inline-block;
   vertical-align: top;
-  background: #0397d7;
-  border-collapse: #0397d7;
+  background: #007bff;
+  border-collapse: #007bff;
   color: #ffffff;
   margin: 20px auto;
 }
@@ -337,8 +337,8 @@
 	display: inline-block;
 	vertical-align: top;
 	background: #FFFFFF;
-	border-color: #0397d7;
-	color: #0397d7;
+	border-color: #007bff;
+	color: #007bff;
 	margin: 20px auto;
 }
 
@@ -513,7 +513,7 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 .TableDetails {
 	position: relative; 
 	padding: 10px 20px;
-  /*background: #0397d7;*/
+  /*background: #007bff;*/
   background: white;
   color: #4b5973;
 	/*color: #FFFFFF;*/
@@ -1112,12 +1112,12 @@ h1 .HeroTitle {
       padding: 0.5rem;
       text-transform: capitalize;
       text-align: center;
-      color: #0397d7;
+      color: #007bff;
       /*font-family: 'Open Sans', sans-serif;*/
       font-family: 'Roboto Condensed', sans-serif;
       letter-spacing: 1.5px;
       word-spacing: 3px;
-      text-shadow: 2px 2px 2px rgb(170, 209, 224);
+      text-shadow: 2px 2px 2px #b9c8cd;
     }
 
   .CTAIcon {

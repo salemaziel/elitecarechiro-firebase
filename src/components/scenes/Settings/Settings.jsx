@@ -10,7 +10,7 @@ class Account extends Component {
       <div className="settings container">
         <AuthUserContext.Consumer>
           {authUser => (
-            <div>
+            <div className="settings">
               <h1>Account: {authUser.email}</h1>
               <PasswordForget className="settings__password-forget" />
               <PasswordChange className="settings__password-change" />

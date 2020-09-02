@@ -7,6 +7,7 @@ import SignInTwitter from '../../molecules/SignInTwitter';
 import SignUpLink from '../../scenes/SignUp/atoms/SignUpLink';
 import PasswordForgetLink from '../../../../molecules/PasswordForget/atoms/PasswordForgetLink';
 import SignInGithub from '../../molecules/SignInGithub';
+import {Link} from 'gatsby'
 
 import Fade from 'react-reveal/Fade'
 
@@ -19,11 +20,13 @@ class SignIn extends Component {
           <div className="login__content__inner">
             
             <div className="login__content__header">
+              <Link to="/">
               <img
                 className="login__content__header__logo"
                 src="https://res.cloudinary.com/dexdumfqy/image/upload/v1585549217/elite-care-chiropractic/logo_1_mgsyvm.png"
                 alt="logo"
-              />
+              /></Link>
+          
               <div className="login__content__header__title">
                 Elite Care Chiropractic
               </div>

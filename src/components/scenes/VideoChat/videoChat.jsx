@@ -110,7 +110,7 @@ class VideoChat extends Component {
           <Col xs={2} className="NoMobile" />
           <Col>
 
-          <iframe id="ifStreaming" className="video" src="https://meet.jit.si/elite-care-chiro" frameBorder="0" width="100%" height="800px" allow="geolocation; microphone; camera" style={{marginBottom: '3rem', paddingBottom: '5rem' }} sameSite="Secure"/>
+          {/*<iframe id="ifStreaming" className="video" src="https://meet.jit.si/elite-care-chiro" frameBorder="0" width="100%" height="800px" allow="geolocation; microphone; camera" style={{marginBottom: '3rem', paddingBottom: '5rem' }} sameSite="Secure"/>*/}
 
           </Col>
         <Col xs={2} className="NoMobile" />

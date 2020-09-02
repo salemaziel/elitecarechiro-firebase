@@ -57,8 +57,8 @@ background-size: cover;
   color: rgba(3, 151, 215, 1);
   font-variant: small-caps;
   margin: auto;
-  padding: 1rem 2rem;
-  font-size: 18px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
   border-radius: 50px;
   border: 2px solid rgba(255, 255, 255, 0);
   -webkit-transition: 0.4s all ease-in-out;
@@ -133,6 +133,7 @@ a.nav-link:active {
 
 a.dropdown-item {
   color: #25acdf;
+  font-size: 1.25rem;
 }
 
 a.dropdown-item:hover,
@@ -181,8 +182,8 @@ h3 {
 	font-size: 18px;
 }
 a.blue-btns {
-	background: #0397d7;
-	background-color: #0397d7;
+	background: #007bff;
+	background-color: #007bff;
 	color: white;
 	text-decoration: none;
 	padding: 15px 10px;
@@ -214,8 +215,8 @@ a.blue-btns:active {
 }
 
 .blue-btns {
-	background: #0397d7;
-	background-color: #0397d7;
+	background: #007bff;
+	background-color: #007bff;
 	color: white;
 	text-decoration: none;
 	padding: 15px 10px;
@@ -355,7 +356,7 @@ form select:active,
 form input[type="tel"]:active,
 form .file:active,
 form input[type="textarea"]:active {
-  border-color: #0397d7;
+  border-color: #007bff;
 }
 
 form input[type="text"]:focus,
@@ -365,7 +366,7 @@ form select:focus,
 form input[type="tel"]:focus,
 form .file:focus,
 form input[type="textarea"]:focus {
-  border-color: #0397d7;
+  border-color: #007bff;
 }
 
 form textarea {
@@ -652,7 +653,7 @@ form button:disabled {
 
   #two > div.inner > div > .CTALink {
     display: inline-block!important;
-    background: #0397d7;
+    background: #007bff;
     color: white !important;
     text-decoration: none;
     padding: 15px 10px;
@@ -680,6 +681,10 @@ form button:disabled {
 }
 
 @media screen and (max-width: 480px) {
+  .coronadiv {
+    line-height: 1.4rem;
+  }
+
   .NoMobile {
     display: none;
   }
@@ -729,7 +734,7 @@ form button:disabled {
 
   #two > .inner > .NoDesktop > .CTALink {
     display: inline-block!important;
-    background: #0397d7;
+    background: #007bff;
     color: white !important;
     text-decoration: none;
     padding: 15px 10px;

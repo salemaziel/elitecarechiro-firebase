@@ -12,8 +12,8 @@ module.exports = {
     favicon: 'static/logo/favicon.png', // Used for manifest favicon generation
     shortName: 'Elite Care', // shortname for manifest. MUST be shorter than 12 characters
     author: 'Linda Janelli', // Author for schemaORGJSONLD
-    themeColor: '#0397D7',
-    backgroundColor: '#0397D7',
+    themeColor: '#007bff',
+    backgroundColor: '#007bff',
     twitter: '@elitecarechiropractic', // Twitter Username
     app: {
       url: 'https://elitecarechiro.salemaziel.design/signin',

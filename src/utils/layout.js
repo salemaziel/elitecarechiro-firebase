@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
-import Navigation from '../components/molecules/Navigation/Navigation';
+import Navigation1 from '../components/molecules/Navigation1/Navigation1';
 import getFirebase, { FirebaseContext } from './Firebase';
 import withAuthentication from './Session/withAuthentication';
 import SEO from '../components/seoNew';
@@ -36,7 +36,7 @@ const AppWithAuthentication = withAuthentication(
   ({ hideNav, seo, children }) => (
     <Fragment>
       <SEO {...seo} />
-      {!hideNav && <Navigation />}
+      {!hideNav && <Navigation1 />}
       {children}
     </Fragment>
   ),

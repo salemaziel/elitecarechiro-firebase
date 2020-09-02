@@ -8,6 +8,11 @@
     height: auto;
     padding: 30px;
     margin: 0 auto;
+    background-image: 
+    linear-gradient(to top, rgba(37, 172, 223, 0.4) 10%, rgba(37, 172, 223, 0.2) 50%, rgba(37, 172, 223, 0.1) 90%), url('https://res.cloudinary.com/dexdumfqy/image/upload/v1585548130/elite-care-chiropractic/elite-care-chiro-hero-bg-young-woman_fkanzu.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
   }
   &__image {
     position: relative;
@@ -48,6 +53,7 @@
     @include breakpoint('phone') {
       flex-grow: 3;
       flex-basis: auto;
+      background-color: transparent;
     }
     &__inner {
       max-width: 400px;
