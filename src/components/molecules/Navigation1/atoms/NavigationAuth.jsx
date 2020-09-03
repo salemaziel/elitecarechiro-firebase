@@ -86,8 +86,8 @@ class NavigationAuth extends React.Component {
                 style={{
                   width: '50px',
                   height: '50px',
-                  color: '#007bff',
-                  fill: '#007bff',
+                  color: '#0397d7',
+                  fill: '#0397d7',
                 }}
               />
             </Nav>

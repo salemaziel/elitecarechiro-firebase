@@ -118,7 +118,7 @@ const HeroMobileCTA = ({ url }) => {
           ></CTAButtons>
         </Col>
       </Row>
-      <Row className={heromobileCTAStyles.HeroMobileCTA}>
+      {/*<Row className={heromobileCTAStyles.HeroMobileCTA}>
         <Col>
           <Fade left>
             <p>
@@ -135,7 +135,7 @@ const HeroMobileCTA = ({ url }) => {
             </p>
           </Fade>
         </Col>
-      </Row>
+          </Row>*/}
     </section>
   );
 };

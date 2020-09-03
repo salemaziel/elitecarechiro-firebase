@@ -10,7 +10,7 @@ import hallfameStyles from '../About/about.module.css';
 
 const HallFame = () => (
   <>
-  <section className="pm-5 py-5" style={{backgroundColor: '#007bff', marginBottom: '25px'}} id="halloffame"
+  <section className="pm-5 py-5" style={{backgroundColor: '#0397d7', marginBottom: '25px'}} id="halloffame"
   >
     <Container>
       <Row>

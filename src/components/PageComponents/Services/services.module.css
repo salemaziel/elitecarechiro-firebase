@@ -31,7 +31,7 @@
 
 .Categories li a {
     position: relative;
-    color: #007bff;
+    color: #0397d7;
     font-size: 17px;
     font-weight: 600;
     padding: 14px 15px 14px 22px;
@@ -50,7 +50,7 @@
 	/*border-color:#196c7b;
     background-color:#55b6c7;*/
     border-color: #08668f!important;
-    background-color: #007bff!important;
+    background-color: #0397d7!important;
 }
 
 .active {
@@ -58,7 +58,7 @@
 	/*border-color:#196c7b;
     background-color:#55b6c7;*/
     border-color: #08668f;
-    background-color: #007bff;
+    background-color: #0397d7;
 }
 
 .active a{
@@ -66,7 +66,7 @@
 	/*border-color:#196c7b;
     background-color:#55b6c7;*/
     border-color: #08668f!important;
-    background-color: #007bff!important;
+    background-color: #0397d7!important;
 }
 
 .ListWidget {

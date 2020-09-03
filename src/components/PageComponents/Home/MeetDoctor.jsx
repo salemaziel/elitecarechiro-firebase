@@ -1,55 +1,77 @@
-import React from 'react'
-import Container from "react-bootstrap/Container"
+import React from 'react';
+import Container from 'react-bootstrap/Container';
 
-import Button from "react-bootstrap/Button"
+import Button from 'react-bootstrap/Button';
 
-import { Medical } from '../../../images/index'
-import { Link } from 'gatsby'
+import { Medical } from '../../../images/index';
+import { Link } from 'gatsby';
 
-import '../../../images/index'
-import meetStyles from "./home.module.css";
+import '../../../images/index';
+import meetStyles from './home.module.css';
 
-import Fade from 'react-reveal/Fade'
+import Fade from 'react-reveal/Fade';
 
 const MeetDoctor = () => (
-<section className={meetStyles.MeetDoctorSection}>
-  <Container>
-    <Fade cascade left ssrReveal>
-    <div className="row d-flex flex-row">
-      <div className="col-md-5 my-auto text-center">
-        <div className={meetStyles.DoctorImage}> 
-        <img src={Medical} className="img-fluid" /> </div>
-      </div>
-      <div className="col-md-7 my-auto">
-        <div className={meetStyles.DoctorDetails}>
-          <h2> Meet Your Doctor </h2>
-          <h3>Dr. Linda Janelli, D.C.</h3>
-          <br />
-         {/* <p>Dr. Linda Jannelli is a graduate of Life Chiropractic College
+  <section className={meetStyles.MeetDoctorSection}>
+    <Container>
+      <div className="row d-flex flex-row">
+        <div className="col-md-5 my-auto text-center">
+          <Fade cascade left ssrReveal>
+            <div className={meetStyles.DoctorImage}>
+              <img src={Medical} className="img-fluid" />{' '}
+            </div>
+          </Fade>
+        </div>
+        <div className="col-md-7 my-auto">
+          <Fade cascade left ssrReveal>
+            <div className={meetStyles.DoctorDetails}>
+              <h2> Meet Your Doctor </h2>
+              <h3>Dr. Linda Janelli, D.C.</h3>
+              <br />
+              {/* <p>Dr. Linda Jannelli is a graduate of Life Chiropractic College
               West, where she graduated Magna Cum Laude. </p>*/}
-            <Button as={Link} to="/about#janelli" rel="preload" className="blue-btns">About Dr. Janelli</Button> </div>
-      </div>
-    </div>
-    </Fade>
-    <Fade cascade right ssrReveal>
-    <div className="row d-flex flex-row flex-row-reverse">
-      <div className="col-md-5 my-auto text-center">
-        <div className={meetStyles.DoctorImage}> 
-        <img src={Medical} className="img-fluid" /> 
+              <Button
+                as={Link}
+                to="/about#janelli"
+                rel="preload"
+                className="blue-btns"
+              >
+                About Dr. Janelli
+              </Button>{' '}
+            </div>
+          </Fade>
         </div>
       </div>
-      <div className="col-md-7 my-auto">
-        <div className={meetStyles.DoctorDetails}>
-          <h2> Meet Your Doctor </h2>
-          <h3>Dr. Rob Rich, D.C.</h3>
-          <br />
-        {/*  <p>Rob Rich, D.C. is graduate of Life West Chiropractic College in 1993 and has been practicing in San Diego since 1994. </p>*/}
-            <Button as={Link} to="/about#rich" rel="preload" className="blue-btns">About Dr. Rich</Button> </div>
+
+      <div className="row d-flex flex-row flex-row-reverse">
+        <div className="col-md-5 my-auto text-center">
+          <Fade cascade right ssrReveal>
+            <div className={meetStyles.DoctorImage}>
+              <img src={Medical} className="img-fluid" />
+            </div>
+          </Fade>
+        </div>
+        <div className="col-md-7 my-auto">
+          <Fade cascade right ssrReveal>
+            <div className={meetStyles.DoctorDetails}>
+              <h2> Meet Your Doctor </h2>
+              <h3>Dr. Rob Rich, D.C.</h3>
+              <br />
+              {/*  <p>Rob Rich, D.C. is graduate of Life West Chiropractic College in 1993 and has been practicing in San Diego since 1994. </p>*/}
+              <Button
+                as={Link}
+                to="/about#rich"
+                rel="preload"
+                className="blue-btns"
+              >
+                About Dr. Rich
+              </Button>{' '}
+            </div>
+          </Fade>
+        </div>
       </div>
-    </div>
-    </Fade>
-  </Container>
-</section>
+    </Container>
+  </section>
 );
 
-export default MeetDoctor
+export default MeetDoctor;

@@ -182,8 +182,8 @@ h3 {
 	font-size: 18px;
 }
 a.blue-btns {
-	background: #007bff;
-	background-color: #007bff;
+	background: #0397d7;
+	background-color: #0397d7;
 	color: white;
 	text-decoration: none;
 	padding: 15px 10px;
@@ -215,8 +215,8 @@ a.blue-btns:active {
 }
 
 .blue-btns {
-	background: #007bff;
-	background-color: #007bff;
+	background: #0397d7;
+	background-color: #0397d7;
 	color: white;
 	text-decoration: none;
 	padding: 15px 10px;
@@ -356,7 +356,7 @@ form select:active,
 form input[type="tel"]:active,
 form .file:active,
 form input[type="textarea"]:active {
-  border-color: #007bff;
+  border-color: #0397d7;
 }
 
 form input[type="text"]:focus,
@@ -366,7 +366,7 @@ form select:focus,
 form input[type="tel"]:focus,
 form .file:focus,
 form input[type="textarea"]:focus {
-  border-color: #007bff;
+  border-color: #0397d7;
 }
 
 form textarea {
@@ -653,7 +653,7 @@ form button:disabled {
 
   #two > div.inner > div > .CTALink {
     display: inline-block!important;
-    background: #007bff;
+    background: #0397d7;
     color: white !important;
     text-decoration: none;
     padding: 15px 10px;
@@ -734,7 +734,7 @@ form button:disabled {
 
   #two > .inner > .NoDesktop > .CTALink {
     display: inline-block!important;
-    background: #007bff;
+    background: #0397d7;
     color: white !important;
     text-decoration: none;
     padding: 15px 10px;

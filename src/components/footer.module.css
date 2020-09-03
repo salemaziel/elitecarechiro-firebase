@@ -1,5 +1,5 @@
 .SectionFooter {
-    background-color: #007bff;
+    background-color: #0397d7;
     padding: 2rem 0;
 
 }
@@ -67,8 +67,8 @@
   .Icon {
     margin: 1rem;
     font-size: 2rem;
-    color: #007bff;
-    fill: #007bff;
+    color: #0397d7;
+    fill: #0397d7;
   }
 
   .Icon:hover {
@@ -90,7 +90,7 @@
   }
 
   .QuickLinks a {
-    color: #007bff;
+    color: #0397d7;
   }
 
 
