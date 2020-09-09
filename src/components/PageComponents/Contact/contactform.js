@@ -1,6 +1,8 @@
 import React from "react"
 import { navigate } from "gatsby"
 import Form from "react-bootstrap/Form"
+import Col from 'react-bootstrap/Col'
+
 //import Button from 'react-bootstrap/Button'
 import "./contact.css"
 
@@ -42,27 +44,28 @@ export default function ContactForm() {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         className="contact"
+        data-secure
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="ContactForm" />
 
         <Form.Row>
-          {/*<Col>*/}
+          <Col>
             <Form.Group>
               <label style={{ display: "none" }} htmlFor="name">
                 Name
               </label>
               <input
                 type="text"
-                name="name"
-                id="name"
-                placeholder="Name"
+                name="firstname"
+                id="firstname"
+                placeholder="First Name"
                 required
               />
             </Form.Group>
-        {/*  </Col> 
-          <Col>*/}
-          {/*  <Form.Group>
+         </Col> 
+          <Col>
+          <Form.Group>
               <label htmlFor="name" style={{ display: "none" }}>
                 Last Name
               </label>
@@ -73,9 +76,10 @@ export default function ContactForm() {
                 placeholder="Last Name"
                 required
                 onClick={handleChange}
+                data-secure-field
               />
             </Form.Group>
-          </Col> */}
+          </Col> 
         </Form.Row>
 
         <Form.Row>
@@ -91,6 +95,7 @@ export default function ContactForm() {
                 placeholder="Email"
                 required
                 onChange={handleChange}
+                data-secure-field
               />
             </Form.Group>
         {/*  </Col> 
@@ -107,6 +112,7 @@ export default function ContactForm() {
                 id="phone"
                 placeholder="Phone"
                 onChange={handleChange}
+                data-secure-field
               />
             </Form.Group>
        {/* </Col> */}
@@ -188,6 +194,7 @@ export default function ContactForm() {
                 id="message"
                 placeholder="Message"
                 onChange={handleChange}
+                data-secure-field
               />
             </Form.Group>
        {/* </Col> */}
