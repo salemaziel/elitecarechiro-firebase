@@ -1086,7 +1086,7 @@ h1 .HeroTitle {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 35rem;
-    margin: 40% auto auto auto;
+    margin: 10% auto auto auto;
   }
   .HeroMobile {
     display: block;

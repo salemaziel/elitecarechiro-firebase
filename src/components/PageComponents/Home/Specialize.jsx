@@ -69,7 +69,7 @@ const Specialize = () => (
             </h4>
             <div style={{margin: 'auto', padding: '5px 1.5rem', textDecoration: 'none', color: 'black'}}>
             <p>
-              Neck and back pain are the most common reason people make appointments with chiropractors. Utilizing the latest technology and techniques, we design treatment protocols specific for conditions involving back, neck, and hip pain to get you back on your feet again.
+            Whiplash injuries resulting from rapid acceleration and deceleration of the neck can be painful, and worse, can take a long time to heal if not properly treated. We design specialized treatment plans specific for whiplash-induced pain.
 
             </p>
             </div>
@@ -126,6 +126,12 @@ const Specialize = () => (
               Back Pain
               
             </h4>
+            <div style={{margin: 'auto', padding: '5px 1.5rem', textDecoration: 'none', color: 'black'}}>
+            <p>
+              Neck and back pain are the most common reason people make appointments with chiropractors. Utilizing the latest technology and techniques, we design treatment protocols specific for conditions involving back, neck, and hip pain to get you back on your feet again.
+
+            </p>
+            </div>
             </Link>
           </div>
         </Col>
@@ -138,6 +144,12 @@ const Specialize = () => (
               Motor Vehicle <br />
               Collisions
             </h4>
+            <div style={{margin: 'auto', padding: '5px 1.5rem', textDecoration: 'none', color: 'black'}}>
+            <p>
+            Whiplash injuries resulting from rapid acceleration and deceleration of the neck can be painful, and worse, can take a long time to heal if not properly treated. We design specialized treatment plans specific for whiplash-induced pain.
+
+            </p>
+            </div>
             </Link>
 
           </div>
