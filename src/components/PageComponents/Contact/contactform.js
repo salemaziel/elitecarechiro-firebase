@@ -61,6 +61,8 @@ export default function ContactForm() {
                 id="firstname"
                 placeholder="First Name"
                 required
+                onChange={handleChange}
+                data-secure-field
               />
             </Form.Group>
          </Col> 
@@ -75,7 +77,7 @@ export default function ContactForm() {
                 id="lastname"
                 placeholder="Last Name"
                 required
-                onClick={handleChange}
+                onChange={handleChange}
                 data-secure-field
               />
             </Form.Group>
