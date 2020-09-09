@@ -196,7 +196,7 @@ export default function ContactForm() {
                 id="message"
                 placeholder="Message"
                 onChange={handleChange}
-                data-secure-field
+                
               />
             </Form.Group>
        {/* </Col> */}
