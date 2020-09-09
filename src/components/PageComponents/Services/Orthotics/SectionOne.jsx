@@ -112,13 +112,13 @@ const SectionOne = () => (
                 </p>
                 {/*Two Column*/}
               </div>
-              <div className={orthoticStyles.ServicesTopImage}>
+              {/*<div className={orthoticStyles.ServicesTopImage}>
                 <img
                   src={GreenShirtGuy}
                   alt=""
                   className="img-fluid"
                 />
-              </div>
+</div>*/}
               {/*   <h2>Therapy Details</h2> */}
               <div className={orthoticStyles.InnerText}>
  

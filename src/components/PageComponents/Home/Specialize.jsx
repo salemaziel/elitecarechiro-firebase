@@ -31,6 +31,11 @@ const Specialize = () => (
               Sports <br />
               Injuries
             </h4>
+            <div style={{margin: 'auto', padding: '5px 1.5rem', textDecoration: 'none', color: 'black'}}>
+            <p>
+            Our specialists bring the unique perspective of being competitive endurance athletes themselves, having comprehensive knowledge of how best to modify your workouts to maintain your fitness while allowing your body to heal.
+            </p>
+            </div>
             </Link>
           </div>
           </Col>
@@ -44,6 +49,12 @@ const Specialize = () => (
               Back Pain
               
             </h4>
+            <div style={{margin: 'auto', padding: '5px 1.5rem', textDecoration: 'none', color: 'black'}}>
+            <p>
+              Neck and back pain are the most common reason people make appointments with chiropractors. Utilizing the latest technology and techniques, we design treatment protocols specific for conditions involving back, neck, and hip pain to get you back on your feet again.
+
+            </p>
+            </div>
             </Link>
           </div>
         </Col>
@@ -56,6 +67,12 @@ const Specialize = () => (
               Motor Vehicle <br />
               Collisions
             </h4>
+            <div style={{margin: 'auto', padding: '5px 1.5rem', textDecoration: 'none', color: 'black'}}>
+            <p>
+              Neck and back pain are the most common reason people make appointments with chiropractors. Utilizing the latest technology and techniques, we design treatment protocols specific for conditions involving back, neck, and hip pain to get you back on your feet again.
+
+            </p>
+            </div>
             </Link>
 
           </div>
@@ -91,6 +108,11 @@ const Specialize = () => (
               Sports <br />
               Injuries
             </h4>
+            <div style={{margin: 'auto', padding: '5px 1.5rem', textDecoration: 'none', color: 'black'}}>
+            <p>
+            Our specialists bring the unique perspective of being competitive endurance athletes themselves, having comprehensive knowledge of how best to modify your workouts to maintain your fitness while allowing your body to heal.
+            </p>
+            </div>
             </Link>
           </div>
           </Col>

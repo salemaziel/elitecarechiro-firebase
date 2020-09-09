@@ -97,6 +97,8 @@ const SectionOne = () => (
             <div className={neckStyles.InnerBox}>
               <h2>Relief From Acute and Chronic Neck and Back Pain</h2>
               <div className={neckStyles.InnerText}>
+                <Row>
+                <Col xs={12} lg={6}>
                 <p style={{marginBottom: '0rem'}}>
                   The most common reason people make
                   appointments with chiropractors is for conditions
@@ -112,9 +114,16 @@ const SectionOne = () => (
                   (X-ray, MRI). Once diagnosed, a specific and
                   comprehensive treatment protocol is initiated.
                 </p>
-                <div className="flex-auto justify-content-center" style={{padding: '25px'}}>
-                  <img src={BackPain} style={{border: '1px white', borderRadius: '50%', margin: 'auto', width: '40%'}} />
+                </Col>
+                <Col >
+                <div className="flex-auto justify-content-center" style={{marginLeft: '2rem'}}>
+                  <img src={BackPain} style={{border: '1px white', borderRadius: '50%', margin: 'auto', width: '70%'}} />
                 </div>
+                </Col>
+                </Row>
+                <br />
+                <Row>
+                  <Col xs={12}>
                 <p style={{marginBottom: '3rem'}}>
                   At Elite Care, we pride ourselves in addressing
                   every component of the injury. Utilizing the latest
@@ -127,8 +136,8 @@ const SectionOne = () => (
                   stretching and rehabilitative exercise to prevent
                   the injury from returning.
                 </p>
-
-
+                </Col>
+                </Row>
                 {/*Two Column*/}
               </div>
               {/*<div className={neckStyles.ServicesTopImage}>
@@ -142,6 +151,7 @@ const SectionOne = () => (
               <div className={neckStyles.InnerText}>
   
                 <div className={neckStyles.ColumnTwo}>
+                  <Row>
                   <Col>
                   <div className="img-fluid">
                       <img
@@ -150,8 +160,10 @@ const SectionOne = () => (
                         className="img-fluid"
                       ></img>
                     </div>
+                    </Col>
+                    <Col xs={12} lg={6}>
                     <h2>Why Does It Hurt?</h2>
-                    <p  style={{marginBottom: '3rem'}}>
+                    <p >
                   Disc injuries can happen anywhere in the spine but
                   are most commonly found in the neck or lower back.
                   The intervertebral discs separate and connect the
@@ -160,7 +172,10 @@ const SectionOne = () => (
                   an important part of spinal movement. While disc
                   injuries may be caused by acute trauma, they also
                   may be a result of repetitive overuse or poor
-                  postural mechanics. The intervertabral disc is made
+                  postural mechanics. 
+                  </p>
+                  <p>
+                  The intervertabral disc is made
                   up of a cartilage exterior and a center filled with
                   "gel-like" material. It has a center, called the
                   nucleus pulposis, which acts like a ball bearing
@@ -168,7 +183,8 @@ const SectionOne = () => (
                   this "ball bearing" may slowly or quickly, in the
                   case of acute trauma, shift out of position pushing
                   material in front of it forward which can create a
-                  disc "bulge" or herniation. This bulging material
+                  disc "bulge" or herniation. 
+                  </p><p>This bulging material
                   may create compression of nerves producing radiating
                   pain patterns that emanate from the spine. Having a
                   bulging disc does not necessarily mean surgery!
@@ -178,6 +194,7 @@ const SectionOne = () => (
 
 
                   </Col>
+                  </Row>
                   {/*<Col>
                     <div className="img-fluid">
                       <img

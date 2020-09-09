@@ -115,7 +115,23 @@ const SectionOne = () => (
 
                 {/*Two Column*/}
               </div>
-              <div className={gaitStyles.ServicesTopImage}>
+
+              {/*   <h2>Therapy Details</h2> */}
+              <div className={gaitStyles.InnerText}>
+              <p>
+                  We provide extensive extremely comprehensive gait
+                  evaluations involving how a patient may stand, walk,
+                  and run or ride. Furthermore, the study of shoes is
+                  a big factor involved in our tests including the
+                  need for foot insoles to correct the biomechanics of
+                  a patient’s body. Particularly for cyclists, a
+                  custom insole has proved to be a valuable solution
+                  as it provides a greater contact surface for your
+                  foot with the pedal.{' '}
+                </p>
+              </div>
+            </div>
+            <div className={gaitStyles.ServicesTopImage}>
                 <Row>
                   <Col>
                     <img
@@ -133,21 +149,6 @@ const SectionOne = () => (
                   </Col>
                 </Row>
               </div>
-              {/*   <h2>Therapy Details</h2> */}
-              <div className={gaitStyles.InnerText}>
-              <p>
-                  We provide extensive extremely comprehensive gait
-                  evaluations involving how a patient may stand, walk,
-                  and run or ride. Furthermore, the study of shoes is
-                  a big factor involved in our tests including the
-                  need for foot insoles to correct the biomechanics of
-                  a patient’s body. Particularly for cyclists, a
-                  custom insole has proved to be a valuable solution
-                  as it provides a greater contact surface for your
-                  foot with the pedal.{' '}
-                </p>
-              </div>
-            </div>
           </div>
           {/*   </div> */}
           {/* </div> */}

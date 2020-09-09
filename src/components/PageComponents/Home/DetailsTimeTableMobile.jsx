@@ -20,10 +20,10 @@ const DetailsTimeTableMobile = () => (
           <br />
           <h3>Serving Encinitas, Leucadia, Carlsbad, Rancho Penasquitos, La Jolla, and the Greater San Diego County area</h3>
           <br />
-          <hr style={{color: 'rgba(255,255,255,0.1)', borderColor:'rgba(255,255,255,0.3)' }}/>
+          {/*<hr style={{color: 'rgba(255,255,255,0.1)', borderColor:'rgba(255,255,255,0.3)' }}/>
           <br />
           <h2>Need Help Finding Us?</h2>
-          <h2>Tap the map for directions or give us a call!</h2>
+<h2>Tap the map for directions or give us a call!</h2>*/}
         </div>
       </Row>
     </Container>

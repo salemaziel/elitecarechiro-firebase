@@ -115,15 +115,15 @@ const SectionOne = () => (
                   </p>
                 {/*Two Column*/}
               </div>
-              <div className={physioStyles.ServicesTopImage}>
+              {/*<div className={physioStyles.ServicesTopImage}>
                 <img src={GreenShirtGuy} alt="" className="img-fluid" />
-              </div>
+</div>*/}
               {/*   <h2>Therapy Details</h2> */}
               <div className={physioStyles.InnerText}>
 
                 <div className={physioStyles.ColumnTwo}>
                  
-                  <Col>
+                  {/*<Col>
                     <div className="img-fluid">
                       <img
                         src={WomanOnTrack}
@@ -131,7 +131,7 @@ const SectionOne = () => (
                         className="img-fluid"
                       ></img>
                     </div>
-                  </Col>
+                  </Col>*/}
                 </div>
               </div>
 

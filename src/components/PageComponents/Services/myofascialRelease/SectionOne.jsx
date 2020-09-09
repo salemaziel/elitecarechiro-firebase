@@ -123,9 +123,9 @@ const SectionOne = () => (
                 </p>
                 {/*Two Column*/}
               </div>
-              <div className={myofascialStyles.ServicesTopImage}>
+              {/*<div className={myofascialStyles.ServicesTopImage}>
                 <img src={GreenShirtGuy} alt="" className="img-fluid" />
-              </div>
+          </div>*/}
               {/*   <h2>Therapy Details</h2> */}
               <div className={myofascialStyles.InnerText}>
               {/*Two Column* /} */}
