@@ -26,7 +26,7 @@ const AllTreatments = () => (
           </div>
           <div className="lower-box">
             <h3><Link to="/treatments/motor-vehicle-collisions">Motor Vehicle Collisions</Link></h3>
-            <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
+            <div className="text">Whiplash injuries resulting from rapid acceleration and deceleration of the neck can be painful, and worse, can take a long time to heal if not properly treated. We design specialized treatment plans specific for whiplash-induced pain.</div>
           </div>
         </div>
       </Col>
@@ -39,7 +39,7 @@ const AllTreatments = () => (
           </div>
           <div className="lower-box">
             <h3><Link to="/treatments/neck-and-back-pain">Neck and Back Pain</Link></h3>
-            <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
+            <div className="text">Neck and back pain are the most common reason people make appointments with chiropractors. Utilizing the latest technology and techniques, we design treatment protocols specific for conditions involving back, neck, and hip pain to get you back on your feet again.</div>
           </div>
         </div>
       </Col>
@@ -52,7 +52,7 @@ const AllTreatments = () => (
           </div>
           <div className="lower-box">
             <h3><Link to="/treatments/sports-inuries">Sports Injuries</Link></h3>
-            <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
+            <div className="text">Our specialists bring the unique perspective of being competitive endurance athletes themselves, having comprehensive knowledge of how best to modify your workouts to maintain your fitness while allowing your body to heal.</div>
           </div>
         </div>
       </Col>
