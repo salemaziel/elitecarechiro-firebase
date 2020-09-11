@@ -52,8 +52,8 @@ const Footer2 = () => (
             <ul className={footerStyles.iconBulleted}>
               <h3>Get In Touch</h3>
               <li className={footerStyles.Social}>
-                <a href="mailto:info@elitecarechiropractic.com"><FaEnvelope /></a>
-                  <a href="https://facebook.com"><FaFacebook /></a> 
+                <Link to="/contact" rel="preload"><FaEnvelope /></Link>
+                  <a href="https://facebook.com" rel="noreferrer" ><FaFacebook /></a> 
               </li>
             </ul>
             </div>

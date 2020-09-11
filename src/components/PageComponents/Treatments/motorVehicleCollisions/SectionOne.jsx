@@ -98,20 +98,22 @@ const SectionOne = () => (
               <h2>Motor Vehicle Collision Injury Relief</h2>
               <div className={motorStyles.InnerText}>
                 <p>
-                  It is estimated that as many as 3 million whiplash
-                  injuries occur in the U.S. each year. It is also
-                  estimated that 45% of people with chronic neck pain
-                  can attribute their pain to a past motor vehicle
-                  collision.
+                  Whiplash injuries occur due to rapid acceleration
+                  and deceleration of the body during a collision. The
+                  head often jerks back and forth causing damage to
+                  soft tissues and bones in your neck. The pain of a
+                  motor vehicle collision may take several days to set
+                  in. and may produce neck pain ,headaches, lower back
+                  pain, shoulder pain and jaw pain (TMJ) to name a
+                  few.
                 </p>
                 <p>
-                  Whiplash injuries occur as a result of rapid
-                  acceleration and deceleration of the neck
-                  potentially causing damage to soft tissues and
-                  bones. The effects of a motor vehicle collision can
-                  take days or longer to set in and may produce neck
-                  pain ,headaches, lower back pain, shoulder pain and
-                  jaw pain (TMJ) to name a few.
+                  An estimated 3 million whiplash injuries occur in
+                  the U.S. every year. An estimated 45% of people with
+                  chronic neck pain attribute it to a past motor
+                  vehicle collision. Unfortunately, many whiplash
+                  patients do not receive many treatment options, and
+                  are often advised to just endure the pain.
                 </p>
 
                 {/*Two Column*/}
@@ -125,22 +127,16 @@ const SectionOne = () => (
           </div>*/}
               {/*   <h2>Therapy Details</h2> */}
               <div className={motorStyles.InnerText}>
-              <p>
-                  Effective treatment requires detailed and
-                  comprehensive initial management which includes
-                  specific chiropractic adjustments, physiotherapy,
-                  management of inflammation, recommendations about
-                  activities of daily living and work and home
-                  ergonomics, exercise and home care. It is an
-                  unfortunate truth that many whiplash patients are
-                  not offered much in the way of treatment and are
-                  advised to simply live with the pain.{' '}
+                <p>
+                  Effective treatment requires targeted adjustments,
+                  physiotherapy, and inflammation management. Our
+                  doctors also provide daily life recommendations on
+                  ergonomics, exercise and home care.{' '}
                 </p>
                 {/*  <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
               <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
               {/*Two Column* /} */}
                 <div className={motorStyles.ColumnTwo}>
-
                   {/*<Col>
                     <div className="img-fluid">
                       <img

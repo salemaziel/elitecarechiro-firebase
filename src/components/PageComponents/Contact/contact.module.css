@@ -35,3 +35,16 @@
     color: #0f4573;
     text-align: center;
 }
+
+.email {
+    color: inherit;
+  }
+  .email-on-hover:hover {
+    cursor: pointer;
+    color: #0397d7;
+    text-decoration: underline!important;
+  }
+  
+  .emailLink {
+    composes: email email-on-hover;
+  }

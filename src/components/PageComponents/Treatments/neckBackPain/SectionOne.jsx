@@ -99,7 +99,7 @@ const SectionOne = () => (
               <div className={neckStyles.InnerText}>
                 <Row>
                 <Col xs={12} lg={6}>
-                <p style={{marginBottom: '0rem'}}>
+                {/*<p style={{marginBottom: '0rem'}}>
                   The most common reason people make
                   appointments with chiropractors is for conditions
                   involving pain in their back, neck, and hips. Many
@@ -113,6 +113,9 @@ const SectionOne = () => (
                   assessment and, if indicated, appropriate imaging
                   (X-ray, MRI). Once diagnosed, a specific and
                   comprehensive treatment protocol is initiated.
+          </p>*/}
+                <p>
+                Back, neck, and hip pain are the leading reason people schedule a chiropractor appointment. With good reason; that pain hurts!
                 </p>
                 </Col>
                 <Col >
@@ -124,7 +127,7 @@ const SectionOne = () => (
                 <br />
                 <Row>
                   <Col xs={12}>
-                <p style={{marginBottom: '3rem'}}>
+                {/*<p style={{marginBottom: '3rem'}}>
                   At Elite Care, we pride ourselves in addressing
                   every component of the injury. Utilizing the latest
                   technology and information, we design treatment
@@ -135,6 +138,9 @@ const SectionOne = () => (
                   treatment with appropriate core stabilization,
                   stretching and rehabilitative exercise to prevent
                   the injury from returning.
+          </p>*/}
+                <p>
+                Disc injuries can happen anywhere in the spine but are most commonly found in the neck or lower back. The intervertebral discs separate and connect the vertebrae of the spine to form the spinal column. They act like "shock absorbers" to the spine and are an important part of spinal movement. While disc injuries may be caused by acute trauma, they also may be a result of repetitive overuse or poor postural mechanics.
                 </p>
                 </Col>
                 </Row>
@@ -163,7 +169,7 @@ const SectionOne = () => (
                     </Col>
                     <Col xs={12} lg={6}>
                     <h2>Why Does It Hurt?</h2>
-                    <p >
+                    {/*<p >
                   Disc injuries can happen anywhere in the spine but
                   are most commonly found in the neck or lower back.
                   The intervertebral discs separate and connect the
@@ -184,12 +190,28 @@ const SectionOne = () => (
                   case of acute trauma, shift out of position pushing
                   material in front of it forward which can create a
                   disc "bulge" or herniation. 
-                  </p><p>This bulging material
+                  </p>
+                  <p>This bulging material
                   may create compression of nerves producing radiating
                   pain patterns that emanate from the spine. Having a
                   bulging disc does not necessarily mean surgery!
                   Specific treatment, stretching and exercise can
                   often provide relief for disc related conditions.
+                </p>*/}
+
+                <p>
+                The intervertabral disc is made up of a cartilage exterior and a center filled with "gel-like" material. It has a center, called the nucleus pulposis, which acts like a ball bearingthat the spinal segments pivot on. Through injury, this "ball bearing" may shift out of position, pushing material in front of it forward creating a disc "bulge" or herniation. This bulging material may create compression of nerves producing radiating pain patterns that emanate from the spine. Having a bulging disc does not necessarily mean surgery! Specific treatment, stretching and exercise can often provide relief for disc related conditions.
+                </p>
+                <p>
+                Many people try to deal with that pain with drugs to cover up the problem (ibuprofen, aspirin, etc). While this approach may help in dealing with the painful symptoms, they do not correct the problem's underlying cause.
+                </p>
+                <p>
+                At Elite Care, we pride ourselves in addressing every component of the injury. Utilizing the latest technology and information, we design treatment protocols specific for your condition. 
+ Identifying that cause of is done by a complete examination, including orthopedic, neurologic, postural assessment and, if indicated, appropriate imaging (X-ray, MRI). 
+                </p>
+
+                <p>
+                Once diagnosed, we initiate a specific and comprehensive treatment protocol. We administer specific chiropractic adjustments and physiotherapy to improve body function and reduce pain and inflammation. Follow up treatment includes appropriate core stabilization, stretching, and rehabilitative exercise to prevent past injuries from returning.
                 </p>
 
 

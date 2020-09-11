@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import ContactForm from './contactform';
 
@@ -17,6 +17,40 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 */
 import { FaFacebook } from 'react-icons/fa';
+
+class CopyEmail extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      copySuccess: false
+    }
+  }
+
+
+
+  render() {
+    return (
+      <div>
+        <div>
+          <a
+            /*ref={(textarea) => this.emailLink = a}*/
+            onClick={() => {navigator.clipboard.writeText("info@elitecarechiropractic.com")}}
+            className={contactStyle.emailLink}
+          >
+            info@elitecarechiropractic.com
+            </a>
+            {
+            this.state.copySuccess ?
+            <div style={{"color": "green"}}>
+              Success!
+            </div> : null
+          }
+        </div>
+      </div>
+    )
+  }
+}
 
 const ContactPage = () => (
   <>
@@ -39,9 +73,10 @@ const ContactPage = () => (
                                                 <p className="mb-2"><a href="tel:#">760-555-5555</a></p>**/}
                 <h4 className="mb-2">Email</h4>
                 <p className="mb-2">
-                  <a href="mailto:info@elitecarechiropractic.com">
+                  {/*<a href="mailto:info@elitecarechiropractic.com">
                     info@elitecarechiropractic.com
-                  </a>
+                                              </a>*/}
+                                              <CopyEmail />
                 </p>
                 <h4 className="mb-2">Phone</h4>
                 <p className="mb-2">
