@@ -15,7 +15,7 @@ import NavItem from 'react-bootstrap/NavItem';
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import CalendlyButton from '../../../CalendlyButton';
+import BookOnlineButton from '../../../BookOnlineButton';
 
 
 import mynavStyles from '../../../nav.module.css'
@@ -228,7 +228,7 @@ import mynavStyles from '../../../nav.module.css'
                     Book Online
                   </Button>
                   */}
-                  <CalendlyButton />
+                  <BookOnlineButton />
                   {/*<ScheduleModal />*/}
                 </Nav>
               </div>
@@ -295,7 +295,7 @@ import mynavStyles from '../../../nav.module.css'
               >
                 Services &#38; Treatments
               </Link>,
-              <CalendlyButton />,
+              <BookOnlineButton />,
             ]}
             itemStyle={{
               background: 'transparent!important',

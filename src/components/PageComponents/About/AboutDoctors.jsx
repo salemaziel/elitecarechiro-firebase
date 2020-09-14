@@ -15,8 +15,8 @@ import { openPopupWidget } from 'react-calendly';
 
 
 const AboutDoctors = ({ url }) => {
-  const onClickJanelli = () => openPopupWidget({ url:"https://calendly.com/elite-care-chiropractic" });
-  const onClickRich = () => openPopupWidget({ url:"https://calendly.com/elite-care-chiropractic" });
+  const onClickSchedule = () => openPopupWidget({ url:"https://form.jotform.com/202576816787167" });
+
 
   return(
   <section className={aboutStyles.MeetDoctorSection}> 
@@ -53,7 +53,7 @@ const AboutDoctors = ({ url }) => {
               running races she has competed in since 1980.
             </p>
             <div style={{justifyContent: 'center', margin:'auto', display: 'flex'}}>
-            <Button /*as={Link} to="/book-online"*/ onClick={onClickJanelli} className="blue-btns">
+            <Button /*as={Link} to="/book-online"*/ onClick={onClickSchedule} className="blue-btns">
             Schedule with Dr. Janelli
           </Button>
           </div>
@@ -84,7 +84,7 @@ const AboutDoctors = ({ url }) => {
               He is a certified practitioner of several adjusting techniques as well as Active Release Technique (ART) and Applied Kinesiology. He brings a strong analytical and compassionate focus to his approach in treating spinal and extremity related injuries. Dr Rich is an avid trail runner who enjoys racing at the marathon and 50k distances. He also is a skilled guitarist.
             </p>
             <div style={{justifyContent: 'center', margin:'auto', display: 'flex'}}>
-            <Button /*as={Link} to="/book-online"*/ onClick={onClickRich} className="blue-btns">
+            <Button /*as={Link} to="/book-online"*/ onClick={onClickSchedule} className="blue-btns">
             Schedule with Dr. Rich
           </Button>
           </div>

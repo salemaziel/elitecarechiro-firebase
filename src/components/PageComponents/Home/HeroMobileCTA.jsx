@@ -40,7 +40,7 @@ const HeroMobileCTA = ({ url }) => {
   const onClick = () =>
     openPopupWidget({
       url:
-        'https://calendly.com/elite-care-chiropractic/30min-appointment',
+        'https://form.jotform.com/202576816787167',
     });
 
   return (
@@ -109,11 +109,16 @@ const HeroMobileCTA = ({ url }) => {
             buttonColor="success"
             size="lg"
             className={mobileCTAStyles.containLocation}
-            buttonOnClick={onClick}
+            /*buttonOnClick={onClick}*/
             buttonText={[
+              
+                <a href="https://www.google.com/maps/dir//Elite+Care+Chiropractic+Center,+317+N+El+Camino+Real,+Encinitas,+CA+92024/@33.0544518,-117.2608602,16z/data=!4m6!4m5!1m0!1m2!1m1!1s0x80dc0b8f3b4d3e35:0x8acc9cf120956245!3e0" rel="nofollow">
+                  {/*<a
+              href="hhttps://www.google.com/maps/place/Elite+Care+Chiropractic+Center,+317+N+El+Camino+Real,+Encinitas,+CA+92024/@33.0544518,-117.2608602,16z/data=!4m2!3m1!1s0x80dc0b8f3b4d3e35:0x8acc9cf120956245" rel="nofollow">*/}
               <MdLocationOn
                 className={heromobileCTAStyles.CTACalendar}
-              />,
+              />
+              </a>,
             ]}
           ></CTAButtons>
         </Col>

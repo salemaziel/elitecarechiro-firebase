@@ -7,7 +7,7 @@ import footerStyle from './footer.module.css'
 
 import { LogoLG } from '../images/index'
 
-import CalendlyButton from './CalendlyButton'
+import BookOnlineButton from './BookOnlineButton'
 
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 /*import {
@@ -146,7 +146,7 @@ const Footer = () => (
                       >
                         Book Online
                       </a>*/}
-                      <CalendlyButton />
+                      <BookOnlineButton />
                     </li>
                   </ul>
                 </Col>

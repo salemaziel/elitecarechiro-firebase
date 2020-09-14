@@ -1,14 +1,15 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import ContactForm from './contactform';
 
 import contactStyle from './contact.module.css';
 import Banner from '../../banner';
 //import SectionOne from '../Book/SectionOne';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
+import JotformEmbed from 'react-jotform-embed';
 
 /*import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -20,14 +21,12 @@ import { FaFacebook } from 'react-icons/fa';
 
 class CopyEmail extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
-      copySuccess: false
-    }
+      copySuccess: false,
+    };
   }
-
-
 
   render() {
     return (
@@ -35,20 +34,21 @@ class CopyEmail extends Component {
         <div>
           <a
             /*ref={(textarea) => this.emailLink = a}*/
-            onClick={() => {navigator.clipboard.writeText("info@elitecarechiropractic.com")}}
+            onClick={() => {
+              navigator.clipboard.writeText(
+                'info@elitecarechiropractic.com',
+              );
+            }}
             className={contactStyle.emailLink}
           >
             info@elitecarechiropractic.com
-            </a>
-            {
-            this.state.copySuccess ?
-            <div style={{"color": "green"}}>
-              Success!
-            </div> : null
-          }
+          </a>
+          {this.state.copySuccess ? (
+            <div style={{ color: 'green' }}>Success!</div>
+          ) : null}
         </div>
       </div>
-    )
+    );
   }
 }
 
@@ -61,11 +61,14 @@ const ContactPage = () => (
           className="pb-5 mb-5"
           style={{ display: 'flex', flexWrap: 'wrap' }}
         >
-          <h1 className={contactStyle.Title}>Got A Question? Get In Touch :)</h1>
+          <h1 className={contactStyle.Title}>
+            Got A Question? Get In Touch :)
+          </h1>
           <div className="col-12 col-md-8">
             <ContactForm />
             {/* End Form */}
           </div>
+          
           <div className="col-12 col-md-4 mb-5 mb-md-0 mt-5 mt-md-0">
             <aside className="pb-md-5">
               <div className={contactStyle.ContactInfo}>
@@ -76,7 +79,7 @@ const ContactPage = () => (
                   {/*<a href="mailto:info@elitecarechiropractic.com">
                     info@elitecarechiropractic.com
                                               </a>*/}
-                                              <CopyEmail />
+                  <CopyEmail />
                 </p>
                 <h4 className="mb-2">Phone</h4>
                 <p className="mb-2">
@@ -102,15 +105,15 @@ const ContactPage = () => (
             </aside>
           </div>
         </Row>
-
       </Container>
     </section>
-    {/*<section id="background">
+    <section id="background" style={{ minHeight: '800px' }}>
       <Container>
-        <h1>Book Your Appointment Online Now!</h1>
+        <h1>Book Your Appointment Online</h1>
+        <JotformEmbed src="https://form.jotform.com/202576816787167" />
       </Container>
     </section>
-    <SectionOne />*/}
+    {/*<SectionOne />*/}
   </>
 );
 

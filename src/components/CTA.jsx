@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import { Link } from 'gatsby'
 
 import ctaStyles from "./cta.module.css";
-import CalendlyButton from './CalendlyButton'
+import BookOnlineButton from './BookOnlineButton'
 
 
 const CTA = () => (
@@ -25,7 +25,7 @@ const CTA = () => (
         >
           Book Online
         </Button>*/}
-        <CalendlyButton />
+        <BookOnlineButton />
       </div>
     </div>
   </section>

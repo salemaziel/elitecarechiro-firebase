@@ -11,7 +11,7 @@ import NavItem from 'react-bootstrap/NavItem';
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import CalendlyButton from '../../../CalendlyButton';
+import BookOnlineButton from '../../../BookOnlineButton';
 
 import mynavStyles from '../../../nav.module.css';
 //const NavigationAuth = (props) => {

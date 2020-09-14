@@ -14,7 +14,7 @@ import NavItem from 'react-bootstrap/NavItem';
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import CalendlyButton from './CalendlyButton';
+import BookOnlineButton from './BookOnlineButton';
 
 import Coronadiv from './Coronadiv';
 
@@ -223,7 +223,7 @@ class NavBar extends React.Component {
                   Book Online
                 </Button>
                 */}
-                <CalendlyButton />
+                <BookOnlineButton />
                 {/*<ScheduleModal />*/}
               </Nav>
             </div>
@@ -290,7 +290,7 @@ class NavBar extends React.Component {
             >
               Services &#38; Treatments
             </Link>,
-            <CalendlyButton />,
+            <BookOnlineButton />,
           ]}
           itemStyle={{
             background: 'transparent!important',

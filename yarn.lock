@@ -12603,6 +12603,11 @@ react-jitsi@^1.0.4:
   resolved "https://registry.yarnpkg.com/react-jitsi/-/react-jitsi-1.0.4.tgz#2aa4a0010a07818808eea357bb2ac66cfd38aa77"
   integrity sha512-7Q4cmjxNNvoPOuTWT/AcDhHRr+K74BqYitiNcKo2D3nQH9ozDIec+yT7KiPlAPR/U2XW5tD/nc9L3uZMkZXTFA==
 
+react-jotform-embed@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-jotform-embed/-/react-jotform-embed-1.0.4.tgz#ce9aec9f62fbaa22d74a8fcb8842ab2dda77602d"
+  integrity sha512-gOpor26L/QNr76t0oYCoXPMYWTyoJj1Qt1EVGwN51zS5au4Y6WlugJX+ok7vIQM4S9LMG6Z3sxwfAKshGW2A1w==
+
 react-lifecycles-compat@^3.0.2, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"

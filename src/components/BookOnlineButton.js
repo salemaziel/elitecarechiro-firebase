@@ -6,9 +6,9 @@ import calendlystyle from './nav.module.css'
 
 //const CalendlyButton = ({ url, prefill, pageSettings, utm }) => {
 //  const onClick = () => openPopupWidget({ url, prefill, pageSettings, utm });
-const CalendlyButton = ({ url }) => {
-    const onClick = () => openPopupWidget({ url:"https://calendly.com/elitecarechiropractic/30-minute-appointment" });
+const BookOnlineButton = ({ url }) => {
+    const onClick = () => openPopupWidget({ url:"https://form.jotform.com/202576816787167" });
   return <Button onClick={onClick} /*className={calendlystyle.NavBook}*/ className="blue-btns btn btn-primary" url={url} >Book Online</Button>
 }
 
-export default CalendlyButton
+export default BookOnlineButton
