@@ -16,7 +16,7 @@ import NavItem from 'react-bootstrap/NavItem';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import BookOnlineButton from '../../../BookOnlineButton';
-
+//import CalendlyButton from '../../../CalendlyButton'
 
 import mynavStyles from '../../../nav.module.css'
 
@@ -218,18 +218,9 @@ import mynavStyles from '../../../nav.module.css'
                   </NavItem>*/}
                 </Nav>
                 <Nav className="ml-auto">
-                  {/*
-                  <Button
-                    as={Link}
-                    to="/book-online"
-                    className={mynavStyles.NavBook}
-                    /*data-appointlet-organization="elite-care-chiropractic"* /
-                  >
-                    Book Online
-                  </Button>
-                  */}
+
                   <BookOnlineButton />
-                  {/*<ScheduleModal />*/}
+                  
                 </Nav>
               </div>
             </Container>

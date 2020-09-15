@@ -77,8 +77,8 @@ const SectionOne = () => (
             <div className={neckStyles.ListWidget}>
               <ul>
                 <li>
-                  <FaPhoneAlt />
-                  1-760-710-1901
+                  
+                  760-710-1901
                 </li>
                 <li>
                   <span

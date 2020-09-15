@@ -16,7 +16,7 @@ import {
   FaComments,
   FaCalendarAlt,
   FaMapMarkerAlt,
-  FaMapMarkedAlt
+  FaMapMarkedAlt,
 } from 'react-icons/fa';
 
 import {
@@ -25,9 +25,8 @@ import {
   MdLocationOn,
   MdEvent,
   MdEventAvailable,
-  MdQuestionAnswer
-
-} from 'react-icons/md'
+  MdQuestionAnswer,
+} from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'gatsby';
 
@@ -42,6 +41,12 @@ const HeroMobileCTA = ({ url }) => {
       url:
         'https://form.jotform.com/202576816787167',
     });
+//const HeroMobileCTA = ({ url }) => {
+//  const onClick = () =>
+//    openPopupWidget({
+//      url:
+//        'https://calendly.com/elitecarechiropractic/30-minute-appointment',
+//    });
 
   return (
     <section>
@@ -65,7 +70,7 @@ const HeroMobileCTA = ({ url }) => {
             className={mobileCTAStyles.containCall}
             buttonText={[
               <a
-                href="tel:1-760-710-1901"
+                href="tel:760-710-1901"
                 className={heromobileCTAStyles.CTALink}
               >
                 <FaPhoneAlt className={heromobileCTAStyles.CTACall} />
@@ -80,7 +85,7 @@ const HeroMobileCTA = ({ url }) => {
             className={mobileCTAStyles.containMessage}
             buttonText={[
               <a
-                href="sms:1-760-710-1901"
+                href="sms:760-710-1901"
                 className={heromobileCTAStyles.CTALink}
               >
                 <FaComments
@@ -111,13 +116,15 @@ const HeroMobileCTA = ({ url }) => {
             className={mobileCTAStyles.containLocation}
             /*buttonOnClick={onClick}*/
             buttonText={[
-              
-                <a href="https://www.google.com/maps/dir//Elite+Care+Chiropractic+Center,+317+N+El+Camino+Real,+Encinitas,+CA+92024/@33.0544518,-117.2608602,16z/data=!4m6!4m5!1m0!1m2!1m1!1s0x80dc0b8f3b4d3e35:0x8acc9cf120956245!3e0" rel="nofollow">
-                  {/*<a
+              <a
+                href="https://www.google.com/maps/dir//Elite+Care+Chiropractic+Center,+317+N+El+Camino+Real,+Encinitas,+CA+92024/@33.0544518,-117.2608602,16z/data=!4m6!4m5!1m0!1m2!1m1!1s0x80dc0b8f3b4d3e35:0x8acc9cf120956245!3e0"
+                rel="nofollow"
+              >
+                {/*<a
               href="hhttps://www.google.com/maps/place/Elite+Care+Chiropractic+Center,+317+N+El+Camino+Real,+Encinitas,+CA+92024/@33.0544518,-117.2608602,16z/data=!4m2!3m1!1s0x80dc0b8f3b4d3e35:0x8acc9cf120956245" rel="nofollow">*/}
-              <MdLocationOn
-                className={heromobileCTAStyles.CTACalendar}
-              />
+                <MdLocationOn
+                  className={heromobileCTAStyles.CTACalendar}
+                />
               </a>,
             ]}
           ></CTAButtons>

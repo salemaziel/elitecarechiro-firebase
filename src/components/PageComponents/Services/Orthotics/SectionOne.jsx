@@ -69,7 +69,7 @@ const SectionOne = () => (
                     className="icon fa fa-phone"
                     style={{ fontSize: '16px' }}
                   />{' '}
-                  1-760-710-1901
+                  760-710-1901
                 </li>
                 <li>
                   <span

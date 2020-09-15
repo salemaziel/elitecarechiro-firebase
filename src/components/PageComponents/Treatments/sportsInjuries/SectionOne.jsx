@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import {
   WomanOnTrack,
   GreenShirtGuy,
+  RunningTrail
 } from '../../../../images/index';
 
 import sportStyles from '../treatment.module.css';
@@ -68,7 +69,7 @@ const SectionOne = () => (
                     className="icon fa fa-phone"
                     style={{ fontSize: '16px' }}
                   />{' '}
-                  1-760-710-1901
+                  760-710-1901
                 </li>
                 <li>
                   <span
@@ -123,7 +124,7 @@ const SectionOne = () => (
               </div>
               <div className={sportStyles.ServicesTopImage}>
                 <img
-                  src={GreenShirtGuy}
+                  src={RunningTrail}
                   alt=""
                   className="img-fluid"
                 />
@@ -173,7 +174,7 @@ const SectionOne = () => (
                   schemas.{' '}
                 </p>
 
-                <div className={sportStyles.ColumnTwo}>
+                {/*<div className={sportStyles.ColumnTwo}>
                   
                   <Col>
                     <div className="img-fluid">
@@ -184,7 +185,7 @@ const SectionOne = () => (
                       ></img>
                     </div>
                   </Col>
-                </div>
+                </div>*/}
               </div>
 
               {/*<div className="column col-lg-4 col-md-12 col-sm-12 col-xs-12">

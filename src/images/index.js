@@ -29,6 +29,7 @@ export const GaitMan1 = require('./fromold/gait_man_1a.jpg')
 export const GaitGirl1 = require('./fromold/gait_girl_1b.jpg')
 export const GirlWalking = require('./fromold/girl_walking.jpg')
 export const PurpleExercise = require('./fromold/purple_exercise_1.jpg')
+export const RunningTrail = require('./running-trail.jpg')
 
 
 

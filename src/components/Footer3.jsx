@@ -32,7 +32,7 @@ const Footer3 = () => (
               <div className="widget-content">
                 <ul>
                   <li>
-                    <a href="tel:1-760-710-1901">760 710-1901</a>
+                    <a href="tel:760-710-1901">760 710-1901</a>
                   </li>
                   <li>
                     {" "}

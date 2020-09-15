@@ -16,7 +16,7 @@ import { openPopupWidget } from 'react-calendly';
 
 const AboutDoctors = ({ url }) => {
   const onClickSchedule = () => openPopupWidget({ url:"https://form.jotform.com/202576816787167" });
-
+//  const onClickSchedule = () => openPopupWidget({ url:"https://calendly.com/elitecarechiropractic/30-minute-appointment" });
 
   return(
   <section className={aboutStyles.MeetDoctorSection}> 
