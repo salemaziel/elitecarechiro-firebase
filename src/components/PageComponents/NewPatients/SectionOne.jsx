@@ -3,6 +3,24 @@ import NewPatientsPDF from "../../../../static/new-patient-forms.pdf";
 import Container from "react-bootstrap/Container";
 import newpatientStyles from "./newpatients.module.css";
 import "./newpatients.css";
+import {
+  FaPhoneAlt,
+  FaComments,
+  FaCalendarAlt,
+  FaMapMarkerAlt,
+  FaMapMarkedAlt,
+  FaEnvelope
+} from 'react-icons/fa';
+
+import {
+  MdCall,
+  MdChat,
+  MdLocationOn,
+  MdEvent,
+  MdEventAvailable,
+  MdQuestionAnswer,
+  MdMessage,
+} from 'react-icons/md';
 
 import HipaaNotice from '../../../../static/notice_of_privacy_practices.pdf'
 
@@ -73,18 +91,28 @@ const SectionOne = () => (
         <div className="info-column col-lg-3 col-md-4 col-sm-8 col-xs-12">
           <div className={newpatientStyles.PatientBox}>
             <div className={newpatientStyles.InnerBox}>
-              <h2>New patient</h2>
-              <h3>Special Offer</h3>
-              <div className={newpatientStyles.InnerBoxText}>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                consectetur, adipisci velit, sed quia non.
-              </div>
-              <a href="#" className={newpatientStyles.ColumnButton}>
-                Click here
+            <h2>Contact Info</h2>
+          <hr style={{width: '50%'}} />
+          <ul className={newpatientStyles.OfferList}>
+          <li>
+              <a href="tel:760-710-1901">{" "}
+              <h4><MdCall /> 760 710-1901</h4></a>
+            </li>
+            <li>
+              <a href="tel:760-710-1901">{" "}
+              <h4><MdMessage /> 760 710-1901</h4></a>
+            </li>
+            <li>
+              <a href="https://www.google.com/maps/place/Elite+Care+Chiropractic+Center/@33.054452,-117.26086,16z/data=!4m5!3m4!1s0x0:0x8acc9cf120956245!8m2!3d33.0544518!4d-117.2608602?hl=en-US">
+                {" "}
+                <h4><MdLocationOn />317 N El Camino Real <br /> Encinitas, CA 92024</h4> 
               </a>
+            </li>
+
+          </ul>
             </div>
           </div>
-          <h4>Contact Info</h4>
+          {/*<h4>Contact Info</h4>
           <hr style={{width: '50%'}} />
           <ul className={newpatientStyles.OfferList}>
           <li>
@@ -104,7 +132,7 @@ const SectionOne = () => (
                 info@elitecarechiropractic.com
               </a>
             </li>
-          </ul>
+          </ul>*/}
         </div>
       </div>
     </Container>

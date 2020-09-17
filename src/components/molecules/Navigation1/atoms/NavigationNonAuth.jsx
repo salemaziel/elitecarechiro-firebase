@@ -218,8 +218,17 @@ import mynavStyles from '../../../nav.module.css'
                   </NavItem>*/}
                 </Nav>
                 <Nav className="ml-auto">
+                <NavItem>
+                <Button
+                  as={Link}
+                  to="/contact"
+                  className="blue-btns btn btn-primary"
+                >
+                  Book Online
+                </Button>
+                  </NavItem>
 
-                  <BookOnlineButton />
+                  {/*<BookOnlineButton />*/}
                   
                 </Nav>
               </div>

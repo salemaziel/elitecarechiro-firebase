@@ -70,7 +70,7 @@ const HeroMobileCTA = ({ url }) => {
             className={mobileCTAStyles.containCall}
             buttonText={[
               <a
-                href="tel:760-710-1901"
+                href="tel:760-634-3701"
                 className={heromobileCTAStyles.CTALink}
               >
                 <FaPhoneAlt className={heromobileCTAStyles.CTACall} />
@@ -100,11 +100,13 @@ const HeroMobileCTA = ({ url }) => {
             buttonColor="success"
             size="lg"
             className={mobileCTAStyles.containCalendar}
-            buttonOnClick={onClick}
+            /*buttonOnClick={onClick}*/
             buttonText={[
+              <Link to="/contact">
               <FaCalendarAlt
                 className={heromobileCTAStyles.CTACalendar}
-              />,
+              />
+              </Link>,
             ]}
           ></CTAButtons>
         </Col>

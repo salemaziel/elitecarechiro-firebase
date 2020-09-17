@@ -79,12 +79,13 @@
 .InnerBox {
     position:relative;
 	padding:45px 25px;
+	text-align: justify;
 }
 
 .InnerBox h2 {
     position:relative;
 	color:#ffffff;
-	font-size:32px;
+	font-size:2rem;
 	font-weight:700;
 	line-height:1.2em;
 	margin-bottom:8px;
@@ -93,7 +94,16 @@
 .InnerBox h3{
 	position:relative;
 	color:#ffffff;
-	font-size:26px;
+	font-size:1.6rem;
+	line-height:1.2em;
+	padding-bottom:20px;
+	margin-bottom:18px;
+}
+
+.InnerBox h4{
+	position:relative;
+	color:#ffffff;
+	font-size:1.3rem;
 	line-height:1.2em;
 	padding-bottom:20px;
 	margin-bottom:18px;
