@@ -3,22 +3,11 @@ import NewPatientsPDF from "../../../../static/new-patient-forms.pdf";
 import Container from "react-bootstrap/Container";
 import newpatientStyles from "./newpatients.module.css";
 import "./newpatients.css";
-import {
-  FaPhoneAlt,
-  FaComments,
-  FaCalendarAlt,
-  FaMapMarkerAlt,
-  FaMapMarkedAlt,
-  FaEnvelope
-} from 'react-icons/fa';
+
 
 import {
   MdCall,
-  MdChat,
   MdLocationOn,
-  MdEvent,
-  MdEventAvailable,
-  MdQuestionAnswer,
   MdMessage,
 } from 'react-icons/md';
 

@@ -7,7 +7,7 @@ import {
   withEmailVerification,
 } from '../utils/Session';
 import VideoChatPage from '../components/scenes/VideoChat/VideoChatPage';
-import Navigation1 from '../components/molecules/Navigation1/Navigation1'
+import Navigation from '../components/molecules/Navigation/Navigation'
 
 const condition = authUser => !!authUser;
 const TeleHealth = compose(
@@ -18,7 +18,7 @@ const TeleHealth = compose(
 export default () => {
   return (
     <Layout hideNav hideCTA>
-      <Navigation1 />
+      <Navigation />
       <TeleHealth />
     </Layout>
   );

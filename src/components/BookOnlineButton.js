@@ -2,7 +2,6 @@ import React from 'react'
 import { openPopupWidget } from 'react-calendly';
 import Button from 'react-bootstrap/Button'
 
-import calendlystyle from './nav.module.css'
 
 //const CalendlyButton = ({ url, prefill, pageSettings, utm }) => {
 //  const onClick = () => openPopupWidget({ url, prefill, pageSettings, utm });

@@ -1,77 +1,169 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import { LANDING, HOME, ACCOUNT } from '../../../../constants/routes';
+import React, { useState } from 'react';
+import { Link, navigateTo } from 'gatsby';
+//import { LANDING, HOME, ACCOUNT } from '../../../../constants/routes';
 import SignOutButton from './SignOutButton';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+//import Button from 'react-bootstrap/Button';
+import SideNav, { MenuIcon } from 'react-simple-sidenav';
+//import NavItem from 'react-bootstrap/NavItem';
 
-const NavigationAuth = () => (
-  <Navbar>
-    {/*<div className="navbar__inner">
-      <div className="navbar__left">*/}
-        <div className="navbar__logo">
-          <Navbar.Brand as={Link} to="/">
-          {/*<Link to={LANDING}>*/}
-            <img
-              src="https://res.cloudinary.com/dexdumfqy/image/upload/v1585549217/elite-care-chiropractic/logo_1_mgsyvm.png"
-              alt="logo"
-              width={100}
-            />
-          {/*</Link>*/}
-          </Navbar.Brand>
-        </div>
-        <Nav>
-        <div className="navbar__links">
-          <div className="navbar__link">
-            <Nav.Item>
-            <Nav.Link as={Link} to={LANDING}>Back to Website</Nav.Link>
-            </Nav.Item>
-          </div>
-          {/*<div className="navbar__link">
-            <Link to={HOME}>Home</Link>
-    </div>*/}
-          <div className="navbar__link">
-          <Nav.Item>
-            <Nav.Link as={Link} to={ACCOUNT}>Account Settings</Nav.Link>
-            </Nav.Item>
-          </div>
-          {/*<div className="navbar__link navbar__link--github">
-            <span className="navbar__link--github__a">
-              Created By{' '}
-              <a href="https://github.com/ovidiumihaibelciug">
-                Ovidiu Mihai Belciug
-              </a>
-            </span>
-            <div>
-              <iframe
-                src="https://ghbtns.com/github-btn.html?user=ovidiumihaibelciug&type=follow&count=true"
-                frameborder="0"
-                scrolling="0"
-                width="170px"
-                height="20px"
-              />
-            </div>
-            <div>
-              <iframe
-                src="https://ghbtns.com/github-btn.html?user=ovidiumihaibelciug&repo=gatsby-firebase-starter&type=star&count=true"
-                frameborder="0"
-                scrolling="0"
-                width="170px"
-                height="20px"
-              />
-            </div>
-          </div>*/}
-        </div>
-        </Nav>
-      {/*</div>*/}
+import {
+  LogoSM
+} from '../../../../images/index'
 
-      <div className="navbar__user">
-        <div className="navbar__item">
-          <SignOutButton />
+//import NavDropdown from 'react-bootstrap/NavDropdown';
+
+//import BookOnlineButton from '../../../BookOnlineButton';
+
+import authnavStyles from './nav.module.css';
+//const NavigationAuth = (props) => {
+//    const [showNav, setShowNav] = useState();
+
+//    return (
+class NavigationAuth extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      showNav: false,
+      title: '',
+      items: '',
+      openFromRight: '',
+    };
+  }
+  render() {
+    return (
+      <>
+        <div className="coronadiv NoMobile">
+          <span
+            style={{
+              fontWeight: '700',
+              fontSize: '16px',
+            }}
+          >
+            WE ARE OPEN{' '}
+          </span>{' '}
+          - Learn more about Elite Care Chiropractic's response to
+          COVID-19 by contacting us{' '}
+          <Link
+            to="/contact"
+            style={{
+              textDecoration: 'underline',
+              cursor: 'pointer',
+              color: 'white',
+              fontWeight: '700',
+            }}
+          >
+            {' '}
+            HERE
+          </Link>
         </div>
-      </div>
-   {/* </div>*/}
-  </Navbar>
-);
+        <Navbar
+          bg="white"
+          variant="light"
+          expand="lg"
+          /*fixed="top"*/ style={{
+            position: 'sticky',
+            top: '0px',
+            right: '0',
+            left: '0',
+            zIndex: '5',
+            border: '1px solid',
+            borderColor: 'rgba(0,0,0,0.05)',
+            borderRadius: '5px',
+          }}
+        >
+          <Container>
+            <Navbar.Brand as={Link} to="/">
+              <img
+                src={LogoSM}
+                alt="Elite Care Chiropractic Logo"
+                className={authnavStyles.Logo}
+              />
+            </Navbar.Brand>
+            <Nav className="mr-1" id="">
+              <MenuIcon
+                aria-controls="basic-navbar-nav"
+                onClick={() => this.setState({ showNav: true })}
+                style={{
+                  width: '50px',
+                  height: '50px',
+                  color: '#0397d7',
+                  fill: '#0397d7',
+                }}
+              />
+            </Nav>
+          </Container>
+        </Navbar>
+        <SideNav
+          openFromRight={true}
+          title={
+            <div
+              style={{
+                justifyContent: 'center',
+                alignContent: 'center',
+                alignItems: 'center',
+              }}
+            ></div>
+          }
+          titleStyle={{
+            background: 'inherit',
+            backgroundColor: 'transparent',
+            color: 'black',
+            margin: 'auto',
+          }}
+          items={[
+            <Link rel="preload" className="signout-btn" to="/home">
+              My Account
+            </Link>,
+            <Link rel="preload" className="signout-btn" to="/account">
+              Account Settings
+            </Link>,
+
+            <Link rel="preload" className="signout-btn" to="/contact">
+              Contact Us
+            </Link>,
+            <Link
+              rel="preload"
+              className="signout-btn"
+              to="/patients/new-patients"
+            >
+              Patient Forms
+            </Link>,
+            <Link
+              rel="preload"
+              className="signout-btn"
+              to="/telehealth"
+            >
+              TeleHealth
+            </Link>,
+
+            <SignOutButton />,
+          ]}
+          itemStyle={{
+            background: 'rgba(3,151,215,0.1)',
+            backgroundColor: 'rgba(3,151,215,0.1)',
+            color: '#fff',
+            fontSize: '2rem',
+            padding: '10px 0',
+            textAlign: 'center',
+            margin: '1rem auto',
+          }}
+          navStyle={{
+            width: '70%',
+            background: 'rgba(3,151,215,0.9)',
+            backgroundColor: 'rgba(3,151,215,0.9)',
+            color: 'white!important',
+            maxHeight: '100vh',
+          }}
+          showNav={this.state.showNav}
+          onHideNav={() => this.setState({ showNav: false })}
+        />
+      </>
+    );
+  }
+}
 
 export default NavigationAuth;

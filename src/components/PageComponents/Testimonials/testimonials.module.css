@@ -1,0 +1,40 @@
+.TestimonialSection {
+	position:relative;
+	padding:90px 0px 60px;
+}
+
+.ContentColumn {
+    position: relative;
+}
+
+.InnerColumn {
+    position: relative;
+}
+
+.Title {
+    position:relative;
+    margin-bottom:15px;
+    color: #0397d7;
+}
+
+.BoldText {
+    position:relative;
+	color:#4f5875;
+	font-size:22px;
+	line-height:1.4em;
+	margin-bottom:8px;
+}
+
+.Text {
+    position:relative;
+	color:#797979;
+	font-size:17px;
+	line-height:1.7em;
+	margin-bottom:15px;
+}
+
+.Text ul li {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+

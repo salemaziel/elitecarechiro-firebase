@@ -25,7 +25,7 @@ const Hero = () => (
           </h1>
 
           <p>
-           Providing Encinitas with the highest quality in Chiropractic care for <strong>over 15 years. </strong>
+           Providing Encinitas with the highest quality in Chiropractic care for <strong>over 20 years. </strong>
           </p>
           {/*<p>
             Ayy {new Date().toTimeString().split(" ")[7]}+, Built with

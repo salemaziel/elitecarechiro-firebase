@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 import React, { Component } from 'react';
-import Navigation1 from './molecules/Navigation1/Navigation1';
+import Navigation from './molecules/Navigation/Navigation';
 import getFirebase, { FirebaseContext } from '../utils/Firebase';
 import withAuthentication from '../utils/Session/withAuthentication';
 //import SEO from './seoNew';
@@ -15,7 +15,7 @@ import Header from './header';
 //import NavBar from './NavBar';
 //import Container from 'react-bootstrap/Container'
 import CTA from './CTA';
-import Footer2 from './Footer2';
+import Footer from './Footer';
 
 
 import '../styles/index.scss';
@@ -68,10 +68,10 @@ const AppWithAuthentication = withAuthentication(
   ({ hideNav, children, hideFooter, hideCTA }) => (
     <>
       <Header /*siteTitle={data.site.siteMetadata.title}*/ />
-      {!hideNav && <Navigation1 /*<NavBar*/ />}
+      {!hideNav && <Navigation />}
       {children}
       {!hideCTA && <CTA />}
-      {!hideFooter && <Footer2 />}
+      {!hideFooter && <Footer />}
     </>
   ),
 );

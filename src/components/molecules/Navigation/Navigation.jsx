@@ -18,6 +18,6 @@ class Navigation extends Component {
       </AuthUserContext.Consumer>
     );
   }
-} 
+}
 
 export default Navigation;

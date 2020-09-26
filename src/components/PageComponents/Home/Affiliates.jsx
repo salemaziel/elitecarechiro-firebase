@@ -1,5 +1,5 @@
 import React from 'react'
-import { RoadRunners, Newton, Intraining, Multisports } from '../../../images/index'
+import { RoadRunners, Newton, Intraining, Multisports, Giddyup } from '../../../images/index'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -16,17 +16,17 @@ const Affiliates = () => (
       </div>
     </div>
     <Row className={affiliateStyles.AffiliatesRow}>
-      {/*<Col /*md={4} className="top-margin"* />
+      <Col /*md={4} className="top-margin"*/ >
         {/*<div className={affiliateStyles.AffiliatesLeftArrow}><span className="fa fa-angle-left" /></div>
         <div className={affiliateStyles.AffiliatesRightArrow}><span className="fa fa-angle-right" /></div>* /}
        {/* <div className={affiliateStyles.AffiliatesSlider}>*/}
-          {/*<div className={affiliateStyles.AffiliatesBox}> <img src={RoadRunners} className="img-fluid" /> </div>* /}
-          </Col>*/} 
+          <div className={affiliateStyles.AffiliatesBox}> <img src={RoadRunners} className="img-fluid" /> </div>
+          </Col>
           <Col>
           <div className={affiliateStyles.AffiliatesBox}> <img src={Intraining} className="img-fluid" /> </div>
           </Col>
           <Col>
-          <div className={affiliateStyles.AffiliatesBox}> <img src={Newton} className="img-fluid" /> </div>
+          <div className={affiliateStyles.AffiliatesBox}> <img src={Giddyup} className="img-fluid" /> </div>
           </Col>
           <Col>
           <div className={affiliateStyles.AffiliatesBox}> <img src={Multisports} className="img-fluid" /> </div>

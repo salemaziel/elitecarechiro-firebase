@@ -1,339 +1,383 @@
-.SectionFooter {
-    background-color: #0397d7;
-    padding: 2rem 0;
-
-}
-
-.FooterRow{ 
-    display: flex;
-    margin: 2rem auto 0;
-}
-
-
-.Box {
-    display: flex;
-    margin: 2rem auto 2rem;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 1px solid;
-    border-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 1rem 2rem;
-        -moz-justify-content: center;
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-        -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-        -moz-align-content: center;
-    -webkit-align-content: center;
-    -ms-align-content: center;
-    align-content: center;
-
-  }
-
-
-
-.Logo {
-    display: block;
-    margin: auto;
-    width: 200px;
-    padding: 1rem 2rem;
-  }
-  
-  .SocialIcon {
-    width: 100%;
-    min-height: 50px;
-        -moz-justify-content: center;
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-        -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-        -moz-align-content: center;
-    -webkit-align-content: center;
-    -ms-align-content: center;
-    align-content: center;
-    text-align: center;
-    font-size: 3rem;
-    margin: 1rem auto auto;
-    display: flex;
-  }
-  
-  .Icon {
-    margin: 1rem;
-    font-size: 2rem;
-    color: #0397d7;
-    fill: #0397d7;
-  }
-
-  .Icon:hover {
-    color: white;
-  }
-  
-  .QuickLinks {
-    margin: auto;
-    font-weight: bold;
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .QuickLinks h2 {
-    color: white;
-    text-shadow: 2px 2px 3px rgb(163, 158, 158);
-    font-size: 2rem;
-    font-weight: bold;
-  }
-
-  .QuickLinks a {
-    color: #0397d7;
-  }
-
-
-  .LinkBox {
-    display: flex;
-    flex-direction: column;
-        -moz-justify-content: center;
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-        -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-        -moz-align-content: center;
-    -webkit-align-content: center;
-    -ms-align-content: center;
-    align-content: center;
-    text-align: center;
-  }
-  
-  .Spacer {
-    display: block;
-    padding: 1rem 0;
-  }
-  
-  .Middle {
-    background-color: rgba(255, 255, 255, 0.7);
-    margin: 5rem 3rem 0;
-    padding: 1rem 2rem 0;
-    border: 1px solid;
-    border-color: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
-    width: 100%;
-    margin: 6rem 0;
-  }
-
-  .Middle p {
-    color: white;
-    text-shadow: 1px 2px 2px #00000083;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  .FooterRow {
-    display: flex;
-  }
-  
-  .ColNoMobile {
-    display: block;
-  }
-  
-  .CenterFooter {
-      margin: 5% 0px;
-      padding: 0px;
-  }
-  
-  @media screen and (min-width: 2400px) {
-  }
-  
-  @media screen and (max-width: 1680px) {
-    .ColNoMobile {
+.Footer {
+      background-color: #0397d7;;
+      color: #ffffff;
+      /*background-image: url('../images/field-of-flowers.jpg');*/
+      background-position:  center bottom;
+      background-size: cover;
+      background-attachment: scroll;
+      background-repeat: no-repeat, no-repeat;
+    }
+    
+    .Footer input,
+    .Footer select,
+    .Footer textarea {
+      color: #ffffff;
+    }
+    
+    .Footer a {
+      color: #ffffff;
+    }
+    
+    .Footer strong,
+    .Footer b {
+      color: #ffffff;
+    }
+    
+    .Footer h1,
+    .Footer h2,
+    .Footer h3,
+    .Footer h4,
+    .Footer h5,
+    .Footer h6 {
+      color: #ffffff;
+    }
+    
+    .Footer blockquote {
+      border-left-color: #ffffff;
+    }
+    
+    .Footer code {
+      background: rgba(255, 255, 255, 0.075);
+      border-color: #ffffff;
+    }
+    
+    .Footer hr {
+      border-bottom-color: #ffffff;
+    }
+    
+    .Footer input[type="submit"],
+    .Footer input[type="reset"],
+    .Footer input[type="button"],
+    .Footer button,
+    .Footer .button {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 2px #ffffff;
+      color: #ffffff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    
+    .Footer input[type="submit"]:hover,
+    .Footer input[type="reset"]:hover,
+    .Footer input[type="button"]:hover,
+    .Footer button:hover,
+    .Footer .button:hover {
+      background-color: rgba(255, 255, 255, 0.075);
+    }
+    
+    .Footer input[type="submit"]:active,
+    .Footer input[type="reset"]:active,
+    .Footer input[type="button"]:active,
+    .Footer button:active,
+    .Footer .button:active {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    .Footer input[type="submit"].icon:before,
+    .Footer input[type="reset"].icon:before,
+    .Footer input[type="button"].icon:before,
+    .Footer button.icon:before,
+    .Footer .button.icon:before {
+      color: #ffffff;
+    }
+    
+    .Footer input[type="submit"].primary,
+    .Footer input[type="reset"].primary,
+    .Footer input[type="button"].primary,
+    .Footer button.primary,
+    .Footer .button.primary {
+      box-shadow: none;
+      background-color: #ffffff;
+      color: rgba(21, 27, 33, 0.6);
+    }
+    
+    .Footer input[type="submit"].primary.icon:before,
+    .Footer input[type="reset"].primary.icon:before,
+    .Footer input[type="button"].primary.icon:before,
+    .Footer button.primary.icon:before,
+    .Footer .button.primary.icon:before {
+      color: #ffffff;
+    }
+    
+    .Footer header p {
+      color: #ffffff;
+    }
+    
+    .Footer header.major:after {
+      background-color: #ffffff;
+    }
+    
+    .Footer .content {
+      padding: 4.5em 0 4.5em 0;
+      /*background-color: rgba(21, 27, 33, 0.6);*/
+    }
+    
+    .Footer .content > .inner {
+      display: -moz-flex;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      margin: 0 auto;
+      width: 70em;
+    }
+    /*
+    .Footer .content > .inner > * {
+      padding-left: 3em;
+      width: 55%;
+    }*/
+    
+    .Footer .content > .inner .about {
+      padding-left: 0;
+      width: 50%;
+    }
+    
+    .Footer .content > .inner .contact {
+        padding-left: 0;
+        width: 50%;
+    }
+    
+    .content {
       display: block;
+      padding: 0.5em 0 4.5em 0;
+      /*background-color: rgba(21, 27, 33, 0.6);*/
+      margin: 0;
+      border: 0;
+      font-size: 100%;
     }
-  }
-  
-  @media screen and (max-width: 1280px) {
-    .ColNoMobile {
-      display: block;
+    
+    .inner {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: flex;
+      margin: 0 auto;
+      width: 70em;
     }
-
-    .Box {
-      width: 90%;
+    
+    .about {
+      padding-left: 0;
+      width: 50%;
+      text-align: start;
     }
-  }
-  
-  @media screen and (max-width: 980px) {
-    .FooterRow {
-        display: inline-block;
-    }
-
-
-    .SocialIcon {
-      display: inline-flex;
-      width: 100%;
-      min-height: 50px;
-          -moz-justify-content: center;
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-          -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-          -moz-align-content: center;
-    -webkit-align-content: center;
-    -ms-align-content: center;
-    align-content: center;
-      text-align: center;
-      font-size: 3rem;
-      margin: auto;
-      padding: 0 0 0 0;
-    }
-  
-    .CenterFooter {
-      margin: 20% auto 5%;
-      padding: 0px;
-    }
-  
-    .Middle {
-      background-color: rgba(255, 255, 255, 0.7);
-      margin: 5% auto;
-      padding: 2rem 3rem;
-      border: 1px solid;
-      border-color: rgba(255, 255, 255, 0.9);
-      border-radius: 5px;
-      width: 80%;
-    }
-  
-    .Spacer {
-      display: block;
-      padding: 1rem 0;
-    }
-  
-    .Icon {
-      margin: 1rem;
-      font-size: 2rem;
+    
+    .about p {
+      width: 65%;
       color: white;
     }
-  
-    .ColNoMobile {
-      display: none;
-    }
-    .Box {
-        display: flex;
-        margin: 0 auto 0 auto;
-        width: 90%;
-        background-color: rgba(255, 255, 255, 0.7);
-        border: 1px solid;
-        border-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-      }
     
-      .QuickLinks {
-        padding: 1rem 0;
-        text-align: left;
-      }
-
-      .QuickLinks h2 {
-        font-size: 1.5rem;
-      }
+    .contact {
+      padding-left: 0;
+      width: 50%;
+      text-align: end;
+    }
     
+    ul.actions {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: flex;
+      cursor: default;
+      list-style: none;
+      margin-left: -1em;
+      padding-left: 0;
+      margin: 0 0 2em 0;
+      padding: 0;
+    }
     
-    .Logo {
-        display: block;
-        margin: auto;
-        padding: 1rem;
-        width: 150px;
-      }
-
-
-
-  }
-  
-  @media screen and (max-width: 767px) {
-    .FooterRow {
-      display: flex;
-      flex-direction: column;
+    ul.actions li {
+      padding: 0 0 0 0;
+      vertical-align: middle;
     }
-  
-    .ColNoMobile {
-      display: none;
+    
+    .button {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 2px #ffffff;
+      color: #ffffff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+      border-radius: 5px;
+      border: 0;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 0.8em;
+      font-weight: 700;
+      height: 3.25em;
+      line-height: 3.35em;
+      padding: 0 2em;
+      text-align: center;
+      text-decoration: none;
+      white-space: nowrap;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      -ms-appearance: none;
+      appearance: none;
     }
-
-    .Box {
-      display: flex;
-      flex-direction: column-reverse;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .FooterRow {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .Middle {
-      margin: auto;
-      padding: 2rem 0.5rem 2rem 1rem;
-    }
-  
-    .ColNoMobile {
-      display: none;
-    }
-  
-    .CenterFooter {
-      margin: 10% auto;
-    }
-    .SocialIcon {
-      display: inline-flex;
+    
+    .iconBulleted {
+      padding-left: 3em;
       width: 100%;
-      min-height: 50px;
-          -moz-justify-content: center;
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
-          -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-          -moz-align-content: center;
-    -webkit-align-content: center;
-    -ms-align-content: center;
-    align-content: center;
-      text-align: center;
-      font-size: 3rem;
-      margin: auto;
-      padding: 2rem 0 0 0;
+      cursor: default;
+      list-style: none;
+      margin: 0 0 2em 0;
+      padding: 0;
     }
-    .Icon {
-  
+    
+    .iconBulleted li {
+      padding-left: 2em;
+      position: relative;
+      display: block;
+      padding-right: 0;
+      padding: 1rem 0;
+      text-decoration: none;
+      border-bottom: none;
+      margin: 0;
     }
-
-    .Box {
+    
+    .iconBulleted li a {
+      padding-left: 1rem;
+    }
+    
+    .Social {
       display: flex;
-      flex-direction: column-reverse;
-      margin: auto;
-      width: 90%;
+      margin: 0;
+      padding: 0;
     }
-  
-  }
-  
-  @media screen and (max-width: 360px) {
-    .ColNoMobile {
+    
+    .Social a {
+      font-size: 2rem;
+      padding-left: 1rem;
+    }
+    
+    
+    p.copyright {
+      font-size: 0.8em;
+      margin: 0;
+      padding: 3em 0;
+      text-align: center;
+      /*background-color: rgba(0,0,0,0.8);*/
+      background-color: rgba(255, 255, 255, 0.6);
+      color: white;
+    }
+    
+    .Footer .copyright {
+      font-size: 0.8em;
+      margin: 0;
+      padding: 4em 0;
+      text-align: center;
+    }
+    
+    .Footer .copyright br {
       display: none;
     }
-
-    .QuickLinks {
-      text-align: center;
+    
+    .Footer .copyright a {
+      color: inherit;
     }
-
-    .Logo {
-      width: 125px;
+    
+    @media screen and (max-width: 1280px) {
+      .Footer .content {
+        padding: 5em 3em 3em 3em;
+      }
+    
+    
+      .Footer .content > .inner {
+        width: 100%;
+      }
+    
+      .Footer .content > .inner > * {
+        width: 30%;
+      }
+    
+      .Footer .content > .inner .about {
+        width: 40%;
+      }
+    
+      .Footer .content > .inner .contact {
+        width: 40%;
+      }
+    
+      .Footer .copyright {
+        padding: 3em 0;
+      }
     }
-  }
-  
+    
+    @media screen and (max-width: 980px) {
+
+      .Footer .content {
+        padding: 2em 3em 2em 3em;
+      }
+    
+      .Footer .content > .inner {
+        -moz-flex-wrap: nowrap;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+      }
+    
+      .Footer .content > .inner > * {
+        width: 50%;
+        padding-left: 0;
+      }
+    
+      .Footer .content > .inner .about {
+        width: 100%;
+        margin: 0 0 2em 0;
+      }
+    
+      .Footer .content > .inner .contact {
+        width: 100%;
+        margin: 0 0 2em 0;
+      }
+    }
+    
+    @media screen and (max-width: 736px) {
+      .Footer .content {
+        padding: 2.5em 2em 0.5em 2em;
+      }
+    
+      .Footer .copyright {
+        padding: 2em 0;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .Footer .content {
+        padding: 2.5em 1.5em 0.5em 1.5em;
+      }
+    
+      .Footer .content > .inner > * {
+        width: 100%;
+      }
+    
+      .Footer .content > .inner .about {
+        width: 100%;
+        margin: 0 0 1em 0;
+      }
+    
+      .Footer .content > .inner .contact {
+        width: 100%;
+        margin: 0 0 1em 0;
+      }
+    
+      .about p{
+        width: 80%;
+      }
+    
+      ul.actions {
+        margin: 0;
+      }
+    
+      .Footer .copyright br {
+        display: block;
+      }
+    
+      .iconBulleted {
+        margin: 0;
+      }
+    }
+    
+    
+    
+    body.is-mobile .Footer {
+      background-attachment: scroll;
+    }
+    

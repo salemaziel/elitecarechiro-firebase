@@ -163,16 +163,7 @@ const SectionOne = () => (
                   your sport - the faster you get better, the better
                   we look!
                 </p>
-                <p>
-                  Collaboratively administrate empowered markets via
-                  plug-and-play networks. Dynamically procrastinate
-                  B2C users after installed base benefits.
-                  Dramatically visualize customer directed convergence
-                  without revolutionary ROI. Efficiently unleash
-                  cross-media information without cross-media value.
-                  Quickly maximize timely deliverables for real-time
-                  schemas.{' '}
-                </p>
+               
 
                 {/*<div className={sportStyles.ColumnTwo}>
                   

@@ -1,5 +1,7 @@
 export const EliteCareHero = require('./elite-care-chiro-hero-bg-young-woman.jpeg');
 export const LogoLG = require('./logo-810x600.png');
+export const LogoMD = require('./logo-md.png');
+export const LogoSM = require('./logo-sm.png');
 export const MotorVehicle = require('./motorvehicle.png');
 export const OldCouple = require('./testimonial.png');
 export const NeckPain = require('./neckpain.png');
@@ -7,7 +9,7 @@ export const SportsInjury = require('./sports-injury.png');
 export const RunMarathon = require ('./people-running-marathon.jpeg')
 export const WomanOnTrack = require('./woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg');
 export const Hiking = require('./hiking.jpg');
-export const Janelli = require('./janelli.jpg');
+export const Jannelli = require('./jannelli.jpg');
 export const Rafting = require('./rafting.jpg');
 export const Medical = require('./medical.png')
 export const RoadRunners = require('./westcoastroadrunners.png')
@@ -30,6 +32,7 @@ export const GaitGirl1 = require('./fromold/gait_girl_1b.jpg')
 export const GirlWalking = require('./fromold/girl_walking.jpg')
 export const PurpleExercise = require('./fromold/purple_exercise_1.jpg')
 export const RunningTrail = require('./running-trail.jpg')
+export const Giddyup = require('./giddyup-multisports-340x225.jpg')
 
 
 

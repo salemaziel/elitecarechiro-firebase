@@ -7,7 +7,7 @@ import {
   withEmailVerification,
 } from '../utils/Session';
 import Home from '../components/scenes/Home/Home';
-import Navigation1 from '../components/molecules/Navigation1/Navigation1'
+import Navigation from '../components/molecules/Navigation/Navigation'
 
 const condition = authUser => !!authUser;
 const HomePage = compose(
@@ -18,7 +18,7 @@ const HomePage = compose(
 export default () => {
   return (
     <Layout hideNav hideCTA>
-      <Navigation1 />
+      <Navigation />
       <HomePage />
     </Layout>
   );

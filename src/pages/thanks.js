@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container'
 
 import Button from 'react-bootstrap/Button'
 import { navigateTo } from 'gatsby'
-import thanksStyles from '../components/nav.module.css'
+//import thanksStyles from '../components/nav.module.css'
 
 import Layout from '../components/layout'
 
@@ -37,7 +37,7 @@ const Thanks = () => (
             <br />
             <Button
             onClick={() => navigateTo("/")}
-            className={thanksStyles.NavBook}
+            className="blue-btns btn btn-primary"
             >
                 Back to HomePage
             </Button>

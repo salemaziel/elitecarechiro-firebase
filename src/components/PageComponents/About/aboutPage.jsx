@@ -10,7 +10,7 @@ import AboutMid from './aboutmid'
 
 import AboutDoctors from './AboutDoctors'
 import Whatis from './whatis'
-import HallFame from '../HallOfFame/hallFame'
+import HallFame from './hallFame'
 
 class AboutPage extends Component {
     render() {

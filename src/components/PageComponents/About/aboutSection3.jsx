@@ -73,30 +73,6 @@ class AboutSection3 extends Component {
               </Col>
               
             </Row>
-           {/* <Row className={aboutStyle.Titlerow}>
-              <Col>
-                <div className={aboutStyle.Box}>
-                  <div className={aboutStyle.BoxImg}>
-                    <img
-                      src={GolfOrange}
-                      alt="why choose"
-                      className="img-fluid"
-                    />
-                  </div>
-                </div>
-              </Col>
-              <Col>
-                <div className={aboutStyle.Header}>
-                  <h3 className={aboutStyle.Subtitles}>Core Values</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-                </div>
-              </Col>
-    </Row>*/}
           </Container>
         </section>
       </>
