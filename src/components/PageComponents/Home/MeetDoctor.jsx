@@ -18,7 +18,7 @@ const MeetDoctor = () => (
         <div className="col-md-5 my-auto text-center">
           <Fade cascade left ssrReveal>
             <div className={meetStyles.DoctorImage}>
-              <img src={Medical} className="img-fluid" />{' '}
+              <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1601317866/elite-care-chiropractic/IMG_20200925_180154_qiucs0.jpg" className="img-fluid" style={{borderRadius: '50%'}} />{' '}
             </div>
           </Fade>
         </div>
@@ -26,7 +26,7 @@ const MeetDoctor = () => (
           <Fade cascade left ssrReveal>
             <div className={meetStyles.DoctorDetails}>
               <h2> Meet Your Doctor </h2>
-              <h3>Dr. Linda Janelli, D.C.</h3>
+              <h3>Dr. Linda Jannelli, D.C.</h3>
               <br />
               {/* <p>Dr. Linda Jannelli is a graduate of Life Chiropractic College
               West, where she graduated Magna Cum Laude. </p>*/}
@@ -47,7 +47,7 @@ const MeetDoctor = () => (
         <div className="col-md-5 my-auto text-center">
           <Fade cascade right ssrReveal>
             <div className={meetStyles.DoctorImage}>
-              <img src={Medical} className="img-fluid" />
+              <img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1601318246/elite-care-chiropractic/IMG_20200925_180157-square_rout2v.jpg" className="img-fluid" style={{borderRadius: '50%'}}  />
             </div>
           </Fade>
         </div>

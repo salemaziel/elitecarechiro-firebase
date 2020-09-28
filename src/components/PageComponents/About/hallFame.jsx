@@ -71,12 +71,7 @@ const HallFame = () => (
                 <p>
                   Michellie Jones became the first Australian woman to
                   win a World Ironman Championship with her victory in
-                  the 2006 Ironman Triathlon in Kona, Hawaii. Heather
-                  Fuhr Heather Fuhr is considered one of the best
-                  woman runners in triathlon. Heather was the Ironman
-                  Triathlon World Champion in 1997. Home About Us New
-                  Patients Contact Us Affiliates web site designed by
-                  Morgera Designs
+                  the 2006 Ironman Triathlon in Kona, Hawaii. 
                 </p>
 
                 <div
@@ -184,6 +179,7 @@ const HallFame = () => (
                 <h3>Heather Fuhr </h3>
                 <p>
                 Heather Fuhr is considered one of the best woman runners in triathlon. Heather was the Ironman Triathlon World Champion in 1997.
+                  
                 </p>
 
                 <div

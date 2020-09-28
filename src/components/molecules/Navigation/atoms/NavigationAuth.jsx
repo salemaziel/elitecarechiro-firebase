@@ -153,8 +153,8 @@ class NavigationAuth extends React.Component {
           }}
           navStyle={{
             width: '70%',
-            background: 'rgba(3,151,215,0.9)',
-            backgroundColor: 'rgba(3,151,215,0.9)',
+            background: 'rgba(3,151,215,0.95)',
+            backgroundColor: 'rgba(3,151,215,0.95)',
             color: 'white!important',
             maxHeight: '100vh',
           }}

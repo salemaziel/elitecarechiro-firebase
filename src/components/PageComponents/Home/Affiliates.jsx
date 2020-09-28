@@ -28,9 +28,9 @@ const Affiliates = () => (
           <Col>
           <div className={affiliateStyles.AffiliatesBox}> <img src={Giddyup} className="img-fluid" /> </div>
           </Col>
-          <Col>
+          {/*<Col>
           <div className={affiliateStyles.AffiliatesBox}> <img src={Multisports} className="img-fluid" /> </div>
-          </Col>
+          </Col>*/}
         {/*</div>*/}
     </Row>
   </Container>
