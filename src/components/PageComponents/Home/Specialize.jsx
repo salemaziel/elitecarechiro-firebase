@@ -17,7 +17,7 @@ const Specialize = () => (
     <Container fluid>
       <Row>
         <div className="col-md-12">
-          <h2>We Specialize in Treatment for:</h2>
+          <h2>We Specialize in Treatment for</h2>
 
         </div>
       </Row>
