@@ -208,7 +208,7 @@ class NavigationNonAuth extends React.Component {
                     to="/contact"
                     className="blue-btns btn btn-primary"
                   >
-                    Book Online
+                    Book Appointment
                   </Button>
                 </NavItem>
 
@@ -283,7 +283,7 @@ class NavigationNonAuth extends React.Component {
               to="/contact"
               className="blue-btns btn btn-primary"
             >
-              Book Online
+              Book Appointment
             </Button>,
           ]}
           itemStyle={{

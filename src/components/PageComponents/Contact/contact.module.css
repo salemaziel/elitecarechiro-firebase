@@ -31,9 +31,10 @@
 }
 
 .Title {
-    padding: 1rem 0;
+    padding: 1rem;
     color: #0f4573;
-    text-align: center;
+    text-align: left;
+    width: fit-content;
 }
 
 .email {

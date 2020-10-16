@@ -62,9 +62,22 @@ const ContactPage = () => (
           style={{ display: 'flex', flexWrap: 'wrap' }}
         >
           <h1 className={contactStyle.Title}>
-            Got A Question? Get In Touch :)
+            Got A Question?
+            <br />
+            <br />
+            Looking To Schedule An Appointment? 
+            <br />
+            <br />
+            Get In Touch :) 
           </h1>
+          <h2 className={contactStyle.Title}>
+          We'll get back to you shortly 
+          </h2>
           <div className="col-12 col-md-8">
+          <h1 className={contactStyle.Title}>
+
+
+          </h1>
             <ContactForm />
             {/* End Form */}
           </div>
@@ -107,12 +120,12 @@ const ContactPage = () => (
         </Row>
       </Container>
     </section>
-    <section id="background" style={{ minHeight: '800px' }}>
+    {/*<section id="background" style={{ minHeight: '800px' }}>
       <Container>
         <h1>Book Your Appointment Online</h1>
         <JotformEmbed src="https://form.jotform.com/202576816787167" />
       </Container>
-    </section>
+                                            </section>*/}
     {/*<SectionOne />*/}
   </>
 );
