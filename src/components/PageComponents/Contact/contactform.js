@@ -57,8 +57,8 @@ export default function ContactForm() {
               </label>
               <input
                 type="text"
-                name="firstname"
-                id="firstname"
+                name="first-name"
+                id="first-name"
                 placeholder="First Name"
                 required
                 onChange={handleChange}
@@ -73,8 +73,8 @@ export default function ContactForm() {
               </label>
               <input
                 type="text"
-                name="lastname"
-                id="lastname"
+                name="last-name"
+                id="last-name"
                 placeholder="Last Name"
                 required
                 onChange={handleChange}
